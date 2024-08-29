@@ -67,7 +67,6 @@ export async function loader({ request, params }: LoaderFunctionArgs) {
         run: {
           id: run.id,
           status: run.status,
-          output: run.output,
         },
         statuses: parsedStatuses,
       })
