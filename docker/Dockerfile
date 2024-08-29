@@ -3,7 +3,7 @@ FROM node:20.11.1-bullseye-slim@sha256:5a5a92b3a8d392691c983719dbdc65d9f30085d6d
 WORKDIR /triggerdotdev
 
 COPY --chown=node:node . .
-RUN npx -q turbo@1.10.9 prune --scope=webapp --docker
+RUN npx -q turbo@2.1.0 prune --scope=webapp --docker
 RUN find . -name "node_modules" -type d -prune -exec rm -rf '{}' +
 
 # Base strategy to have layer caching
