@@ -1,4 +1,4 @@
-import { Buffer } from "node:buffer";
+import { decodeBase64, encodeBase64 } from "@std/encoding";
 
 export class BloomFilter {
   private size: number;
@@ -11,23 +11,23 @@ export class BloomFilter {
 
   add(item: string): void {
     const index = murmurHash3(item) % this.size;
-    this.bitArray[Math.floor(index / 8)] |= 1 << index % 8;
+    this.bitArray[Math.floor(index / 8)]! |= 1 << index % 8;
   }
 
   test(item: string): boolean {
     const index = murmurHash3(item) % this.size;
-    return (this.bitArray[Math.floor(index / 8)] & (1 << index % 8)) !== 0;
+    return (this.bitArray[Math.floor(index / 8)]! & (1 << index % 8)) !== 0;
   }
 
   // Serialize to a Base64 string
   serialize(): string {
-    return Buffer.from(this.bitArray).toString("base64");
+    return encodeBase64(this.bitArray)
   }
 
   // Deserialize from a Base64 string
   static deserialize(str: string, size: number): BloomFilter {
     const filter = new BloomFilter(size);
-    filter.bitArray = Uint8Array.from(Buffer.from(str, "base64"));
+    filter.bitArray = decodeBase64(str);
     return filter;
   }
 

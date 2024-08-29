@@ -55,3 +55,6 @@ apps/**/public/build
 
 .cosine
 .trigger/
+
+.tshy-build
+.tshy

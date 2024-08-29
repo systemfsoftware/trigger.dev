@@ -9,7 +9,6 @@
  * - `"debug"`: Everything.
  */
 import { env } from "node:process";
-import { Buffer } from "node:buffer";
 import { trace, context } from "@opentelemetry/api";
 
 export type LogLevel = "log" | "error" | "warn" | "info" | "debug";
@@ -214,5 +213,5 @@ function prettyPrintBytes(value: unknown): string {
 function getSizeInBytes(value: unknown) {
   const jsonString = JSON.stringify(value);
 
-  return Buffer.byteLength(jsonString, "utf8");
+  return new TextEncoder().encode(jsonString).length;
 }

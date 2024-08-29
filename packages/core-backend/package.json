@@ -29,23 +29,25 @@
     "build": "npm run clean && npm run build:tsup",
     "build:tsup": "tsup --dts-resolve",
     "typecheck": "tsc --noEmit",
-    "test": "jest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
     "@trigger.dev/tsconfig": "workspace:*",
     "@trigger.dev/tsup": "workspace:*",
-    "@types/jest": "^29.5.3",
     "@types/node": "18",
-    "jest": "^29.6.2",
     "rimraf": "^3.0.2",
-    "ts-jest": "^29.1.1",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "vitest": "^2.0.5"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@opentelemetry/api": "^1.8.0"
+    "@opentelemetry/api": "^1.8.0",
+    "@std/bytes": "npm:@jsr/std__bytes@^1.0.2",
+    "@std/encoding": "npm:@jsr/std__encoding@^1.0.3"
   }
 }
