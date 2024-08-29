@@ -358,13 +358,6 @@ export class Job<
       return [];
     }
 
-    // If there are too many items in the batch, throw an error
-    if (batch.length > 25) {
-      throw new Error(
-        `Cannot batch invoke more than 25 items. You tried to batch invoke ${batch.length} items.`
-      );
-    }
-
     const { io, ctx } = runStore;
 
     const results = await io.parallel(
