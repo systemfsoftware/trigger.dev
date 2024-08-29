@@ -1,5 +1,4 @@
-import { describe, expect, it } from "vitest";
-import { BloomFilter } from "../src/index.mjs";
+import { BloomFilter } from "../src";
 
 describe("BloomFilter", () => {
   it("should be able to correct test for inclusion in the set", () => {
