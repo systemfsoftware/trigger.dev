@@ -7595,6 +7595,9 @@ packages:
   '@total-typescript/ts-reset@0.4.2':
     resolution: {integrity: sha512-vqd7ZUDSrXFVT1n8b2kc3LnklncDQFPvR58yUS1kEP23/nHPAO9l1lMjUfnPrXYYk4Hj54rrLKMW5ipwk7k09A==}
 
+  '@total-typescript/tsconfig@1.0.4':
+    resolution: {integrity: sha512-fO4ctMPGz1kOFOQ4RCPBRBfMy3gDn+pegUfrGyUFRMv/Rd0ZM3/SHH3hFCYG4u6bPLG8OlmOGcBLDexvyr3A5w==}
+
   '@trigger.dev/companyicons@1.5.35':
     resolution: {integrity: sha512-AhY7yshwh0onlgB6EGiyjyLSzl38Cuxo4tpUJVHxs5im8gDA+fuUq7o6Vz1WetFeNXwjMqh3f+bPW7bfqR4epg==}
     peerDependencies:
@@ -22915,6 +22918,8 @@ snapshots:
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
   '@total-typescript/ts-reset@0.4.2': {}
+
+  '@total-typescript/tsconfig@1.0.4': {}
 
   '@trigger.dev/companyicons@1.5.35(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
