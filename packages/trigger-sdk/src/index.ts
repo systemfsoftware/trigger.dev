@@ -1,3 +1,9 @@
+const TRIGGER_DOT_DEV_MARKER = Symbol.for("@systemfsoftware/trigger.dev_sdk");
+if (TRIGGER_DOT_DEV_MARKER in globalThis) {
+  throw new Error("Multiple versions of @systemfsoftware/trigger.dev_sdk installed");
+}
+(globalThis as any)[TRIGGER_DOT_DEV_MARKER] = true;
+
 export * from "./job";
 export * from "./triggerClient";
 export * from "./integrations";
