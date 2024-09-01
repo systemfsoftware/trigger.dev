@@ -367,8 +367,8 @@ importers:
         specifier: ^8.3.0
         version: 8.3.0(socket.io-adapter@2.5.4(bufferutil@4.0.7)(utf-8-validate@5.0.10))
       '@systemfsoftware/trigger.dev_companyicons':
-        specifier: ^1.5.35
-        version: '@trigger.dev/companyicons@@systemfsoftware/trigger.dev_companyicons@1.5.35(react-dom@18.2.0(react@18.2.0))(react@18.2.0)'
+        specifier: npm:@trigger.dev/companyicons@1.5.35
+        version: '@trigger.dev/companyicons@1.5.35(react-dom@18.2.0(react@18.2.0))(react@18.2.0)'
       '@systemfsoftware/trigger.dev_core':
         specifier: workspace:*
         version: link:../../packages/core
@@ -382,8 +382,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/otlp-importer
       '@systemfsoftware/trigger.dev_platform':
-        specifier: 1.0.12
-        version: '@trigger.dev/platform@@systemfsoftware/trigger.dev_platform@1.0.12'
+        specifier: npm:@trigger.dev/platform@1.0.12
+        version: '@trigger.dev/platform@1.0.12'
       '@systemfsoftware/trigger.dev_sdk':
         specifier: workspace:*
         version: link:../../packages/trigger-sdk
@@ -7318,14 +7318,14 @@ packages:
   '@total-typescript/ts-reset@0.4.2':
     resolution: {integrity: sha512-vqd7ZUDSrXFVT1n8b2kc3LnklncDQFPvR58yUS1kEP23/nHPAO9l1lMjUfnPrXYYk4Hj54rrLKMW5ipwk7k09A==}
 
-  '@trigger.dev/companyicons@@systemfsoftware/trigger.dev_companyicons@1.5.35':
-    resolution: {integrity: sha512-AhY7yshwh0onlgB6EGiyjyLSzl38Cuxo4tpUJVHxs5im8gDA+fuUq7o6Vz1WetFeNXwjMqh3f+bPW7bfqR4epg==, tarball: https://registry.npmjs.org/@systemfsoftware/trigger.dev_companyicons/-/trigger.dev_companyicons-1.5.35.tgz}
+  '@trigger.dev/companyicons@1.5.35':
+    resolution: {integrity: sha512-AhY7yshwh0onlgB6EGiyjyLSzl38Cuxo4tpUJVHxs5im8gDA+fuUq7o6Vz1WetFeNXwjMqh3f+bPW7bfqR4epg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: 18.2.0
 
-  '@trigger.dev/platform@@systemfsoftware/trigger.dev_platform@1.0.12':
-    resolution: {integrity: sha512-pOB9S2XG+TmTdlYtF9xuQoFz1aRlRGWSVCXuv3Vj2ArzU6Zz3ukvK24qlTd0PJB1otX71Ho/NfViGKEzCyRb5Q==, tarball: https://registry.npmjs.org/@systemfsoftware/trigger.dev_platform/-/trigger.dev_platform-1.0.12.tgz}
+  '@trigger.dev/platform@1.0.12':
+    resolution: {integrity: sha512-pOB9S2XG+TmTdlYtF9xuQoFz1aRlRGWSVCXuv3Vj2ArzU6Zz3ukvK24qlTd0PJB1otX71Ho/NfViGKEzCyRb5Q==}
 
   '@tsconfig/node10@1.0.9':
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
@@ -22643,12 +22643,12 @@ snapshots:
 
   '@total-typescript/ts-reset@0.4.2': {}
 
-  '@trigger.dev/companyicons@@systemfsoftware/trigger.dev_companyicons@1.5.35(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@trigger.dev/companyicons@1.5.35(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  '@trigger.dev/platform@@systemfsoftware/trigger.dev_platform@1.0.12':
+  '@trigger.dev/platform@1.0.12':
     dependencies:
       zod: 3.22.3
 
