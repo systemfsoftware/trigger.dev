@@ -199,7 +199,7 @@
     "@types/lodash.omit": "^4.5.7",
     "@types/marked": "^4.0.3",
     "@types/morgan": "^1.9.3",
-    "@types/node": "20.14.8",
+    "@types/node": "^20.16.2",
     "@types/node-fetch": "^2.6.2",
     "@types/prismjs": "^1.26.0",
     "@types/qs": "^6.9.7",

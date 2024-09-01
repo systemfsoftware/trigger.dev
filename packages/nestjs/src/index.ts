@@ -14,7 +14,6 @@ import {
   Post,
   Res,
 } from "@nestjs/common";
-import { Headers as StandardHeaders, Request as StandardRequest } from "@remix-run/web-fetch";
 import { TriggerClient, TriggerClientOptions } from "@systemfsoftware/trigger.dev_sdk";
 import type { Response as ExpressResponse } from "express";
 import type { FastifyReply } from "fastify";
@@ -172,15 +171,15 @@ function createControllerByPath(customProvider: InjectionToken, path: string) {
       requestBody?: unknown
     ): Promise<unknown> {
       // try {
-      const headers = new StandardHeaders();
+      const headers: Record<string, string> = {};
 
       Object.entries(requestHeaders || {}).forEach(([key, value]) => {
-        headers.set(key, value as string);
+        headers[key] = value as string;
       });
 
       // Create a new Request object (hardcode the url because it doesn't really matter what it is)
-      const standardRequest = new StandardRequest("https://nestjs.com/api/trigger", {
-        headers,
+      const standardRequest = new Request("https://nestjs.com/api/trigger", {
+        headers: headers,
         method,
         // @ts-ignore
         body: requestBody ? JSON.stringify(requestBody) : undefined,

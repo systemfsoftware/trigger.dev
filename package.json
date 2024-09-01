@@ -50,7 +50,7 @@
     "@playwright/test": "^1.36.2",
     "@systemfsoftware/trigger.dev_cli": "workspace:*",
     "@systemfsoftware/trigger.dev_database": "workspace:*",
-    "@types/node": "20.14.8",
+    "@types/node": "^20.16.2",
     "autoprefixer": "^10.4.12",
     "eslint-config-custom": "workspace:*",
     "eslint-plugin-turbo": "^2.0.4",

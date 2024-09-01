@@ -69,7 +69,7 @@
     "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/debug": "^4.1.7",
-    "@types/node": "20.14.8",
+    "@types/node": "^20.16.2",
     "@types/slug": "^5.0.3",
     "@types/uuid": "^9.0.0",
     "@types/ws": "^8.5.3",

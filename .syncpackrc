@@ -21,7 +21,7 @@
       "dependencies": [
         "@types/node"
       ],
-      "pinVersion": "20.14.8"
+      "pinVersion": "^20.16.2"
     },
     {
       "label": "Ensure tsup dependencies always use the same version",

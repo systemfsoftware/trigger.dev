@@ -11,7 +11,7 @@
     "dist"
   ],
   "devDependencies": {
-    "@types/node": "20.14.8",
+    "@types/node": "^20.16.2",
     "rimraf": "^3.0.2",
     "stripe-event-types": "^2.4.0",
     "tsup": "8.0.1",
