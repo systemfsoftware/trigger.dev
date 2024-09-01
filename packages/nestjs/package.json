@@ -32,7 +32,7 @@
     "tsup": "8.0.1",
     "tsx": "^3.12.1",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
-    "typescript": "^5.3.0"
+    "typescript": "5.5.4"
   },
   "scripts": {
     "clean": "rimraf dist",

@@ -56,7 +56,7 @@
     "@systemfsoftware/trigger.dev_supabase": "workspace:*",
     "@systemfsoftware/trigger.dev_typeform": "workspace:*",
     "@types/node": "20.4.2",
-    "typescript": "5.1.6",
+    "typescript": "^5.5.4",
     "zod": "3.22.3"
   },
   "trigger.dev": {

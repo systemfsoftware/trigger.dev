@@ -39,13 +39,13 @@
     "@types/gradient-string": "^1.1.2",
     "@types/inquirer": "^9.0.3",
     "@types/mock-fs": "^4.13.1",
-    "@types/node": "^18",
+    "@types/node": "20.14.8",
     "@types/node-fetch": "^2.6.2",
     "@types/ws": "^8.5.3",
     "rimraf": "^3.0.2",
-    "tsup": "^6.5.0",
+    "tsup": "8.0.1",
     "type-fest": "^3.6.0",
-    "typescript": "^4.9.5",
+    "typescript": "5.5.4",
     "vitest": "^0.34.4"
   },
   "scripts": {

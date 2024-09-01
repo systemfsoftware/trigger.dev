@@ -27,13 +27,13 @@
   "devDependencies": {
     "@systemfsoftware/trigger.dev_cli": "workspace:*",
     "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
-    "@types/node": "^20.5.0",
+    "@types/node": "20.14.8",
     "concurrently": "^8.2.0",
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^3.14.1",
-    "typescript": "^5.1.6"
+    "typescript": "5.5.4"
   },
   "trigger.dev": {
     "endpointId": "perf"

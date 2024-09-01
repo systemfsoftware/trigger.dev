@@ -1,0 +1,34 @@
+{
+  "source": [
+    "package.json",
+    "config-packages/*/package.json",
+    "packages/*/package.json",
+    "integrations/*/package.json",
+    "apps/*/package.json",
+    "perf/package.json",
+    "runtime_tests/package.json"
+  ],
+  "versionGroups": [
+    {
+      "label": "Ensure Typescript dependencies always use the same version",
+      "dependencies": [
+        "typescript"
+      ],
+      "pinVersion": "5.5.4"
+    },
+    {
+      "label": "Ensure @types/node dependencies always use the same version",
+      "dependencies": [
+        "@types/node"
+      ],
+      "pinVersion": "20.14.8"
+    },
+    {
+      "label": "Ensure tsup dependencies always use the same version",
+      "dependencies": [
+        "tsup"
+      ],
+      "pinVersion": "8.0.1"
+    }
+  ]
+}

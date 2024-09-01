@@ -24,10 +24,10 @@
     "socket.io": "4.7.4"
   },
   "devDependencies": {
-    "@types/node": "^18",
+    "@types/node": "20.14.8",
     "dotenv": "^16.4.2",
     "esbuild": "^0.19.11",
     "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
+    "typescript": "5.5.4"
   }
 }

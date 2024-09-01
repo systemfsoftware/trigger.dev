@@ -24,11 +24,11 @@
   ],
   "devDependencies": {
     "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
-    "@types/node": "18",
+    "@types/node": "20.14.8",
     "rimraf": "^3.0.2",
-    "tsup": "^8.0.1",
+    "tsup": "8.0.1",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
-    "typescript": "^5.3.0",
+    "typescript": "5.5.4",
     "@types/jest": "^29.5.3",
     "jest": "^29.6.2",
     "ts-jest": "^29.1.1"

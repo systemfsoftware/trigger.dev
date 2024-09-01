@@ -25,12 +25,12 @@
   },
   "devDependencies": {
     "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
-    "@types/node": "18",
+    "@types/node": "20.14.8",
     "@types/uuid": "^9.0.0",
     "rimraf": "^3.0.2",
-    "tsup": "^8.0.1",
+    "tsup": "8.0.1",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
-    "typescript": "^5.3.0"
+    "typescript": "5.5.4"
   },
   "scripts": {
     "clean": "rimraf dist",
