@@ -2020,8 +2020,8 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       hono:
-        specifier: 3.10.3
-        version: 3.10.3
+        specifier: ^4.5.10
+        version: 4.5.10
       rimraf:
         specifier: ^3.0.2
         version: 3.0.2
@@ -11187,6 +11187,10 @@ packages:
 
   hono@3.10.3:
     resolution: {integrity: sha512-44YzAp+rydwGWqW+VRivuOWpGWug8zCSy1Gd6gBLAlclIVlPjZAYXfSNqlhSIvd6ZyseM4aP9SDDNmwXceIy+A==}
+    engines: {node: '>=16.0.0'}
+
+  hono@4.5.10:
+    resolution: {integrity: sha512-az6tdU1U8o/l0v8O37FIQuc+ER/TeD9vHt/qs8JnBDgMxw6Zu5L2AixUyHeXZNcu87r7iYo8Ey85R7IogOINKA==}
     engines: {node: '>=16.0.0'}
 
   hosted-git-info@2.8.9:
@@ -27439,6 +27443,8 @@ snapshots:
   highlight.run@7.3.4: {}
 
   hono@3.10.3: {}
+
+  hono@4.5.10: {}
 
   hosted-git-info@2.8.9: {}
 

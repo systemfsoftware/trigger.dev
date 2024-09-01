@@ -2,11 +2,6 @@
   "$schema": "https://unpkg.com/@changesets/config@2.2.0/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "fixed": [
-    [
-      "@systemfsoftware/trigger.dev_*"
-    ]
-  ],
   "linked": [],
   "access": "public",
   "baseBranch": "main",

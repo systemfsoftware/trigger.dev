@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_hono",
-  "version": "2.3.19-beta.0",
+  "version": "4.0.0",
   "description": "A Trigger.dev adapter for Hono.dev",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -32,13 +32,18 @@
   },
   "peerDependencies": {
     "@systemfsoftware/trigger.dev_sdk": "workspace:^2.3.19-beta.0",
-    "hono": "3.x"
+    "hono": "4.x"
+  },
+  "peerDependenciesMeta": {
+    "hono": {
+      "optional": false
+    }
   },
   "devDependencies": {
     "@systemfsoftware/trigger.dev_sdk": "workspace:*",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@total-typescript/tsconfig": "^1.0.4",
-    "hono": "3.10.3",
+    "hono": "^4.5.10",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
     "typescript": "5.5.4"

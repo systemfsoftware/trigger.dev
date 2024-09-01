@@ -1,5 +1,11 @@
 # @systemfsoftware/trigger.dev_hono
 
+## 4.0.0
+
+### Major Changes
+
+- 4db74d025: BREAKING CHANGE: bump hono to 4.x
+
 ## 3.0.0-beta.55
 
 ### Patch Changes
