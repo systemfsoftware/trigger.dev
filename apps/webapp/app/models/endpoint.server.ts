@@ -29,7 +29,8 @@ export function detectResponseIsTimeout(rawBody: string, response?: Response) {
     isResponseVercelTimeout(response) ||
     isResponseCloudfrontTimeout(response) ||
     isResponseDenoDeployTimeout(rawBody, response) ||
-    isResponseCloudflareTimeout(rawBody, response)
+    isResponseCloudflareTimeout(rawBody, response) || 
+    isALBTimeout(response)
   );
 }
 
@@ -54,4 +55,11 @@ function isResponseDenoDeployTimeout(rawBody: string, response: Response) {
 
 function isResponseCloudfrontTimeout(response: Response) {
   return response.status === 504 && typeof response.headers.get("x-amz-cf-id") === "string";
+}
+
+function isALBTimeout(response: Response) {
+  return (
+    (response.status === 502 || response.status === 503 || response.status === 504) &&
+    response.headers.get("server") === "awselb/2.0"
+  );
 }
