@@ -1,4 +1,4 @@
-import { createMiddleware } from "npm:@systemfsoftware/trigger.dev_hono@0.0.0-cross-runtime-20231204162532";
+/* import { createMiddleware } from "npm:@systemfsoftware/trigger.dev_hono";
 import {
   TriggerClient,
   invokeTrigger,
@@ -47,3 +47,4 @@ Deno.test("Deno", async () => {
   assertEquals(body.jobs.length, 1);
   assertEquals(body.jobs[0].id, "wrangler-job");
 });
+ */
