@@ -1,5 +1,5 @@
-import { Plugin } from "esbuild";
-import { Options, defineConfig as defineConfigTSUP } from "tsup";
+import type { Plugin } from "esbuild";
+import { type Options, defineConfig as defineConfigTSUP } from "tsup";
 
 const restoreNodeProtocolPlugin = (): Plugin => {
   return {

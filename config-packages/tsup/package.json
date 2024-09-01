@@ -2,15 +2,45 @@
   "name": "@systemfsoftware/trigger.dev_tsup",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
+  "module": "./dist/esm/index.js",
   "license": "MIT",
-  "main": "./src/index.ts",
-  "types": "./src/index.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "tshy": {
+    "dialects": [
+      "esm"
+    ],
+    "exports": {
+      "./package.json": "./package.json",
+      ".": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tshy",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"No tests specified\""
+  },
   "dependencies": {
-    "esbuild": "^0.19.11",
     "tsup": "8.0.1"
   },
   "devDependencies": {
+    "esbuild": "^0.19.2",
+    "@total-typescript/tsconfig": "^1.0.4",
     "@types/node": "^20.16.2",
+    "rimraf": "^6.0.1",
+    "tshy": "^3.0.2",
     "typescript": "5.5.4"
   },
   "engines": {
