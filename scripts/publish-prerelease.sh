@@ -14,9 +14,6 @@ else
     echo "Git status is clean. Proceeding with the script.";
 fi
 
-# Run your commands
-rm .changeset/pre.json
-
 echo "Running: pnpm exec changeset version --snapshot $version"
 pnpm exec changeset version --snapshot $version
 
