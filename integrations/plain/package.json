@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_plain",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "The official Plain.com integration for Trigger.dev",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -24,8 +24,8 @@
     "build:tsup": "tsup"
   },
   "dependencies": {
-    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^3.0.0-beta.55",
-    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^2.3.19-beta.0",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^2.3.19-beta.0",
     "@team-plain/typescript-sdk": "^2.7.0"
   },
   "engines": {

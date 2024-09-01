@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_nestjs",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "Official NestJS adapter for Trigger.dev",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^2.3.19-beta.0",
     "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/debug": "^4.1.7",
@@ -42,7 +42,7 @@
   },
   "peerDependencies": {
     "@nestjs/common": ">=10.0.0",
-    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^2.3.19-beta.0"
   },
   "dependencies": {
     "@nestjs/common": "^10.2.4",

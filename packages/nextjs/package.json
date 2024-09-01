@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_nextjs",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "Trigger.dev Next.js integration",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -41,7 +41,7 @@
     "build:tsup": "tsup"
   },
   "peerDependencies": {
-    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^2.3.19-beta.0",
     "next": ">=12.0.0"
   },
   "dependencies": {

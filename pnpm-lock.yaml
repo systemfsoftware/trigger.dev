@@ -887,10 +887,10 @@ importers:
   integrations/airtable:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       airtable:
         specifier: ^0.12.1
@@ -930,10 +930,10 @@ importers:
         specifier: ^12.0.10
         version: 12.0.10
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       octokit:
         specifier: ^3.1.2
@@ -973,10 +973,10 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(encoding@0.1.13)
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       zod:
         specifier: 3.22.3
@@ -1004,10 +1004,10 @@ importers:
   integrations/openai:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       openai:
         specifier: ^4.16.1
@@ -1044,10 +1044,10 @@ importers:
   integrations/plain:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       '@team-plain/typescript-sdk':
         specifier: ^2.7.0
@@ -1075,10 +1075,10 @@ importers:
   integrations/replicate:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       replicate:
         specifier: ^0.18.1
@@ -1109,10 +1109,10 @@ importers:
   integrations/resend:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       resend:
         specifier: ^2.1.0
@@ -1143,10 +1143,10 @@ importers:
         specifier: ^7.7.0
         version: 7.7.0
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
     devDependencies:
       '@systemfsoftware/trigger.dev_tsconfig':
@@ -1174,10 +1174,10 @@ importers:
         specifier: ^8.0.2
         version: 8.0.2(encoding@0.1.13)
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       zod:
         specifier: 3.22.3
@@ -1208,7 +1208,7 @@ importers:
         specifier: ^6.8.1
         version: 6.8.1
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       zod:
         specifier: 3.22.3
@@ -1236,10 +1236,10 @@ importers:
   integrations/stripe:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       stripe:
         specifier: ^16.8.0
@@ -1273,10 +1273,10 @@ importers:
         specifier: ^2.26.0
         version: 2.31.0(encoding@0.1.13)
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       supabase-management-js:
         specifier: ^1.0.0
@@ -1307,10 +1307,10 @@ importers:
   integrations/typeform:
     dependencies:
       '@systemfsoftware/trigger.dev_integration-kit':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/integration-kit
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../../packages/trigger-sdk
       '@typeform/api-client':
         specifier: ^1.8.0
@@ -1338,7 +1338,7 @@ importers:
   packages/astro:
     dependencies:
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../trigger-sdk
       debug:
         specifier: ^4.3.4
@@ -1556,7 +1556,7 @@ importers:
         specifier: ^1.22.0
         version: 1.22.0
       '@systemfsoftware/trigger.dev_core':
-        specifier: workspace:3.0.0-beta.55
+        specifier: workspace:2.3.19-beta.0
         version: link:../core
       '@types/degit':
         specifier: ^2.8.3
@@ -1981,7 +1981,7 @@ importers:
         version: 4.18.2
     devDependencies:
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../trigger-sdk
       '@systemfsoftware/trigger.dev_tsconfig':
         specifier: workspace:*
@@ -2073,7 +2073,7 @@ importers:
         version: 4.3.4(supports-color@8.1.1)
     devDependencies:
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../trigger-sdk
       '@systemfsoftware/trigger.dev_tsconfig':
         specifier: workspace:*
@@ -2109,7 +2109,7 @@ importers:
   packages/nextjs:
     dependencies:
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../trigger-sdk
       debug:
         specifier: ^4.3.4
@@ -2192,7 +2192,7 @@ importers:
   packages/react:
     dependencies:
       '@systemfsoftware/trigger.dev_core':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../core
       '@tanstack/react-query':
         specifier: 5.0.0-beta.2
@@ -2238,7 +2238,7 @@ importers:
   packages/remix:
     dependencies:
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../trigger-sdk
       debug:
         specifier: ^4.3.4
@@ -2275,7 +2275,7 @@ importers:
   packages/sveltekit:
     dependencies:
       '@systemfsoftware/trigger.dev_sdk':
-        specifier: workspace:^3.0.0-beta.55
+        specifier: workspace:^2.3.19-beta.0
         version: link:../trigger-sdk
       debug:
         specifier: ^4.3.4
@@ -2349,10 +2349,10 @@ importers:
         specifier: ^1.22.0
         version: 1.22.0
       '@systemfsoftware/trigger.dev_core':
-        specifier: workspace:3.0.0-beta.55
+        specifier: workspace:2.3.19-beta.0
         version: link:../core
       '@systemfsoftware/trigger.dev_core-backend':
-        specifier: workspace:3.0.0-beta.55
+        specifier: workspace:2.3.19-beta.0
         version: link:../core-backend
       chalk:
         specifier: ^5.2.0

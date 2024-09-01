@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_cli",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "The Trigger.dev CLI",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_otlp-importer",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "OpenTelemetry OTLP Importer for Node.js written in TypeScript",
   "license": "MIT",
   "main": "./dist/index.js",

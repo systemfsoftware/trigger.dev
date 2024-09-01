@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_core-backend",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "Core code used across `@systemfsoftware/trigger.dev_sdk` and Trigger.dev server",
   "license": "MIT",
   "main": "./dist/index.js",

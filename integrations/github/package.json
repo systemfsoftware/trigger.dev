@@ -1,6 +1,6 @@
 {
   "name": "@systemfsoftware/trigger.dev_github",
-  "version": "3.0.0-beta.55",
+  "version": "2.3.19-beta.0",
   "description": "The official GitHub integration for Trigger.dev",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -30,8 +30,8 @@
     "@octokit/request-error": "^5.0.1",
     "@octokit/webhooks": "^12.0.10",
     "octokit": "^3.1.2",
-    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^3.0.0-beta.55",
-    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^2.3.19-beta.0",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^2.3.19-beta.0",
     "zod": "3.22.3"
   },
   "engines": {
