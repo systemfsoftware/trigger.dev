@@ -23,7 +23,7 @@ export function addGitHubStrategy(
       if (!emails) {
         throw new Error("GitHub login requires an email address");
       }
-
+      
       try {
         logger.debug("GitHub login", {
           emails,

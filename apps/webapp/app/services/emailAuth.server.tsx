@@ -13,6 +13,11 @@ if (!secret) throw new Error("Missing MAGIC_LINK_SECRET env variable.");
 const emailStrategy = new EmailLinkStrategy(
   {
     sendEmail: sendMagicLinkEmail,
+    verifyEmailAddress: async (email) => {
+      if (env.WHITELISTED_EMAILS && !new RegExp(env.WHITELISTED_EMAILS).test(email)) {
+        throw new Error("This email is unauthorized");
+      }
+    },
     secret,
     callbackURL: "/magic",
     sessionMagicLinkKey: "triggerdotdev:magiclink",

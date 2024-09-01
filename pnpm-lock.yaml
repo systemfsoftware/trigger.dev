@@ -246,6 +246,9 @@ importers:
       '@depot/sdk-node':
         specifier: ^0.5.0
         version: 0.5.0
+      '@effect/schema':
+        specifier: 0.72.0
+        version: 0.72.0(effect@3.7.0)
       '@headlessui/react':
         specifier: ^1.7.8
         version: 1.7.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -447,6 +450,9 @@ importers:
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
+      effect:
+        specifier: ^3.7.0
+        version: 3.7.0
       emails:
         specifier: workspace:*
         version: link:../../packages/emails
@@ -571,8 +577,8 @@ importers:
         specifier: ^3.6.0
         version: 3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4))
       remix-auth-email-link:
-        specifier: 2.0.2
-        version: 2.0.2(@remix-run/server-runtime@2.1.0(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4)))
+        specifier: 2.1.1
+        version: 2.1.1(@remix-run/server-runtime@2.1.0(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4)))
       remix-auth-github:
         specifier: ^1.6.0
         version: 1.6.0(@remix-run/server-runtime@2.1.0(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4)))
@@ -9376,9 +9382,6 @@ packages:
   crypt@0.0.2:
     resolution: {integrity: sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==}
 
-  crypto-js@4.1.1:
-    resolution: {integrity: sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==}
-
   crypto-js@4.2.0:
     resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
 
@@ -14475,11 +14478,11 @@ packages:
     resolution: {integrity: sha512-Rc0VDmr/yhnMQIz8n2ACYXlfw/P/XZev884QU1I5u+5DgJls32o97Vc1RbK3pfumLsJomS2yy8eT4Fxj/2MDVA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  remix-auth-email-link@2.0.2:
-    resolution: {integrity: sha512-Lze9c50fsqBpixXQKe37wI2Dm4rlYYkNA6Eskxk8erQ7tbyN8xiFXOgo7Y3Al0SSjzkezw8au3uc2vCLJ8A5mQ==}
+  remix-auth-email-link@2.1.1:
+    resolution: {integrity: sha512-NNz9Wk9sxWUhuDTkcLbhsVdiUpyrGFf9yIkZG74PgOMTAYsIIsfGvBr2wJCgYcH/JWxg5VbTulgNO7/KXHJcsg==}
     peerDependencies:
-      '@remix-run/server-runtime': ^1.1.1
-      remix-auth: ^3.2.1
+      '@remix-run/server-runtime': ^2.0.1
+      remix-auth: ^3.6.0
 
   remix-auth-github@1.6.0:
     resolution: {integrity: sha512-qdQmWVVEDHxnzMPn7XE0s7QX5GYba0uH3MDW+lVJiCoHDZCGymqmGCajLThL5vFJdwSx0C4GpQJ5EgEsIjQ3pA==}
@@ -25185,8 +25188,6 @@ snapshots:
 
   crypt@0.0.2: {}
 
-  crypto-js@4.1.1: {}
-
   crypto-js@4.2.0: {}
 
   crypto-random-string@4.0.0:
@@ -31588,10 +31589,10 @@ snapshots:
       retext-smartypants: 5.2.0
       unist-util-visit: 4.1.2
 
-  remix-auth-email-link@2.0.2(@remix-run/server-runtime@2.1.0(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4))):
+  remix-auth-email-link@2.1.1(@remix-run/server-runtime@2.1.0(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4))):
     dependencies:
       '@remix-run/server-runtime': 2.1.0(typescript@5.5.4)
-      crypto-js: 4.1.1
+      crypto-js: 4.2.0
       remix-auth: 3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4))
 
   remix-auth-github@1.6.0(@remix-run/server-runtime@2.1.0(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.5.4))(@remix-run/server-runtime@2.1.0(typescript@5.5.4))):
