@@ -1778,9 +1778,6 @@ importers:
       ulidx:
         specifier: ^2.2.1
         version: 2.2.1
-      zod:
-        specifier: 3.22.3
-        version: 3.22.3
       zod-error:
         specifier: 1.5.0
         version: 1.5.0
@@ -1824,6 +1821,9 @@ importers:
       typescript:
         specifier: 5.5.4
         version: 5.5.4
+      zod:
+        specifier: 3.22.3
+        version: 3.22.3
 
   packages/core-apps:
     dependencies:
@@ -2333,9 +2333,6 @@ importers:
 
   packages/trigger-sdk:
     dependencies:
-      '@effect/schema':
-        specifier: ^0.72.0
-        version: 0.72.0(effect@3.7.0)
       '@opentelemetry/api':
         specifier: ^1.8.0
         version: 1.8.0
@@ -2360,9 +2357,6 @@ importers:
       debug:
         specifier: ^4.3.4
         version: 4.3.4(supports-color@8.1.1)
-      effect:
-        specifier: ^3.7.0
-        version: 3.7.0
       evt:
         specifier: ^2.4.13
         version: 2.4.13
@@ -2393,10 +2387,10 @@ importers:
       ws:
         specifier: ^8.11.0
         version: 8.12.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
-      zod:
-        specifier: 3.22.3
-        version: 3.22.3
     devDependencies:
+      '@effect/schema':
+        specifier: 0.72.0
+        version: 0.72.0(effect@3.7.0)
       '@systemfsoftware/trigger.dev_tsconfig':
         specifier: workspace:*
         version: link:../../config-packages/tsconfig
@@ -2418,6 +2412,9 @@ importers:
       '@types/ws':
         specifier: ^8.5.3
         version: 8.5.4
+      effect:
+        specifier: ^3.7.0
+        version: 3.7.0
       encoding:
         specifier: ^0.1.13
         version: 0.1.13
@@ -2433,6 +2430,9 @@ importers:
       typescript:
         specifier: 5.5.4
         version: 5.5.4
+      zod:
+        specifier: 3.22.3
+        version: 3.22.3
 
   packages/yalt:
     dependencies:
