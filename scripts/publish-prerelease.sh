@@ -20,8 +20,8 @@ rm .changeset/pre.json
 echo "Running: pnpm exec changeset version --snapshot $version"
 pnpm exec changeset version --snapshot $version
 
-echo "Running: pnpm run build --filter \"@systemfsoftware/trigger.dev_*\" --filter \"trigger.dev\""
-pnpm run build --filter "@systemfsoftware/trigger.dev_*" --filter "trigger.dev"
+echo "Running: pnpm run build --filter \"@systemfsoftware/trigger.dev_*\""
+pnpm run build --filter "@systemfsoftware/trigger.dev_*"
 
 echo "Going to run: pnpm exec changeset publish --no-git-tag --snapshot --tag $version"
 read -p "Do you wish to continue? (y/N): " prompt
