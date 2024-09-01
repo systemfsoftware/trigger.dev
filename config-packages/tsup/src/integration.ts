@@ -1,4 +1,4 @@
-import { type Options, defineConfig } from "tsup";
+import { Options, defineConfig } from "tsup";
 
 export const options: Options = {
   name: "main",

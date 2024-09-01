@@ -1,4 +1,4 @@
-import type { Options } from "tsup";
+import { Options } from "tsup";
 
 export const deepMergeOptions = deepMergeRecords<Options>;
 

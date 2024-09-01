@@ -3,7 +3,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", "public/build/**", "build/**", "app/styles/tailwind.css", ".turbo/**", ".tshy/**", ".tshy-build/**"]
+      "outputs": ["dist/**", "public/build/**", "build/**", "app/styles/tailwind.css", ".turbo/**"]
     },
     "build:db:seed": {
       "outputs": ["prisma/seed.js"]
