@@ -1289,24 +1289,6 @@ export class TriggerClient {
       };
     }
 
-    if (error instanceof RetryWithTaskError) {
-      const errorWithStack = ErrorWithStackSchema.safeParse(error.cause);
-
-      if (errorWithStack.success) {
-        return {
-          status: "ERROR",
-          error: errorWithStack.data,
-          task: error.task,
-        };
-      }
-
-      return {
-        status: "ERROR",
-        error: { message: "Unknown error" },
-        task: error.task,
-      };
-    }
-
     const errorWithStack = ErrorWithStackSchema.safeParse(error);
 
     if (errorWithStack.success) {
