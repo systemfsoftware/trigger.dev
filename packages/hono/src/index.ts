@@ -59,7 +59,6 @@ function convertToStandardRequest(req: HonoRequest): Request {
     method: req.raw.method,
     headers,
     body: req.raw.body,
-    // @ts-ignore
     duplex: "half",
   });
 }

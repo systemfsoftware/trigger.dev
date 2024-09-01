@@ -2016,12 +2016,12 @@ importers:
       '@systemfsoftware/trigger.dev_sdk':
         specifier: workspace:*
         version: link:../trigger-sdk
-      '@systemfsoftware/trigger.dev_tsconfig':
-        specifier: workspace:*
-        version: link:../../config-packages/tsconfig
       '@systemfsoftware/trigger.dev_tsup':
         specifier: workspace:*
         version: link:../../config-packages/tsup
+      '@total-typescript/tsconfig':
+        specifier: ^1.0.4
+        version: 1.0.4
       hono:
         specifier: 3.10.3
         version: 3.10.3

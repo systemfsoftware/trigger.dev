@@ -31,17 +31,17 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "hono": "3.x",
-    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "hono": "3.x"
   },
   "devDependencies": {
-    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "hono": "3.10.3",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
-    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
-    "typescript": "5.5.4",
-    "hono": "3.10.3",
-    "@systemfsoftware/trigger.dev_sdk": "workspace:*"
+    "typescript": "5.5.4"
   },
   "engines": {
     "node": ">=18.0.0"

@@ -1,17 +1,11 @@
 {
-  "extends": "@systemfsoftware/trigger.dev_tsconfig/base.json",
+  "extends": "@total-typescript/tsconfig/bundler/no-dom/library-monorepo",
   "include": ["./src/**/*.ts", "tsup.config.ts"],
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "declaration": false,
-    "declarationMap": false,
     "paths": {
       "@systemfsoftware/trigger.dev_tsup/*": ["../../config-packages/tsup/src/*"],
       "@systemfsoftware/trigger.dev_tsup": ["../../config-packages/tsup/src/index"]
-    },
-    "lib": ["DOM", "DOM.Iterable"],
-    "downlevelIteration": true
+    }
   },
   "exclude": ["node_modules"]
 }
