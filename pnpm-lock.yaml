@@ -2333,6 +2333,9 @@ importers:
 
   packages/trigger-sdk:
     dependencies:
+      '@effect/schema':
+        specifier: ^0.72.0
+        version: 0.72.0(effect@3.7.0)
       '@opentelemetry/api':
         specifier: ^1.8.0
         version: 1.8.0
@@ -2357,6 +2360,9 @@ importers:
       debug:
         specifier: ^4.3.4
         version: 4.3.4(supports-color@8.1.1)
+      effect:
+        specifier: ^3.7.0
+        version: 3.7.0
       evt:
         specifier: ^2.4.13
         version: 2.4.13
@@ -3799,6 +3805,11 @@ packages:
     resolution: {integrity: sha512-XvFttkuBUL3s4ofZ+OVE4Pagb4wsPG8laSS8iO5lVI9Yt1zIM49uxlYIA2BJ45jjS3MdplUepC0NilotKnjU2A==}
     peerDependencies:
       effect: ^3.6.5
+
+  '@effect/schema@0.72.0':
+    resolution: {integrity: sha512-I25wIy0Njx+002lmXk8xqcdFGMGkScl6EfxRE0nkoyecQVg+v1mw7DHkSwzR6CcL4s2tITwM3Z40ALJjArPqgA==}
+    peerDependencies:
+      effect: ^3.7.0
 
   '@emotion/hash@0.9.0':
     resolution: {integrity: sha512-14FtKiHhy2QoPIzdTcvh//8OyBlknNs2nXRwIhG904opCby3l+9Xaf/wuPvICBF0rc1ZCNBd3nKe9cd2mecVkQ==}
@@ -9839,6 +9850,9 @@ packages:
 
   effect@3.6.5:
     resolution: {integrity: sha512-NhopZTAKljaAlR0CEroOAJJngdqg7bzlnWcDrCwh4d2WNVohVbBtUS4SGqLt8tUy7IFsTWATYiUtmhDG+YELjA==}
+
+  effect@3.7.0:
+    resolution: {integrity: sha512-TXrb4SHTHrij396NfvGgpOD/5Sh503LtN2AeskkB7YO6Oe1tWSekk8dcrj3AWbMDOJ/fXOvcf6HD+Svus2zIeA==}
 
   electron-to-chromium@1.4.433:
     resolution: {integrity: sha512-MGO1k0w1RgrfdbLVwmXcDhHHuxCn2qRgR7dYsJvWFKDttvYPx6FNzCGG0c/fBBvzK2LDh3UV7Tt9awnHnvAAUQ==}
@@ -18504,6 +18518,11 @@ snapshots:
       effect: 3.6.5
       fast-check: 3.21.0
 
+  '@effect/schema@0.72.0(effect@3.7.0)':
+    dependencies:
+      effect: 3.7.0
+      fast-check: 3.21.0
+
   '@emotion/hash@0.9.0': {}
 
   '@emotion/is-prop-valid@0.8.8':
@@ -25521,6 +25540,8 @@ snapshots:
   ee-first@1.1.1: {}
 
   effect@3.6.5: {}
+
+  effect@3.7.0: {}
 
   electron-to-chromium@1.4.433: {}
 

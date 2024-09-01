@@ -65,7 +65,21 @@
     "ws": "^8.11.0",
     "zod": "3.22.3"
   },
+  "peerDependencies": {
+    "effect": "3.x",
+    "@effect/schema": "0.72.0"
+  },
+  "peerDependenciesMeta": {
+    "effect": {
+      "optional": true
+    },
+    "@effect/schema": {
+      "optional": true
+    }
+  },
   "devDependencies": {
+    "effect": "^3.7.0",
+    "@effect/schema": "0.72.0",
     "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/debug": "^4.1.7",

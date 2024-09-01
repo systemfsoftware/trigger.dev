@@ -1,67 +1,144 @@
 import { DisplayProperty } from "@systemfsoftware/trigger.dev_core";
-import { ErrorWithStack, SchemaError, ServerTask } from "@systemfsoftware/trigger.dev_core";
+import { ErrorWithStack, SchemaError, type ServerTask } from "@systemfsoftware/trigger.dev_core";
+import { Schema as S } from "@effect/schema";
 
-export class ResumeWithTaskError {
-  constructor(public task: ServerTask) {}
+export class ResumeWithTaskError extends S.TaggedError<ResumeWithTaskError>()(
+  "ResumeWithTaskError",
+  {
+    task: S.Any,
+  }
+) {
+  constructor(readonly task: ServerTask) {
+    super({ task });
+  }
 }
 
-export class ResumeWithParallelTaskError {
+export class ResumeWithParallelTaskError extends S.TaggedError<ResumeWithParallelTaskError>()(
+  "ResumeWithParallelTaskError",
+  {
+    task: S.Any,
+    childErrors: S.Any,
+  }
+) {
   constructor(
-    public task: ServerTask,
-    public childErrors: Array<TriggerInternalError>
-  ) {}
+    readonly task: ServerTask,
+    readonly childErrors: ReadonlyArray<TriggerInternalError>
+  ) {
+    super({ task, childErrors });
+  }
 }
 
-export class RetryWithTaskError {
+export class RetryWithTaskError extends S.TaggedError<RetryWithTaskError>()("RetryWithTaskError", {
+  cause: S.Any,
+  task: S.Any,
+  retryAt: S.Date,
+}) {
   constructor(
-    public cause: ErrorWithStack,
-    public task: ServerTask,
-    public retryAt: Date
-  ) {}
+    readonly cause: ErrorWithStack,
+    readonly task: ServerTask,
+    readonly retryAt: Date
+  ) {
+    super({ cause, task, retryAt });
+  }
 }
 
-export class CanceledWithTaskError {
-  constructor(public task: ServerTask) {}
+export class CanceledWithTaskError extends S.TaggedError<CanceledWithTaskError>()(
+  "CanceledWithTaskError",
+  {
+    task: S.Any,
+  }
+) {
+  constructor(readonly task: ServerTask) {
+    super({ task });
+  }
 }
 
-export class YieldExecutionError {
-  constructor(public key: string) {}
+export class YieldExecutionError extends S.TaggedError<YieldExecutionError>()(
+  "YieldExecutionError",
+  {
+    key: S.String,
+  }
+) {
+  constructor(readonly key: string) {
+    super({ key });
+  }
 }
 
-export class AutoYieldExecutionError {
+export class AutoYieldExecutionError extends S.TaggedError<AutoYieldExecutionError>()(
+  "AutoYieldExecutionError",
+  {
+    location: S.String,
+    timeRemaining: S.Number,
+    timeElapsed: S.Number,
+  }
+) {
   constructor(
-    public location: string,
-    public timeRemaining: number,
-    public timeElapsed: number
-  ) {}
+    readonly location: string,
+    readonly timeRemaining: number,
+    readonly timeElapsed: number
+  ) {
+    super({ location, timeRemaining, timeElapsed });
+  }
 }
 
-export class AutoYieldWithCompletedTaskExecutionError {
+export class AutoYieldWithCompletedTaskExecutionError extends S.TaggedError<AutoYieldWithCompletedTaskExecutionError>()(
+  "AutoYieldWithCompletedTaskExecutionError",
+  {
+    id: S.String,
+    properties: S.optional(S.Union(S.Any, S.Undefined)),
+    data: S.Any,
+    output: S.optional(S.Union(S.String, S.Undefined))
+  }
+) {
   constructor(
-    public id: string,
-    public properties: DisplayProperty[] | undefined,
-    public data: { location: string; timeRemaining: number; timeElapsed: number },
-    public output?: string
-  ) {}
+    readonly id: string,
+    readonly properties: DisplayProperty[] | undefined,
+    readonly data: { location: string; timeRemaining: number; timeElapsed: number },
+    readonly output?: string
+  ) {
+    super({ id, properties, data, output });
+  }
 }
 
-export class AutoYieldRateLimitError {
-  constructor(public resetAtTimestamp: number) {}
+
+export class AutoYieldRateLimitError extends S.TaggedError<AutoYieldRateLimitError>()(
+  "AutoYieldRateLimitError",
+  {
+    resetAtTimestamp: S.Number,
+  }
+) {
+  constructor(
+    readonly resetAtTimestamp: number,
+  ) {
+    super({ resetAtTimestamp });
+  }
 }
 
-export class ParsedPayloadSchemaError {
-  constructor(public schemaErrors: SchemaError[]) {}
+export class ParsedPayloadSchemaError extends S.TaggedError<ParsedPayloadSchemaError>()(
+  "ParsedPayloadSchemaError",
+  {
+    schemaErrors: S.Any,
+  }
+) {
+  constructor(
+    readonly schemaErrors: ReadonlyArray<SchemaError>,
+  ) {
+    super({ schemaErrors });
+  }
 }
 
-export type TriggerInternalError =
-  | ResumeWithTaskError
-  | RetryWithTaskError
-  | CanceledWithTaskError
-  | YieldExecutionError
-  | AutoYieldExecutionError
-  | AutoYieldWithCompletedTaskExecutionError
-  | AutoYieldRateLimitError
-  | ResumeWithParallelTaskError;
+export const TriggerInternalError = S.Union(
+  ResumeWithTaskError,
+  RetryWithTaskError,
+  CanceledWithTaskError,
+  YieldExecutionError,
+  AutoYieldExecutionError,
+  AutoYieldWithCompletedTaskExecutionError,
+  AutoYieldRateLimitError,
+  ResumeWithParallelTaskError,
+)
+
+export type TriggerInternalError = S.Schema.Type<typeof TriggerInternalError>
 
 /** Use this function if you're using a `try/catch` block to catch errors.
  * It checks if a thrown error is a special internal error that you should ignore.
@@ -83,11 +160,14 @@ export function isTriggerError(err: unknown): err is TriggerInternalError {
 }
 
 // This error isn't an internal error but it can be used by the user to figure out which task caused the error
-export class ErrorWithTask extends Error {
+export class ErrorWithTask extends S.TaggedError<ErrorWithTask>()("ErrorWithTask", {
+  cause: S.Any,
+  message: S.Any,
+}) {
   constructor(
-    public cause: ServerTask,
-    message: string
+    readonly cause: ServerTask,
+    readonly message: string
   ) {
-    super(message);
+    super({ cause, message });
   }
 }

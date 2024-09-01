@@ -1248,7 +1248,7 @@ export class TriggerClient {
     }
 
     if (error instanceof ParsedPayloadSchemaError) {
-      return { status: "INVALID_PAYLOAD", errors: error.schemaErrors };
+      return { status: "INVALID_PAYLOAD", errors: [...error.schemaErrors] };
     }
 
     if (error instanceof ResumeWithTaskError) {
