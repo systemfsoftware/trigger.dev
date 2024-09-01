@@ -8,7 +8,7 @@ import {
   GetRunStatuses,
   GetRunStatusesSchema,
   urlWithSearchParams,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { useTriggerProvider } from "./TriggerProvider";
 import { zodfetch } from "./fetch";
 import { useEventDetails } from "./events";

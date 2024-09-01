@@ -1,12 +1,12 @@
 import type { Tracer } from "@opentelemetry/api";
 import type { Logger } from "@opentelemetry/api-logs";
-import { ProjectConfig, childToWorkerMessages, taskCatalog } from "@trigger.dev/core/v3";
+import { ProjectConfig, childToWorkerMessages, taskCatalog } from "@systemfsoftware/trigger.dev_core/v3";
 import {
   StandardTaskCatalog,
   TracingDiagnosticLogLevel,
   TracingSDK,
-} from "@trigger.dev/core/v3/workers";
-import { ZodMessageSender } from "@trigger.dev/core/v3/zodMessageHandler";
+} from "@systemfsoftware/trigger.dev_core/v3/workers";
+import { ZodMessageSender } from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
 import "source-map-support/register.js";
 import * as packageJson from "../../../package.json";
 

@@ -1,5 +1,5 @@
-import { clientWebsocketMessages, serverWebsocketMessages } from "@trigger.dev/core/v3";
-import { ZodMessageHandler, ZodMessageSender } from "@trigger.dev/core/v3/zodMessageHandler";
+import { clientWebsocketMessages, serverWebsocketMessages } from "@systemfsoftware/trigger.dev_core/v3";
+import { ZodMessageHandler, ZodMessageSender } from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
 import { Evt } from "evt";
 import { randomUUID } from "node:crypto";
 import type { CloseEvent, ErrorEvent, MessageEvent } from "ws";

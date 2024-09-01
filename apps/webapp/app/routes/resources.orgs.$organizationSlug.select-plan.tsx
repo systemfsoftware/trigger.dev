@@ -13,8 +13,8 @@ import {
   Plans,
   SetPlanBody,
   SubscriptionResult,
-} from "@trigger.dev/platform/v3";
-import { GitHubLightIcon } from "@trigger.dev/companyicons";
+} from "@systemfsoftware/trigger.dev_platform/v3";
+import { GitHubLightIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { z } from "zod";
 import { DefinitionTip } from "~/components/DefinitionTooltip";
 import { Feedback } from "~/components/Feedback";

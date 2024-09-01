@@ -1,4 +1,4 @@
-import { calculateResetAt } from "@trigger.dev/core";
+import { calculateResetAt } from "@systemfsoftware/trigger.dev_core";
 import { ObjectEntries } from "./types";
 
 export const calculateResetAtUtil = calculateResetAt;

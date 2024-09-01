@@ -1,4 +1,4 @@
-import { Config, ResolvedConfig } from "@trigger.dev/core/v3";
+import { Config, ResolvedConfig } from "@systemfsoftware/trigger.dev_core/v3";
 import { findUp } from "find-up";
 import { mkdirSync, writeFileSync } from "node:fs";
 import path, { join } from "node:path";

@@ -1,4 +1,4 @@
-import { Prisma, RuntimeEnvironmentType } from "@trigger.dev/database";
+import { Prisma, RuntimeEnvironmentType } from "@systemfsoftware/trigger.dev_database";
 
 const environmentSortOrder: RuntimeEnvironmentType[] = [
   "DEVELOPMENT",

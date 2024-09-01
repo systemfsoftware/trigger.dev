@@ -17,7 +17,7 @@ import {
   type RunTaskErrorCallback,
   type RunTaskOptions,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 
 export type SlackIntegrationOptions = {
   id: string;

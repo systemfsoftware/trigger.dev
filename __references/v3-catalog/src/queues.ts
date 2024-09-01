@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { simpleChildTask } from "./trigger/subtasks";
-import { wait } from "@trigger.dev/sdk/v3";
+import { wait } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { setTimeout } from "timers/promises";
 
 dotenv.config();

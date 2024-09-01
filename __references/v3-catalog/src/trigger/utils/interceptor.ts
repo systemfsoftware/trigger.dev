@@ -1,4 +1,4 @@
-import { retry } from "@trigger.dev/sdk/v3";
+import { retry } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { HttpResponse, delay, http } from "msw";
 
 export const interceptor = retry.interceptFetch(

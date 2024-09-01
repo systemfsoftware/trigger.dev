@@ -1,5 +1,5 @@
-import { AsyncMap } from "@trigger.dev/core";
-import { KeyValueStoreResponseBody } from "@trigger.dev/core";
+import { AsyncMap } from "@systemfsoftware/trigger.dev_core";
+import { KeyValueStoreResponseBody } from "@systemfsoftware/trigger.dev_core";
 import { JSONOutputSerializer, Json } from "../io";
 
 type QueryKeyValueStoreFunction = (

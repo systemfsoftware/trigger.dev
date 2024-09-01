@@ -1,4 +1,4 @@
-import { ScheduleObject } from "@trigger.dev/core/v3";
+import { ScheduleObject } from "@systemfsoftware/trigger.dev_core/v3";
 import { PrismaClient, prisma } from "~/db.server";
 import { displayableEnvironment } from "~/models/runtimeEnvironment.server";
 import { nextScheduledTimestamps } from "~/v3/utils/calculateNextSchedule.server";

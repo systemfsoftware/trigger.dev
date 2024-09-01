@@ -10,19 +10,19 @@ import {
   TaskRunExecutionResult,
   TaskRunFailedExecutionResult,
   WaitReason,
-} from "@trigger.dev/core/v3";
-import { InferSocketMessageSchema, ZodSocketConnection } from "@trigger.dev/core/v3/zodSocket";
-import { HttpReply, getRandomPortNumber } from "@trigger.dev/core-apps/http";
-import { SimpleLogger } from "@trigger.dev/core-apps/logger";
-import { EXIT_CODE_ALREADY_HANDLED, EXIT_CODE_CHILD_NONZERO } from "@trigger.dev/core-apps/process";
-import { ExponentialBackoff } from "@trigger.dev/core-apps/backoff";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { InferSocketMessageSchema, ZodSocketConnection } from "@systemfsoftware/trigger.dev_core/v3/zodSocket";
+import { HttpReply, getRandomPortNumber } from "@systemfsoftware/trigger.dev_core-apps/http";
+import { SimpleLogger } from "@systemfsoftware/trigger.dev_core-apps/logger";
+import { EXIT_CODE_ALREADY_HANDLED, EXIT_CODE_CHILD_NONZERO } from "@systemfsoftware/trigger.dev_core-apps/process";
+import { ExponentialBackoff } from "@systemfsoftware/trigger.dev_core-apps/backoff";
 import {
   OnWaitForBatchMessage,
   OnWaitForTaskMessage,
   ProdBackgroundWorker,
 } from "./backgroundWorker";
 import { TaskMetadataParseError, UncaughtExceptionError } from "../common/errors";
-import { checkpointSafeTimeout, unboundedTimeout } from "@trigger.dev/core/v3/utils/timers";
+import { checkpointSafeTimeout, unboundedTimeout } from "@systemfsoftware/trigger.dev_core/v3/utils/timers";
 import { randomUUID } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { createServer } from "node:http";

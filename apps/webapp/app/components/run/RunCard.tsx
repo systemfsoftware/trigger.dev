@@ -1,5 +1,5 @@
-import type { DisplayProperty, StyleName } from "@trigger.dev/core";
-import { formatDuration } from "@trigger.dev/core/v3";
+import type { DisplayProperty, StyleName } from "@systemfsoftware/trigger.dev_core";
+import { formatDuration } from "@systemfsoftware/trigger.dev_core/v3";
 import { motion } from "framer-motion";
 import { HourglassIcon } from "lucide-react";
 import { ReactNode, useEffect, useState } from "react";

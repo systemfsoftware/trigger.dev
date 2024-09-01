@@ -1,6 +1,6 @@
 ---
 "trigger.dev": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 - Improve non-zero exit code error messages

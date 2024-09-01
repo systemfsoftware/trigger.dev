@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Add callback to checkpoint created message

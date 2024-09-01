@@ -20,7 +20,7 @@ import { RequireKeys } from "../utils/requiredKeys";
 import { Throttle } from "../utils/throttle";
 import { TriggerApi } from "../utils/triggerApi";
 import { wait } from "../utils/wait";
-import { YaltTunnel } from "@trigger.dev/yalt";
+import { YaltTunnel } from "@systemfsoftware/trigger.dev_yalt";
 import chalk from "chalk";
 
 const asyncExecFile = util.promisify(childProcess.execFile);
@@ -159,10 +159,10 @@ export async function devCommand(path: string, anyOptions: any) {
   if (outdatedPackages) {
     console.log(
       chalk.bgYellow(
-        `New @trigger.dev/* packages available (${outdatedPackages.from} -> ${outdatedPackages.to})`
+        `New @systemfsoftware/trigger.dev_* packages available (${outdatedPackages.from} -> ${outdatedPackages.to})`
       )
     );
-    console.log(chalk.bgBlue("Run npx @trigger.dev/cli@latest update"));
+    console.log(chalk.bgBlue("Run npx @systemfsoftware/trigger.dev_cli@latest update"));
   }
 
   const connectingSpinner = ora(`[trigger.dev] Registering endpoint ${endpointHandlerUrl}...`);

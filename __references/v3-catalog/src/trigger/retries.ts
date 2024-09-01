@@ -1,4 +1,4 @@
-import { logger, retry, runs, task, wait } from "@trigger.dev/sdk/v3";
+import { logger, retry, runs, task, wait } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { cache } from "./utils/cache";
 import { interceptor } from "./utils/interceptor";
 import { join } from "node:path";

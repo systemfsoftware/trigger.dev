@@ -1,5 +1,5 @@
-import type { LogMessage } from "@trigger.dev/core";
-import type { PrismaClient } from "@trigger.dev/database";
+import type { LogMessage } from "@systemfsoftware/trigger.dev_core";
+import type { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 import { prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { logger } from "~/services/logger.server";

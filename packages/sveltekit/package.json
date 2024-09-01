@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/sveltekit",
+  "name": "@systemfsoftware/trigger.dev_sveltekit",
   "version": "3.0.0-beta.55",
   "description": "Trigger.dev svelteKit integration",
   "license": "MIT",
@@ -25,12 +25,12 @@
   },
   "devDependencies": {
     "@sveltejs/kit": "^1.20.4",
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/ws": "^8.5.3",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "typescript": "^5.3.0"
   },
   "scripts": {
@@ -39,7 +39,7 @@
     "build:tsup": "tsup"
   },
   "peerDependencies": {
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55"
   },
   "dependencies": {
     "debug": "^4.3.4"

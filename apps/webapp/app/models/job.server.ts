@@ -1,5 +1,5 @@
 import { prisma } from "~/db.server";
-export type { Job, JobRunStatus } from "@trigger.dev/database";
+export type { Job, JobRunStatus } from "@systemfsoftware/trigger.dev_database";
 
 export function findJobByParams({
   userId,

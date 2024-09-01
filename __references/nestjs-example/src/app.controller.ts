@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
-import { InjectTriggerDevClient } from '@trigger.dev/nestjs';
-import { eventTrigger, TriggerClient } from '@trigger.dev/sdk';
+import { InjectTriggerDevClient } from '@systemfsoftware/trigger.dev_nestjs';
+import { eventTrigger, TriggerClient } from '@systemfsoftware/trigger.dev_sdk';
 
 @Controller()
 export class AppController {

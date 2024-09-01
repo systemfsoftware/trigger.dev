@@ -1,4 +1,4 @@
-import { slugifyId, TypedEventSpecificationExample } from "@trigger.dev/sdk";
+import { slugifyId, TypedEventSpecificationExample } from "@systemfsoftware/trigger.dev_sdk";
 
 import AppUninstalled from "./AppUninstalled.json";
 import AppSubscriptionsUpdate from "./AppSubscriptionsUpdate.json";

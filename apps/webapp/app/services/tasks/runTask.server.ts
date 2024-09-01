@@ -1,5 +1,5 @@
-import { RunTaskBodyOutput, ServerTask } from "@trigger.dev/core";
-import { TaskStatus } from "@trigger.dev/database";
+import { RunTaskBodyOutput, ServerTask } from "@systemfsoftware/trigger.dev_core";
+import { TaskStatus } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClient, prisma } from "~/db.server";
 import { env } from "~/env.server";
 import { taskWithAttemptsToServerTask } from "~/models/task.server";

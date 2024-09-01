@@ -1,4 +1,4 @@
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import { Octokit } from "octokit";
 import { GitHubReturnType, GitHubRunTask, onError } from "./index";
 import { Issues } from "./issues";

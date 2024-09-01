@@ -1,4 +1,4 @@
-import { createAstroRoute } from "@trigger.dev/astro";
+import { createAstroRoute } from "@systemfsoftware/trigger.dev_astro";
 //you may need to update this path to point at your trigger.ts file
 import { client } from "${routePathPrefix}trigger";
 

@@ -1,4 +1,4 @@
-import type { ApiRequestOptions, RunTags } from "@trigger.dev/core/v3";
+import type { ApiRequestOptions, RunTags } from "@systemfsoftware/trigger.dev_core/v3";
 import {
   UnprocessableEntityError,
   accessoryAttributes,
@@ -6,7 +6,7 @@ import {
   logger,
   mergeRequestOptions,
   taskContext,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { apiClientMissingError } from "./shared";
 import { tracer } from "./tracer";
 

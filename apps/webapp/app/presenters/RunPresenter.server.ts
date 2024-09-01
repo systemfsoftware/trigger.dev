@@ -3,7 +3,7 @@ import {
   ErrorWithStackSchema,
   EventSpecificationSchema,
   StyleSchema,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { $replica, PrismaClient, prisma } from "~/db.server";
 import { isRunCompleted, runBasicStatus } from "~/models/jobRun.server";
 import { mergeProperties } from "~/utils/mergeProperties.server";

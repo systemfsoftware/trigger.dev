@@ -1,4 +1,4 @@
-import { stringifyIO } from "@trigger.dev/core/v3";
+import { stringifyIO } from "@systemfsoftware/trigger.dev_core/v3";
 import { findEnvironmentById } from "~/models/runtimeEnvironment.server";
 import { TestTaskData } from "../testTask";
 import { BaseService } from "./baseService.server";

@@ -1,4 +1,4 @@
-import { createSvelteRoute } from '@trigger.dev/sveltekit';
+import { createSvelteRoute } from '@systemfsoftware/trigger.dev_sveltekit';
 
 import { client } from '$trigger';
 

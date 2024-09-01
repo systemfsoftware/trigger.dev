@@ -1,4 +1,4 @@
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import { Model, ModelVersion } from "replicate";
 
 import { ReplicateRunTask } from "./index";

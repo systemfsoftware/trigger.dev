@@ -1,5 +1,5 @@
-import type { Prettify } from "@trigger.dev/core";
-import { BackgroundWorker } from "@trigger.dev/database";
+import type { Prettify } from "@systemfsoftware/trigger.dev_core";
+import { BackgroundWorker } from "@systemfsoftware/trigger.dev_database";
 import { CURRENT_DEPLOYMENT_LABEL } from "~/consts";
 import { Prisma, prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";

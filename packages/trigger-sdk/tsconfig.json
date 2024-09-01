@@ -1,16 +1,16 @@
 {
-  "extends": "@trigger.dev/tsconfig/node18.json",
+  "extends": "@systemfsoftware/trigger.dev_tsconfig/node18.json",
   "include": ["./src/**/*.ts", "tsup.config.ts"],
   "compilerOptions": {
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "paths": {
-      "@trigger.dev/core/*": ["../core/src/*"],
-      "@trigger.dev/core": ["../core/src/index"],
-      "@trigger.dev/core-backend/*": ["../core-backend/src/*"],
-      "@trigger.dev/core-backend": ["../core-backend/src/index"],
-      "@trigger.dev/tsup/*": ["../../config-packages/tsup/src/*"],
-      "@trigger.dev/tsup": ["../../config-packages/tsup/src/index"]
+      "@systemfsoftware/trigger.dev_core/*": ["../core/src/*"],
+      "@systemfsoftware/trigger.dev_core": ["../core/src/index"],
+      "@systemfsoftware/trigger.dev_core-backend/*": ["../core-backend/src/*"],
+      "@systemfsoftware/trigger.dev_core-backend": ["../core-backend/src/index"],
+      "@systemfsoftware/trigger.dev_tsup/*": ["../../config-packages/tsup/src/*"],
+      "@systemfsoftware/trigger.dev_tsup": ["../../config-packages/tsup/src/index"]
     },
     "lib": ["DOM", "DOM.Iterable"],
     "declaration": false,

@@ -1,5 +1,5 @@
-import { truncate } from "@trigger.dev/integration-kit";
-import { IntegrationTaskKey, Prettify, retry } from "@trigger.dev/sdk";
+import { truncate } from "@systemfsoftware/trigger.dev_integration-kit";
+import { IntegrationTaskKey, Prettify, retry } from "@systemfsoftware/trigger.dev_sdk";
 import { GitHubReturnType, GitHubRunTask, onError } from "./index";
 import { Octokit } from "octokit";
 import { issueProperties, repoProperties } from "./propertyHelpers";

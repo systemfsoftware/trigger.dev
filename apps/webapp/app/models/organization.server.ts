@@ -4,7 +4,7 @@ import type {
   Project,
   RuntimeEnvironment,
   User,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { customAlphabet } from "nanoid";
 import slug from "slug";
 import { prisma, PrismaClientOrTransaction } from "~/db.server";

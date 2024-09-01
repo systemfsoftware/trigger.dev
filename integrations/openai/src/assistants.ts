@@ -1,4 +1,4 @@
-import { IntegrationTaskKey, Prettify } from "@trigger.dev/sdk";
+import { IntegrationTaskKey, Prettify } from "@systemfsoftware/trigger.dev_sdk";
 import { OpenAIRunTask } from "./index";
 import { OpenAIIntegrationOptions, OpenAIRequestOptions } from "./types";
 import OpenAI from "openai";

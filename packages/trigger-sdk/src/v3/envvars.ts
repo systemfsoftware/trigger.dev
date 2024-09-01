@@ -7,13 +7,13 @@ import type {
   EnvironmentVariables,
   ImportEnvironmentVariablesParams,
   UpdateEnvironmentVariableParams,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import {
   apiClientManager,
   isRequestOptions,
   mergeRequestOptions,
   taskContext,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { apiClientMissingError } from "./shared";
 import { tracer } from "./tracer";
 

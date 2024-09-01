@@ -1,4 +1,4 @@
-import { TriggerMetadata } from "@trigger.dev/core";
+import { TriggerMetadata } from "@systemfsoftware/trigger.dev_core";
 import { ParsedPayloadSchemaError } from "../errors";
 import { Job } from "../job";
 import { TriggerClient } from "../triggerClient";

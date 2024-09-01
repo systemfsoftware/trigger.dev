@@ -2,7 +2,7 @@ import {
   ProjectAlertChannel,
   ProjectAlertType,
   RuntimeEnvironmentType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { nanoid } from "nanoid";
 import { env } from "~/env.server";
 import { findProjectByRef } from "~/models/project.server";

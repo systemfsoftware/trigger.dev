@@ -1,5 +1,5 @@
 import { ActionFunctionArgs, json } from "@remix-run/server-runtime";
-import { ExportLogsServiceRequest, ExportLogsServiceResponse } from "@trigger.dev/otlp-importer";
+import { ExportLogsServiceRequest, ExportLogsServiceResponse } from "@systemfsoftware/trigger.dev_otlp-importer";
 import { otlpExporter } from "~/v3/otlpExporter.server";
 
 export async function action({ request }: ActionFunctionArgs) {

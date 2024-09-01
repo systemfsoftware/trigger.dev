@@ -1,19 +1,19 @@
 {
-  "extends": "@trigger.dev/tsconfig/node18.json",
+  "extends": "@systemfsoftware/trigger.dev_tsconfig/node18.json",
   "include": ["**/*.ts"],
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@trigger.dev/sdk": ["../../packages/trigger-sdk/src/index"],
-      "@trigger.dev/sdk/*": ["../../packages/trigger-sdk/src/*"],
-      "@trigger.dev/core": ["../../packages/core/src/index"],
-      "@trigger.dev/core/*": ["../../packages/core/src/*"],
-      "@trigger.dev/stripe": ["../../integrations/stripe/src/index"],
-      "@trigger.dev/stripe/*": ["../../integrations/stripe/src/*"],
-      "@trigger.dev/testing": ["../../packages/testing/src/index"],
-      "@trigger.dev/testing/*": ["../../packages/testing/src/*"]
+      "@systemfsoftware/trigger.dev_sdk": ["../../packages/trigger-sdk/src/index"],
+      "@systemfsoftware/trigger.dev_sdk/*": ["../../packages/trigger-sdk/src/*"],
+      "@systemfsoftware/trigger.dev_core": ["../../packages/core/src/index"],
+      "@systemfsoftware/trigger.dev_core/*": ["../../packages/core/src/*"],
+      "@systemfsoftware/trigger.dev_stripe": ["../../integrations/stripe/src/index"],
+      "@systemfsoftware/trigger.dev_stripe/*": ["../../integrations/stripe/src/*"],
+      "@systemfsoftware/trigger.dev_testing": ["../../packages/testing/src/index"],
+      "@systemfsoftware/trigger.dev_testing/*": ["../../packages/testing/src/*"]
     }
   }
 }

@@ -1,4 +1,4 @@
-import { usage as usageApi, taskContext } from "@trigger.dev/core/v3";
+import { usage as usageApi, taskContext } from "@systemfsoftware/trigger.dev_core/v3";
 
 export type ComputeUsage = {
   costInCents: number;
@@ -22,7 +22,7 @@ export const usage = {
    * @example
    *
    * ```typescript
-   * import { usage, task } from "@trigger.dev/sdk/v3";
+   * import { usage, task } from "@systemfsoftware/trigger.dev_sdk/v3";
    *
    * export const myTask = task({
    *  id: "my-task",
@@ -97,7 +97,7 @@ export const usage = {
    * @example
    *
    * ```typescript
-   * import { usage } from "@trigger.dev/sdk/v3";
+   * import { usage } from "@systemfsoftware/trigger.dev_sdk/v3";
    *
    * export const myTask = task({
    *  id: "my-task",

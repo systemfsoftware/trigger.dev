@@ -22,8 +22,8 @@ export class Express implements Framework {
 
   async dependencies(): Promise<InstallPackage[]> {
     return [
-      { name: "@trigger.dev/sdk", tag: "latest" },
-      { name: "@trigger.dev/express", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_sdk", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_express", tag: "latest" },
     ];
   }
 

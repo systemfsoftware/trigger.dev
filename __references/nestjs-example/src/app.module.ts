@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { TriggerDevModule } from '@trigger.dev/nestjs';
+import { TriggerDevModule } from '@systemfsoftware/trigger.dev_nestjs';
 import { AppController } from './app.controller';
 
 @Module({

@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/core-apps",
+  "name": "@systemfsoftware/trigger.dev_core-apps",
   "description": "Backend core code used across apps",
   "version": "3.0.0-beta.55",
   "private": true,
@@ -25,8 +25,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@trigger.dev/core": "workspace:*",
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_core": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/node": "18",
     "typescript": "^5.3.0"
   },

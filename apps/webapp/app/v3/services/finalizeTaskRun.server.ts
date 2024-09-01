@@ -1,4 +1,4 @@
-import { type Prisma, type TaskRun } from "@trigger.dev/database";
+import { type Prisma, type TaskRun } from "@systemfsoftware/trigger.dev_database";
 import { logger } from "~/services/logger.server";
 import { marqs } from "~/v3/marqs/index.server";
 import { BaseService } from "./baseService.server";

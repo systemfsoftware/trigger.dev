@@ -1,7 +1,7 @@
 import { fromZodError } from "zod-validation-error";
 import type { ActionFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { TriggerTaskRequestBody } from "@trigger.dev/core/v3";
+import { TriggerTaskRequestBody } from "@systemfsoftware/trigger.dev_core/v3";
 import { z } from "zod";
 import { env } from "~/env.server";
 import { authenticateApiRequest } from "~/services/apiAuth.server";

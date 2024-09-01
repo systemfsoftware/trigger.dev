@@ -1,4 +1,4 @@
-import { DisplayProperty, StatusUpdate } from "@trigger.dev/core";
+import { DisplayProperty, StatusUpdate } from "@systemfsoftware/trigger.dev_core";
 import { IntegrationTaskKey } from "./integrations";
 import { IO } from "./io";
 

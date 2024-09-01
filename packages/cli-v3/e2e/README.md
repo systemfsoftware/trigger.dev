@@ -2,7 +2,7 @@
 
 E2E test suite for the Trigger.dev v3 CLI.
 
-Note: this only works with Trigger.dev v3 projects and later. There is no E2E test suite for the [@trigger.dev/cli](https://www.npmjs.com/package/@trigger.dev/cli) package yet.
+Note: this only works with Trigger.dev v3 projects and later. There is no E2E test suite for the [@systemfsoftware/trigger.dev_cli](https://www.npmjs.com/package/@systemfsoftware/trigger.dev_cli) package yet.
 
 Trigger.dev is an open source platform that makes it easy to create event-driven background tasks directly in your existing project.
 
@@ -130,7 +130,7 @@ This will test your fixture project, and generate outputs in the `packages/cli-v
     Here is an example:
 
     ```javascript
-    import { task } from "@trigger.dev/sdk/v3";
+    import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
     export const helloWorldTask = task({
       id: "hello-world",

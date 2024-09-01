@@ -1,3 +1,3 @@
-import { defineConfigPackage } from "@trigger.dev/tsup";
+import { defineConfigPackage } from "@systemfsoftware/trigger.dev_tsup";
 
 export default defineConfigPackage;

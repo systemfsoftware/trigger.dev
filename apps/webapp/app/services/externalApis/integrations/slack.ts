@@ -5,7 +5,7 @@ const help: Help = {
     {
       title: "Creating the client",
       code: `
-import { Slack } from "@trigger.dev/slack";
+import { Slack } from "@systemfsoftware/trigger.dev_slack";
 
 const slack = new Slack({
   id: "__SLUG__",
@@ -45,7 +45,7 @@ client.defineJob({
 export const slack: Integration = {
   identifier: "slack",
   name: "Slack",
-  packageName: "@trigger.dev/slack@latest",
+  packageName: "@systemfsoftware/trigger.dev_slack@latest",
   authenticationMethods: {
     oauth2Bot: {
       name: "OAuth2 (Bot)",

@@ -1,10 +1,10 @@
-import { User } from "@trigger.dev/database";
-import { replacements } from "@trigger.dev/core";
+import { User } from "@systemfsoftware/trigger.dev_database";
+import { replacements } from "@systemfsoftware/trigger.dev_core";
 import { PrismaClient, prisma } from "~/db.server";
 import { Job } from "~/models/job.server";
 import { Organization } from "~/models/organization.server";
 import { Project } from "~/models/project.server";
-import { EventExample } from "@trigger.dev/core";
+import { EventExample } from "@systemfsoftware/trigger.dev_core";
 
 export class TestJobPresenter {
   #prismaClient: PrismaClient;

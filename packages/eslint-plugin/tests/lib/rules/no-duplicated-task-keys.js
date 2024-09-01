@@ -239,7 +239,7 @@ ruleTester.run("no-duplicated-task-keys", rule, {
       ],
     },
     {
-      code: `import { Job, eventTrigger } from "@trigger.dev/sdk";
+      code: `import { Job, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
       import { client } from "@/trigger";
       
       // your first job
@@ -258,7 +258,7 @@ ruleTester.run("no-duplicated-task-keys", rule, {
       errors: [{ message: "Task key 'example.task' is duplicated" }],
     },
     {
-      code: `import { Job, eventTrigger } from "@trigger.dev/sdk";
+      code: `import { Job, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
       import { client } from "@/trigger";
       
       // your first job
@@ -290,7 +290,7 @@ ruleTester.run("no-duplicated-task-keys", rule, {
       ],
     },
     {
-      code: `import { Job, eventTrigger } from "@trigger.dev/sdk";
+      code: `import { Job, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
       import { client } from "@/trigger";
       
       // your first job

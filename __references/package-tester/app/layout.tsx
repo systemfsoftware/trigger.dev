@@ -1,5 +1,5 @@
 import "./globals.css";
-import { TriggerProvider } from "@trigger.dev/react";
+import { TriggerProvider } from "@systemfsoftware/trigger.dev_react";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

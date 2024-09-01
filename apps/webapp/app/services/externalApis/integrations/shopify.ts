@@ -6,7 +6,7 @@ function usageSample(hasApiKey: boolean): HelpSample {
   return {
     title: "Using the client",
     code: `
-import { Shopify } from "@trigger.dev/shopify";
+import { Shopify } from "@systemfsoftware/trigger.dev_shopify";
 
 const shopify = new Shopify({
   id: "__SLUG__",${hasApiKey ? `\n  ${apiKeyPropertyName}: process.env.SHOPIFY_API_KEY!,` : ""}
@@ -43,7 +43,7 @@ client.defineJob({
 export const shopify: Integration = {
   identifier: "shopify",
   name: "Shopify",
-  packageName: "@trigger.dev/shopify@latest",
+  packageName: "@systemfsoftware/trigger.dev_shopify@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",

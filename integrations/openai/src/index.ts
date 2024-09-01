@@ -8,7 +8,7 @@ import {
   type RunTaskErrorCallback,
   type RunTaskOptions,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import OpenAIApi from "openai";
 import { Chat } from "./chat";
 import { Completions } from "./completions";
@@ -38,7 +38,7 @@ export class OpenAI implements TriggerIntegration {
    *
    * @example
    * ```ts
-   * import { OpenAI } from "@trigger.dev/openai";
+   * import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
    *
    * const openAI = new OpenAI({
    *   id: "my-openai",

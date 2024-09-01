@@ -1,6 +1,6 @@
 import type { LoaderFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { WhoAmIResponse } from "@trigger.dev/core/v3";
+import { WhoAmIResponse } from "@systemfsoftware/trigger.dev_core/v3";
 import { prisma } from "~/db.server";
 import { env } from "~/env.server";
 import { logger } from "~/services/logger.server";

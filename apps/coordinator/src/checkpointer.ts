@@ -1,6 +1,6 @@
-import { ExponentialBackoff } from "@trigger.dev/core-apps/backoff";
-import { isExecaChildProcess, testDockerCheckpoint } from "@trigger.dev/core-apps/checkpoints";
-import { SimpleLogger } from "@trigger.dev/core-apps/logger";
+import { ExponentialBackoff } from "@systemfsoftware/trigger.dev_core-apps/backoff";
+import { isExecaChildProcess, testDockerCheckpoint } from "@systemfsoftware/trigger.dev_core-apps/checkpoints";
+import { SimpleLogger } from "@systemfsoftware/trigger.dev_core-apps/logger";
 import { $ } from "execa";
 import { nanoid } from "nanoid";
 import fs from "node:fs/promises";

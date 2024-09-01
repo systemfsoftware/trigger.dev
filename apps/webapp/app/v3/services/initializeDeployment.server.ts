@@ -1,4 +1,4 @@
-import { InitializeDeploymentRequestBody } from "@trigger.dev/core/v3";
+import { InitializeDeploymentRequestBody } from "@systemfsoftware/trigger.dev_core/v3";
 import { customAlphabet } from "nanoid";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { generateFriendlyId } from "../friendlyIdentifiers";

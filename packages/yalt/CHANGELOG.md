@@ -1,4 +1,4 @@
-# @trigger.dev/yalt
+# @systemfsoftware/trigger.dev_yalt
 
 ## 3.0.0-beta.55
 

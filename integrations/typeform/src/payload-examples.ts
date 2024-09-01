@@ -1,4 +1,4 @@
-import { EventSpecificationExample } from "@trigger.dev/sdk";
+import { EventSpecificationExample } from "@systemfsoftware/trigger.dev_sdk";
 
 export const formResponseExample: EventSpecificationExample = {
   id: "form_response",

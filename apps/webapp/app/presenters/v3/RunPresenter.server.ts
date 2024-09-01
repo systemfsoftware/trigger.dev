@@ -1,4 +1,4 @@
-import { millisecondsToNanoseconds } from "@trigger.dev/core/v3";
+import { millisecondsToNanoseconds } from "@systemfsoftware/trigger.dev_core/v3";
 import { createTreeFromFlatItems, flattenTree } from "~/components/primitives/TreeView/TreeView";
 import { PrismaClient, prisma } from "~/db.server";
 import { getUsername } from "~/utils/username";

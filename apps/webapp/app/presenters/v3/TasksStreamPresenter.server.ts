@@ -1,4 +1,4 @@
-import { TaskRun, TaskRunAttempt } from "@trigger.dev/database";
+import { TaskRun, TaskRunAttempt } from "@systemfsoftware/trigger.dev_database";
 import { eventStream } from "remix-utils/sse/server";
 import { PrismaClient, prisma } from "~/db.server";
 import { logger } from "~/services/logger.server";

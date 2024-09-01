@@ -17,7 +17,7 @@ import {
   JobRun,
   JobVersion,
   RuntimeEnvironment,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 
 export interface RunExecutionRateLimiter {
   putConcurrencyLimitGroup(

@@ -1,4 +1,4 @@
-import { PrismaClient } from "@trigger.dev/database";
+import { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 import { prisma } from "~/db.server";
 import { DeleteEndpointService } from "./endpoints/deleteEndpointService";
 import { logger } from "./logger.server";

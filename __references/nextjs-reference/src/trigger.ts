@@ -6,10 +6,10 @@ mockServer.listen({
   onUnhandledRequest: "bypass",
 });
 
-import { Github } from "@trigger.dev/github";
-import { OpenAI } from "@trigger.dev/openai";
-import { TriggerClient } from "@trigger.dev/sdk";
-import { Slack } from "@trigger.dev/slack";
+import { Github } from "@systemfsoftware/trigger.dev_github";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
+import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
+import { Slack } from "@systemfsoftware/trigger.dev_slack";
 
 export const client = new TriggerClient({
   id: "nextjs-example",

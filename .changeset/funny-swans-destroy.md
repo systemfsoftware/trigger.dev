@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/sdk": patch
+"@systemfsoftware/trigger.dev_sdk": patch
 ---
 
 Make msw a normal dependency (for now) to fix Module Not Found error in Next.js.

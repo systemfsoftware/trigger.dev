@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/react",
+  "name": "@systemfsoftware/trigger.dev_react",
   "version": "3.0.0-beta.55",
   "description": "Trigger.dev React SDK",
   "license": "MIT",
@@ -27,12 +27,12 @@
   },
   "dependencies": {
     "@tanstack/react-query": "5.0.0-beta.2",
-    "@trigger.dev/core": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_core": "workspace:^3.0.0-beta.55",
     "debug": "^4.3.4",
     "zod": "3.22.3"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/react": "18.2.17",
     "@types/ws": "^8.5.3",

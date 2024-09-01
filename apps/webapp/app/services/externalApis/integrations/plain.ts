@@ -3,7 +3,7 @@ import type { Integration } from "../types";
 export const plain: Integration = {
   identifier: "plain",
   name: "Plain",
-  packageName: "@trigger.dev/plain@latest",
+  packageName: "@systemfsoftware/trigger.dev_plain@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -12,7 +12,7 @@ export const plain: Integration = {
           {
             title: "Creating the client",
             code: `
-import { Plain } from "@trigger.dev/plain";
+import { Plain } from "@systemfsoftware/trigger.dev_plain";
 
 export const plain = new Plain({
   id: "__SLUG__",

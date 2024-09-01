@@ -9,7 +9,7 @@ import {
   RunTaskOptions,
   TriggerIntegration,
   retry,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import {
   Attachment,
   AttachmentConnection,

@@ -2,8 +2,8 @@ import type {
   TaskRunExecutionResult,
   TaskRunFailedExecutionResult,
   TaskRunSuccessfulExecutionResult,
-} from "@trigger.dev/core/v3";
-import { TaskRunError } from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { TaskRunError } from "@systemfsoftware/trigger.dev_core/v3";
 
 import type {
   TaskRun,
@@ -11,7 +11,7 @@ import type {
   TaskRunAttemptStatus as TaskRunAttemptStatusType,
   TaskRunStatus as TaskRunStatusType,
   BatchTaskRunItemStatus as BatchTaskRunItemStatusType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 
 import { assertNever } from "assert-never";
 import { BatchTaskRunItemStatus, TaskRunAttemptStatus, TaskRunStatus } from "~/database-types";

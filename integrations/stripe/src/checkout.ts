@@ -1,4 +1,4 @@
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import { CreateCheckoutSessionParams, CreateCheckoutSessionResponse, StripeRunTask } from "./index";
 
 export class Checkout {

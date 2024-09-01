@@ -7,7 +7,7 @@ import {
   WrenchIcon,
   XCircleIcon,
 } from "@heroicons/react/24/solid";
-import type { JobRunStatus } from "@trigger.dev/database";
+import type { JobRunStatus } from "@systemfsoftware/trigger.dev_database";
 import { cn } from "~/utils/cn";
 import { Spinner } from "../primitives/Spinner";
 import { z } from "zod";

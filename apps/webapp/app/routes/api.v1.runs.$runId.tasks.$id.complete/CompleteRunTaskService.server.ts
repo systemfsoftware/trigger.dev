@@ -1,4 +1,4 @@
-import type { CompleteTaskBodyOutput, ServerTask } from "@trigger.dev/core";
+import type { CompleteTaskBodyOutput, ServerTask } from "@systemfsoftware/trigger.dev_core";
 import { PrismaClientOrTransaction, prisma } from "~/db.server";
 import { taskWithAttemptsToServerTask } from "~/models/task.server";
 import type { AuthenticatedEnvironment } from "~/services/apiAuth.server";

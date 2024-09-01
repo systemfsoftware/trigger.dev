@@ -29,7 +29,7 @@ Trigger.dev is an open source platform and SDK which allows you to create long-r
 Create tasks where they belong: in your codebase. Version control, localhost, test and review like you're already used to.
 
 ```ts
-import { task } from "@trigger.dev/sdk/v3";
+import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 //1. You need to export each task
 export const helloWorld = task({

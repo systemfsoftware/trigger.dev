@@ -1,4 +1,4 @@
-import type { Job, JobVersion } from "@trigger.dev/database";
+import type { Job, JobVersion } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";
 import { prisma } from "~/db.server";
 import { workerQueue } from "~/services/worker.server";

@@ -1,6 +1,6 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { OpenAI } from "@trigger.dev/openai";
-import { TriggerClient, invokeTrigger } from "@trigger.dev/sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
+import { TriggerClient, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { z } from "zod";
 
 export const client = new TriggerClient({

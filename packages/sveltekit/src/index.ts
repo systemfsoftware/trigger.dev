@@ -1,4 +1,4 @@
-import type { TriggerClient } from "@trigger.dev/sdk";
+import type { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 
 import { json } from "@sveltejs/kit";
 import type { RequestHandler } from "@sveltejs/kit";

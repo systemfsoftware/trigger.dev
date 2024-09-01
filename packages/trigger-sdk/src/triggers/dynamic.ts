@@ -3,14 +3,14 @@ import {
   RegisterTriggerBodyV2,
   TriggerMetadata,
   deepMergeFilters,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { Job } from "../job";
 import { TriggerClient } from "../triggerClient";
 import { EventSpecification, Trigger } from "../types";
 import { slugifyId } from "../utils";
 import { ExternalSource, ExternalSourceParams } from "./externalSource";
 import { runLocalStorage } from "../runLocalStorage";
-import { EventFilter } from "@trigger.dev/core";
+import { EventFilter } from "@systemfsoftware/trigger.dev_core";
 
 /** Options for a DynamicTrigger  */
 export type DynamicTriggerOptions<
@@ -24,7 +24,7 @@ export type DynamicTriggerOptions<
   /** An external source fron an [Integration](https://trigger.dev/docs/integrations) package
    * @example 
    * ```ts
-   *  import { events } from "@trigger.dev/github";
+   *  import { events } from "@systemfsoftware/trigger.dev_github";
    * 
    *  const dynamicOnIssueOpened = client.defineDynamicTrigger({
         id: "github-issue-opened",

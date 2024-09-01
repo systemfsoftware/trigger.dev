@@ -4,7 +4,7 @@ export const typeform: Integration = {
   identifier: "typeform",
   name: "Typeform",
   description: "Use the Typeform API and trigger on new responses",
-  packageName: "@trigger.dev/typeform@latest",
+  packageName: "@systemfsoftware/trigger.dev_typeform@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -13,7 +13,7 @@ export const typeform: Integration = {
           {
             title: "Creating the client",
             code: `
-import { Typeform } from "@trigger.dev/typeform";
+import { Typeform } from "@systemfsoftware/trigger.dev_typeform";
 
 const typeform = new Typeform({
   id: "__SLUG__",

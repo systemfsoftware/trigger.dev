@@ -1,4 +1,4 @@
-import { StartDeploymentIndexingRequestBody } from "@trigger.dev/core/v3";
+import { StartDeploymentIndexingRequestBody } from "@systemfsoftware/trigger.dev_core/v3";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { registryProxy } from "../registryProxy.server";
 import { BaseService } from "./baseService.server";

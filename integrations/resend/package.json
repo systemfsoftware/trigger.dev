@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/resend",
+  "name": "@systemfsoftware/trigger.dev_resend",
   "version": "3.0.0-beta.55",
   "description": "The official Resend.com integration for Trigger.dev",
   "main": "./dist/index.js",
@@ -11,11 +11,11 @@
     "dist"
   ],
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/node": "18",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "typescript": "^5.3.0"
   },
   "scripts": {
@@ -24,8 +24,8 @@
     "build:tsup": "tsup"
   },
   "dependencies": {
-    "@trigger.dev/integration-kit": "workspace:^3.0.0-beta.55",
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
     "resend": "^2.1.0"
   },
   "engines": {

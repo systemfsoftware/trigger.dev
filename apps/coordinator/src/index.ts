@@ -7,11 +7,11 @@ import {
   ProdWorkerSocketData,
   ProdWorkerToCoordinatorMessages,
   WaitReason,
-} from "@trigger.dev/core/v3";
-import { ZodNamespace } from "@trigger.dev/core/v3/zodNamespace";
-import { ZodSocketConnection } from "@trigger.dev/core/v3/zodSocket";
-import { HttpReply, getTextBody } from "@trigger.dev/core-apps/http";
-import { SimpleLogger } from "@trigger.dev/core-apps/logger";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { ZodNamespace } from "@systemfsoftware/trigger.dev_core/v3/zodNamespace";
+import { ZodSocketConnection } from "@systemfsoftware/trigger.dev_core/v3/zodSocket";
+import { HttpReply, getTextBody } from "@systemfsoftware/trigger.dev_core-apps/http";
+import { SimpleLogger } from "@systemfsoftware/trigger.dev_core-apps/logger";
 import { ChaosMonkey } from "./chaosMonkey";
 import { Checkpointer } from "./checkpointer";
 

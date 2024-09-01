@@ -1,4 +1,4 @@
-import { InitializeTriggerBody, REGISTER_SOURCE_EVENT_V1 } from "@trigger.dev/core";
+import { InitializeTriggerBody, REGISTER_SOURCE_EVENT_V1 } from "@systemfsoftware/trigger.dev_core";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "../apiAuth.server";

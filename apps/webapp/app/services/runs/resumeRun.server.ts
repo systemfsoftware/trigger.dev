@@ -1,4 +1,4 @@
-import { JobRun, RuntimeEnvironmentType } from "@trigger.dev/database";
+import { JobRun, RuntimeEnvironmentType } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { workerQueue } from "../worker.server";
 import { PerformRunExecutionV3Service, RunExecutionPriority } from "./performRunExecutionV3.server";

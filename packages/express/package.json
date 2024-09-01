@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/express",
+  "name": "@systemfsoftware/trigger.dev_express",
   "version": "3.0.0-beta.55",
   "description": "Official Express adapter for Trigger.dev",
   "license": "MIT",
@@ -23,14 +23,14 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55",
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/express": "^4.17.13",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
     "tsx": "^3.12.1",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "typescript": "^5.3.0"
   },
   "scripts": {
@@ -39,7 +39,7 @@
     "build:tsup": "tsup"
   },
   "peerDependencies": {
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55"
   },
   "dependencies": {
     "debug": "^4.3.4",

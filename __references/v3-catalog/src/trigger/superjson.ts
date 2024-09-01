@@ -1,4 +1,4 @@
-import { logger, task } from "@trigger.dev/sdk/v3";
+import { logger, task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const superParentTask = task({
   id: "super-parent-task",

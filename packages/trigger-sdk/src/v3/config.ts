@@ -5,4 +5,4 @@ export type {
   ResolveEnvironmentVariablesFunction,
   ResolveEnvironmentVariablesParams,
   ResolveEnvironmentVariablesResult,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";

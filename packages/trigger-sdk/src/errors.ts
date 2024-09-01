@@ -1,5 +1,5 @@
-import { DisplayProperty } from "@trigger.dev/core";
-import { ErrorWithStack, SchemaError, ServerTask } from "@trigger.dev/core";
+import { DisplayProperty } from "@systemfsoftware/trigger.dev_core";
+import { ErrorWithStack, SchemaError, ServerTask } from "@systemfsoftware/trigger.dev_core";
 
 export class ResumeWithTaskError {
   constructor(public task: ServerTask) {}

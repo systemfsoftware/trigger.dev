@@ -4,13 +4,13 @@
 
 ### Patch Changes
 
-- @trigger.dev/core@3.0.0-beta.55
+- @systemfsoftware/trigger.dev_core@3.0.0-beta.55
 
 ## 3.0.0-beta.54
 
 ### Patch Changes
 
-- @trigger.dev/core@3.0.0-beta.54
+- @systemfsoftware/trigger.dev_core@3.0.0-beta.54
 
 ## 3.0.0-beta.53
 
@@ -23,7 +23,7 @@
   - Additional prod entry point logging
   - Fail runs that receive deprecated (pre-lazy attempt) execute messages
 - Updated dependencies [5cf90da72]
-  - @trigger.dev/core@3.0.0-beta.53
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.53
 
 ## 3.0.0-beta.52
 
@@ -32,7 +32,7 @@
 - c1d4c04e8: Fix automatic opening of login URL on linux-server systems with missing xdg-open
 - Updated dependencies [9882d66f8]
 - Updated dependencies [09413a62a]
-  - @trigger.dev/core@3.0.0-beta.52
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.52
 
 ## 3.0.0-beta.51
 
@@ -41,14 +41,14 @@
 - ae9a8b0ce: Automatically bundle internal packages that use file, link or workspace protocl
 - 6e65591e8: Fix various e2e issues for 'resolve-legacy-peer-deps' fixture, installation of fixture deps and lockfile-based test skipping'
 - Updated dependencies [55264657d]
-  - @trigger.dev/core@3.0.0-beta.51
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.51
 
 ## 3.0.0-beta.50
 
 ### Patch Changes
 
 - Updated dependencies [8ba998794]
-  - @trigger.dev/core@3.0.0-beta.50
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.50
 
 ## 3.0.0-beta.49
 
@@ -63,13 +63,13 @@
 - Updated dependencies [dbda820a7]
 - Updated dependencies [e417aca87]
 - Updated dependencies [d934feb02]
-  - @trigger.dev/core@3.0.0-beta.49
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.49
 
 ## 3.0.0-beta.48
 
 ### Patch Changes
 
-- @trigger.dev/core@3.0.0-beta.48
+- @systemfsoftware/trigger.dev_core@3.0.0-beta.48
 
 ## 3.0.0-beta.47
 
@@ -78,7 +78,7 @@
 - 16ad59533: v3: update @depot/cli to latest 0.0.1-cli.2.71.0
 - Updated dependencies [4f95c9de4]
 - Updated dependencies [e04d44866]
-  - @trigger.dev/core@3.0.0-beta.47
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.47
 
 ## 3.0.0-beta.46
 
@@ -110,7 +110,7 @@
   - Handle uncaught entry point exceptions
 
 - Updated dependencies [14c2bdf89]
-  - @trigger.dev/core@3.0.0-beta.46
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.46
 
 ## 3.0.0-beta.45
 
@@ -140,14 +140,14 @@
 - Updated dependencies [0e77e7ef7]
 - Updated dependencies [568da0178]
 - Updated dependencies [5ae3da6b4]
-  - @trigger.dev/core@3.0.0-beta.45
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.45
 
 ## 3.0.0-beta.44
 
 ### Patch Changes
 
 - Updated dependencies [39885a427]
-  - @trigger.dev/core@3.0.0-beta.44
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.44
 
 ## 3.0.0-beta.43
 
@@ -155,20 +155,20 @@
 
 - 77ad4127c: Improved ESM module require error detection logic
 - Updated dependencies [34ca7667d]
-  - @trigger.dev/core@3.0.0-beta.43
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.43
 
 ## 3.0.0-beta.42
 
 ### Patch Changes
 
-- @trigger.dev/core@3.0.0-beta.42
+- @systemfsoftware/trigger.dev_core@3.0.0-beta.42
 
 ## 3.0.0-beta.41
 
 ### Patch Changes
 
 - c7a55804d: Fix jsonc-parser import
-  - @trigger.dev/core@3.0.0-beta.41
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.41
 
 ## 3.0.0-beta.40
 
@@ -179,14 +179,14 @@
 - Updated dependencies [55d1f8c67]
 - Updated dependencies [098932ea9]
 - Updated dependencies [9835f4ec5]
-  - @trigger.dev/core@3.0.0-beta.40
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.40
 
 ## 3.0.0-beta.39
 
 ### Patch Changes
 
 - 8757fdcee: v3: [prod] force flush timeout should be 1s
-  - @trigger.dev/core@3.0.0-beta.39
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.39
 
 ## 3.0.0-beta.38
 
@@ -199,7 +199,7 @@
 - Updated dependencies [0ed93a748]
 - Updated dependencies [c405ae711]
 - Updated dependencies [c405ae711]
-  - @trigger.dev/core@3.0.0-beta.38
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.38
 
 ## 3.0.0-beta.37
 
@@ -214,7 +214,7 @@
   - Dedicated docker checkpoint test function
 - Updated dependencies [68d32429b]
 - Updated dependencies [68d32429b]
-  - @trigger.dev/core@3.0.0-beta.37
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.37
 
 ## 3.0.0-beta.36
 
@@ -223,7 +223,7 @@
 - 8e5ef176a: Increase cleanup IPC timeout
 - Updated dependencies [b4f9b70ae]
 - Updated dependencies [ba71f959e]
-  - @trigger.dev/core@3.0.0-beta.36
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.36
 
 ## 3.0.0-beta.35
 
@@ -242,7 +242,7 @@
 - Updated dependencies [ece6ca678]
 - Updated dependencies [e69ffd314]
 - Updated dependencies [e69ffd314]
-  - @trigger.dev/core@3.0.0-beta.35
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.35
 
 ## 3.0.0-beta.34
 
@@ -258,7 +258,7 @@
 - Updated dependencies [3a1b0c486]
 - Updated dependencies [3f8b6d8fc]
 - Updated dependencies [1281d40e4]
-  - @trigger.dev/core@3.0.0-beta.34
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.34
 
 ## 3.0.0-beta.33
 
@@ -266,21 +266,21 @@
 
 - 598906fc4: Fix for typo in v3 CLI login command
 - Updated dependencies [6a379e4e9]
-  - @trigger.dev/core@3.0.0-beta.33
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.33
 
 ## 3.0.0-beta.32
 
 ### Patch Changes
 
 - f96f1e91a: Better handle issues with resolving dependency versions during deploy
-  - @trigger.dev/core@3.0.0-beta.32
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.32
 
 ## 3.0.0-beta.31
 
 ### Patch Changes
 
 - b8477ea2b: Fixes an issue with scoped packages in additionalPackages option
-  - @trigger.dev/core@3.0.0-beta.31
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.31
 
 ## 3.0.0-beta.30
 
@@ -289,23 +289,23 @@
 - 0e919f56f: Better handle uncaught exceptions
 - Updated dependencies [1477a2e30]
 - Updated dependencies [0e919f56f]
-  - @trigger.dev/core@3.0.0-beta.30
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.30
 
 ## 3.0.0-beta.29
 
 ### Patch Changes
 
-- @trigger.dev/core@3.0.0-beta.29
+- @systemfsoftware/trigger.dev_core@3.0.0-beta.29
 
 ## 3.0.0-beta.28
 
 ### Patch Changes
 
 - 2156e1526: Adding some additional telemetry during deploy to help debug issues
-- 6406924b0: Ensure @trigger.dev/sdk and @trigger.dev/core are always in the list of deployed dependencies
+- 6406924b0: Ensure @systemfsoftware/trigger.dev_sdk and @systemfsoftware/trigger.dev_core are always in the list of deployed dependencies
 - Updated dependencies [d490bc5cb]
 - Updated dependencies [6d9dfbc75]
-  - @trigger.dev/core@3.0.0-beta.28
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.28
 
 ## 3.0.0-beta.27
 
@@ -314,14 +314,14 @@
 - 1670c4c41: Remove "log" Log Level, unify log and info messages under the "info" log level
 - Updated dependencies [1670c4c41]
 - Updated dependencies [203e00208]
-  - @trigger.dev/core@3.0.0-beta.27
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.27
 
 ## 3.0.0-beta.26
 
 ### Patch Changes
 
 - e667028d4: Strip out server-only package from worker builds
-  - @trigger.dev/core@3.0.0-beta.26
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.26
 
 ## 3.0.0-beta.25
 
@@ -331,7 +331,7 @@
 - c37c82231: Use locked package versions when resolving dependencies in deployed workers
 - Updated dependencies [e337b2165]
 - Updated dependencies [9e5382951]
-  - @trigger.dev/core@3.0.0-beta.25
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.25
 
 ## 3.0.0-beta.24
 
@@ -339,21 +339,21 @@
 
 - 83dc87155: Fix issues with consecutive waits
 - Updated dependencies [83dc87155]
-  - @trigger.dev/core@3.0.0-beta.24
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.24
 
 ## 3.0.0-beta.23
 
 ### Patch Changes
 
 - 43bc7ed94: Hoist uncaughtException handler to the top of workers to better report error messages
-  - @trigger.dev/core@3.0.0-beta.23
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.23
 
 ## 3.0.0-beta.22
 
 ### Patch Changes
 
 - ebeb79052: Add typescript as a dependency so the esbuild-decorator will work even when running in npx
-  - @trigger.dev/core@3.0.0-beta.22
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.22
 
 ## 3.0.0-beta.21
 
@@ -404,7 +404,7 @@
   And then in your trigger.config.ts file you can initialize the datasource using the new `init` option:
 
   ```ts trigger.config.ts
-  import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+  import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
   import { AppDataSource } from "@/trigger/orm";
 
   export const config: TriggerConfig = {
@@ -418,7 +418,7 @@
   Now you are ready to use this in your tasks:
 
   ```ts
-  import { task } from "@trigger.dev/sdk/v3";
+  import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
   import { AppDataSource, Photo } from "./orm";
 
   export const taskThatUsesDecorators = task({
@@ -441,7 +441,7 @@
 
 - Updated dependencies [9491a1649]
 - Updated dependencies [9491a1649]
-  - @trigger.dev/core@3.0.0-beta.21
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.21
 
 ## 3.0.0-beta.20
 
@@ -449,14 +449,14 @@
 
 - de1cc868e: Fix dev CLI output when not printing update messages
 - Updated dependencies [e3db25739]
-  - @trigger.dev/core@3.0.0-beta.20
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.20
 
 ## 3.0.0-beta.19
 
 ### Patch Changes
 
 - e9a63a486: Lock SDK and CLI deps on exact core version
-  - @trigger.dev/core@3.0.0-beta.19
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.19
 
 ## 3.0.0-beta.18
 
@@ -467,18 +467,18 @@
 - 74d1e61e4: Fix a bug where revoking the CLI token would prevent you from ever logging in again with the CLI.
 - 52b2a8289: Add git to prod worker image which fixes private package installs
 - b68012f81: Move to our global system from AsyncLocalStorage for the current task context storage
-- b68012f81: Extracting out all the non-SDK related features from the main @trigger.dev/core/v3 export
+- b68012f81: Extracting out all the non-SDK related features from the main @systemfsoftware/trigger.dev_core/v3 export
 - b68012f81: Add support for tasks located in subdirectories inside trigger dirs
 - Updated dependencies [b68012f81]
 - Updated dependencies [b68012f81]
-  - @trigger.dev/core@3.0.0-beta.18
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.18
 
 ## 3.0.0-beta.17
 
 ### Patch Changes
 
 - b20760173: v3 CLI update command and package manager detection fix
-  - @trigger.dev/core@3.0.0-beta.17
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.17
 
 ## 3.0.0-beta.16
 
@@ -489,7 +489,7 @@
   - Improve warnings and errors, fail early on critical warnings
   - New arg to --save-logs even for successful builds
 - Updated dependencies [ed2a26c86]
-  - @trigger.dev/core@3.0.0-beta.16
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.16
 
 ## 3.0.0-beta.15
 
@@ -512,7 +512,7 @@
 - Updated dependencies [374edef02]
 - Updated dependencies [26093896d]
 - Updated dependencies [62c9a5b71]
-  - @trigger.dev/core@3.0.0-beta.15
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.15
 
 ## 3.0.0-beta.14
 
@@ -521,7 +521,7 @@
 - 584c7da5d: - Add graceful exit for prod workers
   - Prevent overflow in long waits
 - Updated dependencies [584c7da5d]
-  - @trigger.dev/core@3.0.0-beta.14
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.14
 
 ## 3.0.0-beta.13
 
@@ -536,7 +536,7 @@
 - Updated dependencies [fde939a30]
 - Updated dependencies [03b104a3d]
 - Updated dependencies [4986bfda2]
-  - @trigger.dev/core@3.0.0-beta.13
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.13
 
 ## 3.0.0-beta.12
 
@@ -544,14 +544,14 @@
 
 - d3a18fbdf: Fix package builds and CLI commands on Windows
 - d3a18fbdf: Init command was failing on Windows because of bad template paths
-  - @trigger.dev/core@3.0.0-beta.12
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.12
 
 ## 3.0.0-beta.11
 
 ### Patch Changes
 
 - 63a643b7c: v3: fix digest extraction
-  - @trigger.dev/core@3.0.0-beta.11
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.11
 
 ## 3.0.0-beta.10
 
@@ -573,7 +573,7 @@
 - 1c24348f7: Add openssl to prod worker image and allow passing auth token via env var for deploy
 - Updated dependencies [f854cb90e]
 - Updated dependencies [f854cb90e]
-  - @trigger.dev/core@3.0.0-beta.7
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.7
 
 ## 3.0.0-beta.7
 
@@ -590,9 +590,9 @@
 - 1207efbba: Correctly handle self-hosted deploy command errors
 - e35f29764: Default to retrying enabled in dev when running init
 - f2894c177: Fix post start hooks
-- 6dcfeadac: Fixing an issue with bundling @trigger.dev/core/v3 in dev when using pnpm
+- 6dcfeadac: Fixing an issue with bundling @systemfsoftware/trigger.dev_core/v3 in dev when using pnpm
 - Updated dependencies [7ea8532cc]
-  - @trigger.dev/core@3.0.0-beta.6
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.6
 
 ## 3.0.0-beta.5
 
@@ -600,7 +600,7 @@
 
 - 49184c718: Update trigger.dev CLI for new batch otel support
 - Updated dependencies [eb6012628]
-  - @trigger.dev/core@3.0.0-beta.5
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.5
 
 ## 3.0.0-beta.4
 
@@ -614,7 +614,7 @@
 - Updated dependencies [c702d6a9c]
 - Updated dependencies [b271742dc]
 - Updated dependencies [9af2570da]
-  - @trigger.dev/core@3.0.0-beta.3
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.3
 
 ## 3.0.0-beta.3
 
@@ -622,7 +622,7 @@
 
 - e3cf456c6: Handle string and non-stringifiable outputs like functions
 - Updated dependencies [e3cf456c6]
-  - @trigger.dev/core@3.0.0-beta.2
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.2
 
 ## 3.0.0-beta.2
 
@@ -636,7 +636,7 @@
 - Updated dependencies [b66d5525e]
 - Updated dependencies [719c0a0b9]
 - Updated dependencies [f93eae300]
-  - @trigger.dev/core@3.0.0-beta.1
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.1
 
 ## 3.0.0-beta.1
 
@@ -654,47 +654,47 @@
 
 - 5b745dc1a: Vastly improved dev command output
 - Updated dependencies [395abe1b9]
-  - @trigger.dev/core@3.0.0-beta.0
+  - @systemfsoftware/trigger.dev_core@3.0.0-beta.0
 
 ## 1.0.7
 
 ### Patch Changes
 
-- @trigger.dev/core@2.3.18
+- @systemfsoftware/trigger.dev_core@2.3.18
 
 ## 1.0.6
 
 ### Patch Changes
 
-- @trigger.dev/core@2.3.17
+- @systemfsoftware/trigger.dev_core@2.3.17
 
 ## 1.0.5
 
 ### Patch Changes
 
 - Updated dependencies [583da458]
-  - @trigger.dev/core@2.3.16
+  - @systemfsoftware/trigger.dev_core@2.3.16
 
 ## 1.0.4
 
 ### Patch Changes
 
-- @trigger.dev/core@2.3.15
+- @systemfsoftware/trigger.dev_core@2.3.15
 
 ## 1.0.3
 
 ### Patch Changes
 
-- @trigger.dev/core@2.3.14
+- @systemfsoftware/trigger.dev_core@2.3.14
 
 ## 1.0.2
 
 ### Patch Changes
 
-- @trigger.dev/core@2.3.13
+- @systemfsoftware/trigger.dev_core@2.3.13
 
 ## 1.0.1
 
 ### Patch Changes
 
-- @trigger.dev/core@2.3.12
+- @systemfsoftware/trigger.dev_core@2.3.12

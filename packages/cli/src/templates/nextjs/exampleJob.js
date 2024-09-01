@@ -1,4 +1,4 @@
-import { eventTrigger } from "@trigger.dev/sdk";
+import { eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { client } from "${jobsPathPrefix}trigger";
 
 // Your first job

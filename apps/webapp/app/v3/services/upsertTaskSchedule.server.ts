@@ -1,4 +1,4 @@
-import { Prisma, TaskSchedule } from "@trigger.dev/database";
+import { Prisma, TaskSchedule } from "@systemfsoftware/trigger.dev_database";
 import cronstrue from "cronstrue";
 import { nanoid } from "nanoid";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";

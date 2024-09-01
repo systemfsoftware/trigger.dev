@@ -7,7 +7,7 @@ import {
   type RunTaskErrorCallback,
   type RunTaskOptions,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { Resend as ResendClient } from "resend";
 import { Emails, SendEmailResult } from "./emails";
 import { Batch } from "./batch";

@@ -3,15 +3,15 @@ import {
   TaskRunExecution,
   TaskRunExecutionResult,
   WaitReason,
-} from "@trigger.dev/core/v3";
-import type { InferSocketMessageSchema } from "@trigger.dev/core/v3/zodSocket";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import type { InferSocketMessageSchema } from "@systemfsoftware/trigger.dev_core/v3/zodSocket";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";
 import { logger } from "~/services/logger.server";
 import { marqs } from "~/v3/marqs/index.server";
 import { socketIo } from "../handleSocketIo.server";
 import { SharedQueueMessageBody, sharedQueueTasks } from "../marqs/sharedQueueConsumer.server";
 import { BaseService } from "./baseService.server";
-import { TaskRunAttempt } from "@trigger.dev/database";
+import { TaskRunAttempt } from "@systemfsoftware/trigger.dev_database";
 import { isFinalRunStatus } from "../taskStatus";
 
 export class ResumeAttemptService extends BaseService {

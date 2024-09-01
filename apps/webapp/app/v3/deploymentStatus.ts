@@ -1,4 +1,4 @@
-import { WorkerDeployment } from "@trigger.dev/database";
+import { WorkerDeployment } from "@systemfsoftware/trigger.dev_database";
 
 export const deploymentIndexingIsRetryable = ({
   builtAt,

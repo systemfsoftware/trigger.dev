@@ -1,6 +1,6 @@
 import { StopIcon } from "@heroicons/react/24/outline";
 import { CheckIcon } from "@heroicons/react/24/solid";
-import { RuntimeEnvironmentType, User } from "@trigger.dev/database";
+import { RuntimeEnvironmentType, User } from "@systemfsoftware/trigger.dev_database";
 import { EnvironmentLabel } from "../environments/EnvironmentLabel";
 import { DateTime } from "../primitives/DateTime";
 import { Paragraph } from "../primitives/Paragraph";

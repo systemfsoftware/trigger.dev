@@ -1,4 +1,4 @@
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import ReplicateClient, { Page, Training } from "replicate";
 
 import { ReplicateRunTask } from "./index";

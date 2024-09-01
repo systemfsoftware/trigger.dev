@@ -1,6 +1,6 @@
 import crypto from "crypto";
-import { createExpressServer } from "@trigger.dev/express";
-import { TriggerClient, verifyRequestSignature } from "@trigger.dev/sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { TriggerClient, verifyRequestSignature } from "@systemfsoftware/trigger.dev_sdk";
 import Stripe from "stripe";
 
 export const client = new TriggerClient({

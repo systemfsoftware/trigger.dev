@@ -1,4 +1,4 @@
-import { OrganizationIntegration } from "@trigger.dev/database";
+import { OrganizationIntegration } from "@systemfsoftware/trigger.dev_database";
 import { BaseService } from "./baseService.server";
 import { WebClient } from "@slack/web-api";
 import { env } from "~/env.server";

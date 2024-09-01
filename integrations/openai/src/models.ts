@@ -1,4 +1,4 @@
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import { Model } from "openai/resources";
 import { OpenAIRunTask } from "./index";
 import OpenAI from "openai";

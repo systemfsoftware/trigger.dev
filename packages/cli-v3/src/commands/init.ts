@@ -1,7 +1,7 @@
 import { intro, isCancel, log, outro, select, text } from "@clack/prompts";
 import { context, trace } from "@opentelemetry/api";
-import { GetProjectResponseBody, flattenAttributes } from "@trigger.dev/core/v3";
-import { recordSpanException } from "@trigger.dev/core/v3/workers";
+import { GetProjectResponseBody, flattenAttributes } from "@systemfsoftware/trigger.dev_core/v3";
+import { recordSpanException } from "@systemfsoftware/trigger.dev_core/v3/workers";
 import chalk from "chalk";
 import { Command } from "commander";
 import { ExecaError, Options as ExecaOptions, ResultPromise as ExecaResult, execa } from "execa";
@@ -55,10 +55,10 @@ export function configureInitCommand(program: Command) {
       )
       .option(
         "-t, --tag <package tag>",
-        "The version of the @trigger.dev/sdk package to install",
+        "The version of the @systemfsoftware/trigger.dev_sdk package to install",
         packageJson.version
       )
-      .option("--skip-package-install", "Skip installing the @trigger.dev/sdk package")
+      .option("--skip-package-install", "Skip installing the @systemfsoftware/trigger.dev_sdk package")
       .option("--override-config", "Override the existing config file if it exists")
       .option(
         "--pkg-args <args>",
@@ -142,7 +142,7 @@ async function _initCommand(dir: string, options: InitCommandOptions) {
 
   log.step(`Configuring project "${selectedProject.name}" (${selectedProject.externalRef})`);
 
-  // Install @trigger.dev/sdk package
+  // Install @systemfsoftware/trigger.dev_sdk package
   if (!options.skipPackageInstall) {
     await installPackages(dir, options);
   } else {
@@ -456,14 +456,14 @@ async function installPackages(dir: string, options: InitCommandOptions) {
       switch (pkgManager) {
         case "npm": {
           // --save-exact: pin version, e.g. 3.0.0-beta.20 instead of ^3.0.0-beta.20
-          args = ["install", "--save-exact", ...userArgs, `@trigger.dev/sdk@${options.tag}`];
+          args = ["install", "--save-exact", ...userArgs, `@systemfsoftware/trigger.dev_sdk@${options.tag}`];
 
           break;
         }
         case "pnpm":
         case "yarn": {
           // pins version by default
-          args = ["add", ...userArgs, `@trigger.dev/sdk@${options.tag}`];
+          args = ["add", ...userArgs, `@systemfsoftware/trigger.dev_sdk@${options.tag}`];
 
           break;
         }
@@ -482,15 +482,15 @@ async function installPackages(dir: string, options: InitCommandOptions) {
 
       await installProcess;
 
-      installSpinner.stop(`@trigger.dev/sdk@${options.tag} installed`);
+      installSpinner.stop(`@systemfsoftware/trigger.dev_sdk@${options.tag} installed`);
 
       span.end();
     } catch (e) {
       if (options.logLevel === "debug") {
-        installSpinner.stop(`Failed to install @trigger.dev/sdk@${options.tag}.`);
+        installSpinner.stop(`Failed to install @systemfsoftware/trigger.dev_sdk@${options.tag}.`);
       } else {
         installSpinner.stop(
-          `Failed to install @trigger.dev/sdk@${options.tag}. Rerun command with --log-level debug for more details.`
+          `Failed to install @systemfsoftware/trigger.dev_sdk@${options.tag}. Rerun command with --log-level debug for more details.`
         );
       }
 

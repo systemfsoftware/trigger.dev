@@ -3,7 +3,7 @@ import {
   IntervalMetadata,
   ScheduleMetadata,
   ScheduleMetadataSchema,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { $transaction, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { parseExpression } from "cron-parser";
 import { logger } from "../logger.server";

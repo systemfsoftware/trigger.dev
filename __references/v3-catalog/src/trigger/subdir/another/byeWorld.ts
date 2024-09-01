@@ -1,4 +1,4 @@
-import { task } from "@trigger.dev/sdk/v3";
+import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const byeWorldSubdir = task({
   id: "bye-world-subdir-2",

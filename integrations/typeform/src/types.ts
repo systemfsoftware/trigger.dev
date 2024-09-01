@@ -1,4 +1,4 @@
-import { Prettify } from "@trigger.dev/integration-kit";
+import { Prettify } from "@systemfsoftware/trigger.dev_integration-kit";
 import { Typeform, createClient } from "@typeform/api-client";
 
 export type TypeformIntegrationOptions = {

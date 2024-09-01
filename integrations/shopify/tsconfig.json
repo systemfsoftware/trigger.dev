@@ -1,4 +1,4 @@
 {
-  "extends": "@trigger.dev/tsconfig/integration.json",
+  "extends": "@systemfsoftware/trigger.dev_tsconfig/integration.json",
   "include": ["./src/**/*.ts", "tsup.config.ts"]
 }

@@ -31,7 +31,7 @@ async function updatePackage(directory) {
 
   // Updating dependencies
   packageJson.devDependencies = packageJson.devDependencies || {};
-  packageJson.devDependencies["@trigger.dev/tsup"] = "workspace:*";
+  packageJson.devDependencies["@systemfsoftware/trigger.dev_tsup"] = "workspace:*";
   packageJson.devDependencies["tsup"] = "8.0.1";
   packageJson.devDependencies["typescript"] = "^5.3.0";
 
@@ -66,16 +66,16 @@ async function updatePackage(directory) {
   const tsconfigPath = join(directory, "tsconfig.json");
   const tsconfig = JSON.parse(await fs.readFile(tsconfigPath, "utf8"));
 
-  if (tsconfig.extends === "@trigger.dev/tsconfig/integration.json") {
+  if (tsconfig.extends === "@systemfsoftware/trigger.dev_tsconfig/integration.json") {
     console.log(
-      `✅ tsconfig.json for ${packageJson.name} already extends @trigger.dev/tsconfig/integration.json`
+      `✅ tsconfig.json for ${packageJson.name} already extends @systemfsoftware/trigger.dev_tsconfig/integration.json`
     );
   } else {
     tsconfig.compilerOptions = tsconfig.compilerOptions || {};
     tsconfig.compilerOptions.paths = {
       ...tsconfig.compilerOptions.paths,
-      "@trigger.dev/tsup/*": ["../../config-packages/tsup/src/*"],
-      "@trigger.dev/tsup": ["../../config-packages/tsup/src/index"],
+      "@systemfsoftware/trigger.dev_tsup/*": ["../../config-packages/tsup/src/*"],
+      "@systemfsoftware/trigger.dev_tsup": ["../../config-packages/tsup/src/index"],
     };
 
     await fs.writeFile(
@@ -91,7 +91,7 @@ async function updatePackage(directory) {
 
   // Updating tsup.config.ts
   const tsupConfigPath = join(directory, "tsup.config.ts");
-  const tsupConfigContent = `import { defineConfigPackage } from "@trigger.dev/tsup";\n\nexport default defineConfigPackage;`;
+  const tsupConfigContent = `import { defineConfigPackage } from "@systemfsoftware/trigger.dev_tsup";\n\nexport default defineConfigPackage;`;
   await fs.writeFile(
     tsupConfigPath,
     await prettier.format(tsupConfigContent, { parser: "typescript", ...prettierConfig })

@@ -1,5 +1,5 @@
-import { ExternalAccount, Integration, TriggerSource } from "@trigger.dev/database";
-import { ConnectionAuth } from "@trigger.dev/core";
+import { ExternalAccount, Integration, TriggerSource } from "@systemfsoftware/trigger.dev_database";
+import { ConnectionAuth } from "@systemfsoftware/trigger.dev_core";
 import { PrismaClientOrTransaction } from "~/db.server";
 import { integrationAuthRepository } from "~/services/externalApis/integrationAuthRepository.server";
 import { logger } from "~/services/logger.server";

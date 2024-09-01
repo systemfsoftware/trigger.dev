@@ -28,8 +28,8 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "baseUrl": ".",
     "paths": {
-      "@trigger.dev/core": ["../../packages/core/src/index"],
-      "@trigger.dev/core/*": ["../../packages/core/src/*"]
+      "@systemfsoftware/trigger.dev_core": ["../../packages/core/src/index"],
+      "@systemfsoftware/trigger.dev_core/*": ["../../packages/core/src/*"]
     }
   }
 }

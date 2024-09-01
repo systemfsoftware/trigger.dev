@@ -1,5 +1,5 @@
-import { truncate } from "@trigger.dev/integration-kit";
-import { IntegrationTaskKey, Prettify } from "@trigger.dev/sdk";
+import { truncate } from "@systemfsoftware/trigger.dev_integration-kit";
+import { IntegrationTaskKey, Prettify } from "@systemfsoftware/trigger.dev_sdk";
 import OpenAI from "openai";
 import { OpenAIRunTask } from "./index";
 import { createTaskOutputProperties, handleOpenAIError } from "./taskUtils";

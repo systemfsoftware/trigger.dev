@@ -1,3 +1,3 @@
 
-# @trigger.dev/sendgrid
+# @systemfsoftware/trigger.dev_sendgrid
   

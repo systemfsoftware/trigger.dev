@@ -13,16 +13,16 @@ export * from "./types";
 export * from "./utils";
 export * from "./security";
 
-import { ServerTask } from "@trigger.dev/core";
+import { ServerTask } from "@systemfsoftware/trigger.dev_core";
 import { RedactString } from "./types";
 export { isTriggerError } from "./errors";
 export { retry } from "./retry";
 
-export type { NormalizedRequest, EventFilter } from "@trigger.dev/core";
+export type { NormalizedRequest, EventFilter } from "@systemfsoftware/trigger.dev_core";
 
 export type Task = ServerTask;
 
-import { ApiEventLog } from "@trigger.dev/core";
+import { ApiEventLog } from "@systemfsoftware/trigger.dev_core";
 export type SentEvent = ApiEventLog;
 
 /*

@@ -1,6 +1,6 @@
-import { tasks, runs, TaskOutput, TaskPayload, TaskIdentifier } from "@trigger.dev/sdk/v3";
+import { tasks, runs, TaskOutput, TaskPayload, TaskIdentifier } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { createJsonHeroDoc } from "./trigger/simple";
-import { TaskOutputHandle } from "@trigger.dev/sdk/v3/shared";
+import { TaskOutputHandle } from "@systemfsoftware/trigger.dev_sdk/v3/shared";
 
 type createJsonHeroDocPayload = TaskPayload<typeof createJsonHeroDoc>; // retrieves the payload type of the task
 type createJsonHeroDocOutput = TaskOutput<typeof createJsonHeroDoc>; // retrieves the output type of the task

@@ -2,7 +2,7 @@ import type { LoaderFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
 import { env } from "~/env.server";
 import { authenticateApiRequest } from "~/services/apiAuth.server";
-import { YaltApiClient } from "@trigger.dev/yalt";
+import { YaltApiClient } from "@systemfsoftware/trigger.dev_yalt";
 import { logger } from "~/services/logger.server";
 import { prisma } from "~/db.server";
 

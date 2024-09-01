@@ -11,8 +11,8 @@ import {
   SerializableJson,
   TriggerMetadata,
   deepMergeFilters,
-} from "@trigger.dev/core";
-import { Logger } from "@trigger.dev/core-backend";
+} from "@systemfsoftware/trigger.dev_core";
+import { Logger } from "@systemfsoftware/trigger.dev_core-backend";
 import type { Buffer } from "buffer";
 import { IOWithIntegrations, TriggerIntegration } from "../integrations";
 import { IO } from "../io";

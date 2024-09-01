@@ -1,4 +1,4 @@
-import { logger, task, wait, tasks, tags } from "@trigger.dev/sdk/v3";
+import { logger, task, wait, tasks, tags } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { taskWithRetries } from "./retries";
 
 export const simpleParentTask = task({

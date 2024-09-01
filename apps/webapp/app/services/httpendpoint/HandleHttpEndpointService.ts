@@ -1,4 +1,4 @@
-import { PrismaClient, RuntimeEnvironment, Webhook } from "@trigger.dev/database";
+import { PrismaClient, RuntimeEnvironment, Webhook } from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { prisma } from "~/db.server";
 import { requestUrl } from "~/utils/requestUrl.server";
@@ -8,7 +8,7 @@ import {
   RequestFilterSchema,
   WebhookContextMetadataSchema,
   requestFilterMatches,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { EndpointApi } from "../endpointApi.server";
 import { IngestSendEvent } from "../events/ingestSendEvent.server";
 import { getSecretStore } from "../secrets/secretStore.server";

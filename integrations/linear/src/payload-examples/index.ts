@@ -1,4 +1,4 @@
-import { EventSpecificationExample } from "@trigger.dev/sdk";
+import { EventSpecificationExample } from "@systemfsoftware/trigger.dev_sdk";
 
 import AttachmentCreated from "./AttachmentCreated.json"
 import AttachmentRemoved from "./AttachmentRemoved.json"

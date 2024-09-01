@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.445.0",
-    "@trigger.dev/core": "workspace:*",
+    "@systemfsoftware/trigger.dev_core": "workspace:*",
     "ulidx": "^2.2.1",
     "zod": "3.22.3",
     "zod-error": "1.5.0"

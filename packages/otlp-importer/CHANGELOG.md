@@ -1,4 +1,4 @@
-# @trigger.dev/otlp-importer
+# @systemfsoftware/trigger.dev_otlp-importer
 
 ## 3.0.0-beta.55
 

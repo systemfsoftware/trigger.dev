@@ -5,7 +5,7 @@ import {
   HandlerEvent,
   IntegrationTaskKey,
   Logger,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import {
   LinearDocument as L,
   LinearWebhooks,
@@ -254,7 +254,7 @@ export function createWebhookEventSource(
 }
 
 async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger, integration: Linear) {
-  logger.debug("[@trigger.dev/linear] Handling webhook payload");
+  logger.debug("[@systemfsoftware/trigger.dev_linear] Handling webhook payload");
 
   const { rawEvent: request, source } = event;
 
@@ -270,28 +270,28 @@ async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger, integ
     ).split(",")[0];
 
   if (!LINEAR_IPS.includes(clientIp)) {
-    logger.error("[@trigger.dev/linear] Error validating webhook source, IP invalid.");
-    throw Error("[@trigger.dev/linear] Invalid source IP.");
+    logger.error("[@systemfsoftware/trigger.dev_linear] Error validating webhook source, IP invalid.");
+    throw Error("[@systemfsoftware/trigger.dev_linear] Invalid source IP.");
   }
 
   const payloadUuid = request.headers.get("Linear-Delivery");
   const payloadEvent = request.headers.get("Linear-Event");
 
   if (!payloadUuid || !payloadEvent) {
-    logger.debug("[@trigger.dev/linear] Missing required Linear headers");
+    logger.debug("[@systemfsoftware/trigger.dev_linear] Missing required Linear headers");
     return { events: [] };
   }
 
   if (!request.body) {
-    logger.debug("[@trigger.dev/linear] No body found");
+    logger.debug("[@systemfsoftware/trigger.dev_linear] No body found");
     return { events: [] };
   }
 
   const signature = request.headers.get(LINEAR_WEBHOOK_SIGNATURE_HEADER);
 
   if (!signature) {
-    logger.error("[@trigger.dev/linear] Error validating webhook signature, no signature found");
-    throw Error("[@trigger.dev/linear] No signature found");
+    logger.error("[@systemfsoftware/trigger.dev_linear] Error validating webhook signature, no signature found");
+    throw Error("[@systemfsoftware/trigger.dev_linear] No signature found");
   }
 
   const rawBody = await request.text();
@@ -299,8 +299,8 @@ async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger, integ
   const webhookHelper = new LinearWebhooks(source.secret);
 
   if (!webhookHelper.verify(Buffer.from(rawBody), signature, body[LINEAR_WEBHOOK_TS_FIELD])) {
-    logger.error("[@trigger.dev/linear] Error validating webhook signature, they don't match");
-    throw Error("[@trigger.dev/linear] Invalid signature");
+    logger.error("[@systemfsoftware/trigger.dev_linear] Error validating webhook signature, they don't match");
+    throw Error("[@systemfsoftware/trigger.dev_linear] Invalid signature");
   }
 
   const webhookPayload = WebhookPayloadSchema.parse(body);

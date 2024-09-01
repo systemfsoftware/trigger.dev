@@ -1,4 +1,4 @@
-import { createAppRoute } from "@trigger.dev/nextjs";
+import { createAppRoute } from "@systemfsoftware/trigger.dev_nextjs";
 import { client } from "@/trigger";
 
 import "@/jobs/hooks";

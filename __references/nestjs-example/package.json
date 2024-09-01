@@ -20,8 +20,8 @@
     "@nestjs/config": "^3.0.1",
     "@nestjs/platform-express": "^10.0.0",
     "reflect-metadata": "^0.1.13",
-    "@trigger.dev/sdk": "workspace:*",
-    "@trigger.dev/nestjs": "workspace:*",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:*",
+    "@systemfsoftware/trigger.dev_nestjs": "workspace:*",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {

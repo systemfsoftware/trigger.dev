@@ -100,8 +100,8 @@
 		// "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
 		"skipLibCheck": true /* Skip type checking all .d.ts files. */,
 		"paths": {
-			"@trigger.dev/yalt": ["../../packages/yalt/src/index"],
-			"@trigger.dev/yalt/*": ["../../packages/yalt/src/*"]
+			"@systemfsoftware/trigger.dev_yalt": ["../../packages/yalt/src/index"],
+			"@systemfsoftware/trigger.dev_yalt/*": ["../../packages/yalt/src/*"]
 		}
 	}
 }

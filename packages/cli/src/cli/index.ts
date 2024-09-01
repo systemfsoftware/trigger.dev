@@ -80,7 +80,7 @@ program
   .argument("[path]", "The path where you would like the package to be created", ".")
   .option(
     "-n, --package-name <package name>",
-    "The name of the package to create (e.g. @trigger.dev/slack)"
+    "The name of the package to create (e.g. @systemfsoftware/trigger.dev_slack)"
   )
   .option(
     "-s, --sdk-package <integration package>",
@@ -102,7 +102,7 @@ program
 program
   .command("update")
   .description(
-    "Updates all @trigger.dev/* packages to their latest compatible versions or the specified version"
+    "Updates all @systemfsoftware/trigger.dev_* packages to their latest compatible versions or the specified version"
   )
   .argument("[path]", "The path to the directory that contains the package.json file", ".")
   .option("--to <version tag>", "The version to update to (ex: 2.1.4)", "latest")

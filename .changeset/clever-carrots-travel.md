@@ -1,7 +1,7 @@
 ---
-"@trigger.dev/sdk": patch
+"@systemfsoftware/trigger.dev_sdk": patch
 "trigger.dev": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Implement task.onSuccess/onFailure and config.onSuccess/onFailure

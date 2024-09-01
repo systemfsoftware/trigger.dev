@@ -1,5 +1,5 @@
 import { SemanticResourceAttributes } from "@opentelemetry/semantic-conventions";
-import { SemanticInternalAttributes } from "@trigger.dev/core/v3";
+import { SemanticInternalAttributes } from "@systemfsoftware/trigger.dev_core/v3";
 import {
   AnyValue,
   ExportLogsServiceRequest,
@@ -15,7 +15,7 @@ import {
   Span_Link,
   Span_SpanKind,
   Status_StatusCode,
-} from "@trigger.dev/otlp-importer";
+} from "@systemfsoftware/trigger.dev_otlp-importer";
 import {
   CreatableEventKind,
   CreatableEventStatus,

@@ -1,4 +1,4 @@
-import { InMemoryCache, createCache } from "@trigger.dev/sdk/v3";
+import { InMemoryCache, createCache } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const cache = createCache(new InMemoryCache());
 

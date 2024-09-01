@@ -1,3 +1,3 @@
 
-# @trigger.dev/linear
+# @systemfsoftware/trigger.dev_linear
   

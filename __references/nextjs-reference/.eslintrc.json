@@ -2,6 +2,6 @@
   "extends": ["next/core-web-vitals"],
   "plugins": ["@trigger.dev"],
   "rules": {
-    "@trigger.dev/no-duplicated-task-keys": 2
+    "@systemfsoftware/trigger.dev_no-duplicated-task-keys": 2
   }
 }

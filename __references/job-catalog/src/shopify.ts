@@ -1,8 +1,8 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
 
 import "@shopify/shopify-api/adapters/node";
-import { Shopify } from "@trigger.dev/shopify";
+import { Shopify } from "@systemfsoftware/trigger.dev_shopify";
 
 export const client = new TriggerClient({
   id: "job-catalog",

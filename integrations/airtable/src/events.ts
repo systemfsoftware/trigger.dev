@@ -1,4 +1,4 @@
-import { EventSpecification } from "@trigger.dev/sdk";
+import { EventSpecification } from "@systemfsoftware/trigger.dev_sdk";
 import { WebhookPayload } from "./schemas";
 
 type OnTableChanged = WebhookPayload;

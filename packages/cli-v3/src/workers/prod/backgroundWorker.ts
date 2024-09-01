@@ -15,9 +15,9 @@ import {
   TaskRunExecutionPayload,
   TaskRunExecutionResult,
   correctErrorStackTrace,
-} from "@trigger.dev/core/v3";
-import { ZodIpcConnection } from "@trigger.dev/core/v3/zodIpc";
-import type { InferSocketMessageSchema } from "@trigger.dev/core/v3/zodSocket";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { ZodIpcConnection } from "@systemfsoftware/trigger.dev_core/v3/zodIpc";
+import type { InferSocketMessageSchema } from "@systemfsoftware/trigger.dev_core/v3/zodSocket";
 import { Evt } from "evt";
 import { ChildProcess, fork } from "node:child_process";
 import {

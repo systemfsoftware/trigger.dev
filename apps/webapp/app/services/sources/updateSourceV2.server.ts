@@ -1,5 +1,5 @@
-import type { TriggerSource, UpdateTriggerSourceBodyV2 } from "@trigger.dev/core";
-import type { RuntimeEnvironment } from "@trigger.dev/database";
+import type { TriggerSource, UpdateTriggerSourceBodyV2 } from "@systemfsoftware/trigger.dev_core";
+import type { RuntimeEnvironment } from "@systemfsoftware/trigger.dev_database";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";
 import { getSecretStore } from "../secrets/secretStore.server";

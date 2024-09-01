@@ -1,4 +1,4 @@
-# @trigger.dev/core-backend
+# @systemfsoftware/trigger.dev_core-backend
 
 ## 3.0.0-beta.55
 
@@ -172,4 +172,4 @@
 
 ### Patch Changes
 
-- c1710ae7: Creates a new package @trigger.dev/core-backend that includes code shared between @trigger.dev/sdk and the Trigger.dev server
+- c1710ae7: Creates a new package @systemfsoftware/trigger.dev_core-backend that includes code shared between @systemfsoftware/trigger.dev_sdk and the Trigger.dev server

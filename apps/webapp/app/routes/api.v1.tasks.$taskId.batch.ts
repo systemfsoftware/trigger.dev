@@ -1,6 +1,6 @@
 import type { ActionFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { BatchTriggerTaskRequestBody } from "@trigger.dev/core/v3";
+import { BatchTriggerTaskRequestBody } from "@systemfsoftware/trigger.dev_core/v3";
 import { z } from "zod";
 import { MAX_BATCH_TRIGGER_ITEMS } from "~/consts";
 import { authenticateApiRequest } from "~/services/apiAuth.server";

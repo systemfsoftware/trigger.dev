@@ -1,4 +1,4 @@
-import { tasks, runs } from "@trigger.dev/sdk/v3";
+import { tasks, runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { anyPayloadTask } from "./trigger/simple";
 
 async function main() {

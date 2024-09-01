@@ -3,7 +3,7 @@ import {
   GetWebhookParams,
   WebhookSource,
   WebhookTrigger,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { shopifyEvent } from "./events";
 import { createWebhookEventSource } from "./webhooks";
 

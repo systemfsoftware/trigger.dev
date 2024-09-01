@@ -1,6 +1,6 @@
 "use client";
 
-import { useEventRunStatuses } from "@trigger.dev/react";
+import { useEventRunStatuses } from "@systemfsoftware/trigger.dev_react";
 
 export function EventRunData({ id }: { id: string }) {
   const { fetchStatus, error, statuses, run } = useEventRunStatuses(id);

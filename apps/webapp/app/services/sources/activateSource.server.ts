@@ -6,8 +6,8 @@ import {
   RegisterSourceEventV2,
   RegisterSourceEventOptions,
   RegisteredOptionsDiff,
-} from "@trigger.dev/core";
-import type { SecretReference, TriggerSource, TriggerSourceOption } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core";
+import type { SecretReference, TriggerSource, TriggerSourceOption } from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";

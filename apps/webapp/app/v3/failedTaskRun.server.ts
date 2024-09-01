@@ -1,4 +1,4 @@
-import { TaskRunFailedExecutionResult } from "@trigger.dev/core/v3";
+import { TaskRunFailedExecutionResult } from "@systemfsoftware/trigger.dev_core/v3";
 import { logger } from "~/services/logger.server";
 import { createExceptionPropertiesFromError, eventRepository } from "./eventRepository.server";
 import { BaseService } from "./services/baseService.server";

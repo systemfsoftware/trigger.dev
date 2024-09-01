@@ -1,4 +1,4 @@
-import { createAstroRoute } from "@trigger.dev/astro";
+import { createAstroRoute } from "@systemfsoftware/trigger.dev_astro";
 import {client} from "@/trigger"
 
 //import your jobs

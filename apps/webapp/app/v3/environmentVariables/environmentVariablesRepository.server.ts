@@ -3,7 +3,7 @@ import {
   PrismaClient,
   RuntimeEnvironment,
   RuntimeEnvironmentType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { environmentTitle } from "~/components/environments/EnvironmentLabel";
 import { $transaction, prisma } from "~/db.server";

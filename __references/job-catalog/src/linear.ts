@@ -1,6 +1,6 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { Linear, PaginationOrderBy, serializeLinearOutput } from "@trigger.dev/linear";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { Linear, PaginationOrderBy, serializeLinearOutput } from "@systemfsoftware/trigger.dev_linear";
 import { z } from "zod";
 
 export const client = new TriggerClient({

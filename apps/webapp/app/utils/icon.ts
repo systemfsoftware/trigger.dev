@@ -1,4 +1,4 @@
-import { hasIcon } from "@trigger.dev/companyicons";
+import { hasIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { iconNames as namedIcons } from "~/components/primitives/NamedIcon";
 import { tablerIcons } from "~/utils/tablerIcons";
 

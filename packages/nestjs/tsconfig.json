@@ -1,5 +1,5 @@
 {
-  "extends": "@trigger.dev/tsconfig/node18.json",
+  "extends": "@systemfsoftware/trigger.dev_tsconfig/node18.json",
   "include": ["./src/**/*.ts", "tsup.config.ts"],
   "compilerOptions": {
     "experimentalDecorators": true,
@@ -7,8 +7,8 @@
     "declaration": false,
     "declarationMap": false,
     "paths": {
-      "@trigger.dev/tsup/*": ["../../config-packages/tsup/src/*"],
-      "@trigger.dev/tsup": ["../../config-packages/tsup/src/index"]
+      "@systemfsoftware/trigger.dev_tsup/*": ["../../config-packages/tsup/src/*"],
+      "@systemfsoftware/trigger.dev_tsup": ["../../config-packages/tsup/src/index"]
     }
   },
   "exclude": ["node_modules"]

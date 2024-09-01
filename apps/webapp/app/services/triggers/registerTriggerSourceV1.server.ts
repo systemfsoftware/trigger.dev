@@ -1,4 +1,4 @@
-import { RegisterSourceEventV1, RegisterTriggerBodyV1 } from "@trigger.dev/core";
+import { RegisterSourceEventV1, RegisterTriggerBodyV1 } from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { $transaction, PrismaClient, prisma } from "~/db.server";
 import { env } from "~/env.server";

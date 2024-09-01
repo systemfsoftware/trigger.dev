@@ -1,1 +1,1 @@
-# @trigger.dev/shopify
+# @systemfsoftware/trigger.dev_shopify

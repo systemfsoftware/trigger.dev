@@ -1,5 +1,5 @@
-import { ApiEventLog } from "@trigger.dev/core";
-import { EventRecord } from "@trigger.dev/database";
+import { ApiEventLog } from "@systemfsoftware/trigger.dev_core";
+import { EventRecord } from "@systemfsoftware/trigger.dev_database";
 
 export function eventRecordToApiJson(eventRecord: EventRecord): ApiEventLog {
   return {

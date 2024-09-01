@@ -2,4 +2,4 @@
 "trigger.dev": patch
 ---
 
-Ensure @trigger.dev/sdk and @trigger.dev/core are always in the list of deployed dependencies
+Ensure @systemfsoftware/trigger.dev_sdk and @systemfsoftware/trigger.dev_core are always in the list of deployed dependencies

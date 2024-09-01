@@ -1,7 +1,7 @@
 import { Webhooks } from "@octokit/webhooks";
-import { omit, safeJsonParse } from "@trigger.dev/integration-kit";
-import type { Logger } from "@trigger.dev/sdk";
-import { ExternalSource, HandlerEvent } from "@trigger.dev/sdk";
+import { omit, safeJsonParse } from "@systemfsoftware/trigger.dev_integration-kit";
+import type { Logger } from "@systemfsoftware/trigger.dev_sdk";
+import { ExternalSource, HandlerEvent } from "@systemfsoftware/trigger.dev_sdk";
 import { z } from "zod";
 import { Github } from "./index";
 import { Buffer } from "node:buffer";

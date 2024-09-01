@@ -1,11 +1,11 @@
-import { EventFilter, IntegrationTaskKey, verifyRequestSignature } from "@trigger.dev/sdk";
+import { EventFilter, IntegrationTaskKey, verifyRequestSignature } from "@systemfsoftware/trigger.dev_sdk";
 import AirtableSDK from "airtable";
 import { z } from "zod";
 import * as events from "./events";
 import { Airtable, AirtableRunTask } from "./index";
 import { ListWebhooksResponse, ListWebhooksResponseSchema } from "./schemas";
-import { WebhookSource, WebhookTrigger } from "@trigger.dev/sdk";
-import { registerJobNamespace } from "@trigger.dev/integration-kit";
+import { WebhookSource, WebhookTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { registerJobNamespace } from "@systemfsoftware/trigger.dev_integration-kit";
 import { Buffer } from "node:buffer";
 
 const WebhookFromSourceSchema = z.union([
@@ -344,7 +344,7 @@ export function createWebhookSource(
       });
     },
     generateEvents: async ({ request, client, ctx }) => {
-      console.log("[@trigger.dev/airtable] Handling webhook payload");
+      console.log("[@systemfsoftware/trigger.dev_airtable] Handling webhook payload");
 
       const webhookPayload = ReceivedPayload.parse(await request.json());
 
@@ -366,7 +366,7 @@ export function createWebhookSource(
       );
 
       if (!response) {
-        return console.log("[@trigger.dev/airtable] No payload fetch response, nothing to do!");
+        return console.log("[@systemfsoftware/trigger.dev_airtable] No payload fetch response, nothing to do!");
       }
 
       await client.store.env.set(cursorKey, response.cursor);

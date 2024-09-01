@@ -4,7 +4,7 @@ function usageSample(hasApiKey: boolean): HelpSample {
   return {
     title: "Using the client",
     code: `
-import { Airtable } from "@trigger.dev/airtable";
+import { Airtable } from "@systemfsoftware/trigger.dev_airtable";
 
 const airtable = new Airtable({
   id: "__SLUG__"${hasApiKey ? ",\n  token: process.env.AIRTABLE_TOKEN!" : ""}
@@ -51,7 +51,7 @@ client.defineJob({
 export const airtable: Integration = {
   identifier: "airtable",
   name: "Airtable",
-  packageName: "@trigger.dev/airtable",
+  packageName: "@systemfsoftware/trigger.dev_airtable",
   authenticationMethods: {
     oauth2: {
       name: "OAuth2",

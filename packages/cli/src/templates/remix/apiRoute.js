@@ -1,4 +1,4 @@
-import { createRemixRoute } from "@trigger.dev/remix";
+import { createRemixRoute } from "@systemfsoftware/trigger.dev_remix";
 import { client } from "${routePathPrefix}trigger.server";
 
 // Remix will automatically strip files with side effects

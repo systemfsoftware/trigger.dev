@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/shopify",
+  "name": "@systemfsoftware/trigger.dev_shopify",
   "version": "3.0.0-beta.55",
   "description": "Trigger.dev integration for @shopify/shopify-api",
   "main": "./dist/index.js",
@@ -11,12 +11,12 @@
     "dist"
   ],
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/node": "16.x",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
     "typescript": "^5.3.0",
-    "@trigger.dev/tsup": "workspace:*"
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@shopify/shopify-api": "^8.0.2",
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55",
-    "@trigger.dev/integration-kit": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^3.0.0-beta.55",
     "zod": "3.22.3"
   },
   "engines": {

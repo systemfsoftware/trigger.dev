@@ -1,11 +1,11 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
 import {
   ComponentDividerSpacingSize,
   ComponentTextColor,
   ComponentTextSize,
   Plain,
-} from "@trigger.dev/plain";
+} from "@systemfsoftware/trigger.dev_plain";
 
 export const client = new TriggerClient({
   id: "job-catalog",

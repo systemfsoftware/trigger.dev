@@ -1,4 +1,4 @@
-import type { EndpointIndexSource } from "@trigger.dev/database";
+import type { EndpointIndexSource } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, prisma } from "~/db.server";
 import { PerformEndpointIndexService } from "./performEndpointIndexService";
 

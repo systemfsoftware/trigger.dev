@@ -8,7 +8,7 @@ description: "A task that is triggered on a recurring schedule using cron syntax
 This task will run when any of the attached schedules trigger. They have a predefined payload with some useful properties:
 
 ```ts
-import { schedules } from "@trigger.dev/sdk/v3";
+import { schedules } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const firstScheduledTask = schedules.task({
   id: "first-scheduled-task",
@@ -225,7 +225,7 @@ By using the `externalId` you can have schedules for your users. This is useful 
 A reminder task:
 
 ```ts /trigger/reminder.ts
-import { schedules } from "@trigger.dev/sdk/v3";
+import { schedules } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 //this task will run when any of the attached schedules trigger
 export const reminderTask = schedules.task({

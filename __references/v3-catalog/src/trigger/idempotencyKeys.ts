@@ -1,4 +1,4 @@
-import { idempotencyKeys, logger, task, wait, AbortTaskRunError } from "@trigger.dev/sdk/v3";
+import { idempotencyKeys, logger, task, wait, AbortTaskRunError } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const idempotencyKeyParent = task({
   id: "idempotency-key-parent",

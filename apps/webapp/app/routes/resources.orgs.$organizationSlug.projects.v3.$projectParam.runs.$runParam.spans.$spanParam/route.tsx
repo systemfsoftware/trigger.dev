@@ -6,7 +6,7 @@ import {
   formatDurationMilliseconds,
   nanosecondsToMilliseconds,
   TaskRunError,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { ReactNode, useEffect } from "react";
 import { typedjson, useTypedFetcher } from "remix-typedjson";
 import { ExitIcon } from "~/assets/icons/ExitIcon";

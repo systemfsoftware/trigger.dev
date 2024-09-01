@@ -17,8 +17,8 @@ import {
   formatDurationMilliseconds,
   millisecondsToNanoseconds,
   nanosecondsToMilliseconds,
-} from "@trigger.dev/core/v3";
-import { RuntimeEnvironmentType } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { RuntimeEnvironmentType } from "@systemfsoftware/trigger.dev_database";
 import { motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useHotkeys } from "react-hotkeys-hook";

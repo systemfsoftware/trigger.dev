@@ -1,4 +1,4 @@
-import { formatDuration } from "@trigger.dev/core/v3";
+import { formatDuration } from "@systemfsoftware/trigger.dev_core/v3";
 import { useEffect, useState } from "react";
 
 export function LiveTimer({

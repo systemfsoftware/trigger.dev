@@ -1,4 +1,4 @@
-import { logger, task, wait } from "@trigger.dev/sdk/v3";
+import { logger, task, wait } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { setTimeout } from "node:timers/promises";
 
 export const loggingTask = task({

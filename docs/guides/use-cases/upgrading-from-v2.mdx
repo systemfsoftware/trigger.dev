@@ -22,10 +22,10 @@ First, the old v2 code, which uses the OpenAI integration. Comments inline:
 
 ```ts v2 OpenAI task
 import { client } from "~/trigger";
-import { eventTrigger } from "@trigger.dev/sdk";
+import { eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 
 //1. A Trigger.dev integration for OpenAI
-import { OpenAI } from "@trigger.dev/openai";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
 const openai = new OpenAI({
   id: "openai",
   apiKey: process.env["OPENAI_API_KEY"]!,
@@ -87,7 +87,7 @@ client.defineJob({
 In v3 we eliminate a lot of code mainly because we don't need tricks to try avoid timeouts. Here's the equivalent v3 code:
 
 ```ts v3 OpenAI task
-import { logger, task, wait } from "@trigger.dev/sdk/v3";
+import { logger, task, wait } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 //1. Official OpenAI SDK
 import OpenAI from "openai";
@@ -170,7 +170,7 @@ async function yourBackendFunction() {
 1. Make sure to upgrade all of your trigger.dev packages to v3 first.
 
 ```bash
-npx @trigger.dev/cli@beta update --to beta
+npx @systemfsoftware/trigger.dev_cli@beta update --to beta
 ```
 
 2. Follow the [v3 quick start](/quick-start) to get started with v3. Our new CLI will take care of the rest.

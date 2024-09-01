@@ -18,8 +18,8 @@ import {
   isExceptionSpanEvent,
   omit,
   unflattenAttributes,
-} from "@trigger.dev/core/v3";
-import { Prisma, TaskEvent, TaskEventStatus, type TaskEventKind } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { Prisma, TaskEvent, TaskEventStatus, type TaskEventKind } from "@systemfsoftware/trigger.dev_database";
 import Redis, { RedisOptions } from "ioredis";
 import { createHash } from "node:crypto";
 import { EventEmitter } from "node:stream";

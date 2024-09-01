@@ -1,4 +1,4 @@
-import { RegisterDynamicSchedulePayload, SCHEDULED_EVENT } from "@trigger.dev/core";
+import { RegisterDynamicSchedulePayload, SCHEDULED_EVENT } from "@systemfsoftware/trigger.dev_core";
 import { PrismaClientOrTransaction, prisma } from "~/db.server";
 import { ExtendedEndpoint, findEndpoint } from "~/models/endpoint.server";
 

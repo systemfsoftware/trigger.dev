@@ -1,4 +1,4 @@
-import { EventFilter, TriggerMetadata, deepMergeFilters } from "@trigger.dev/core";
+import { EventFilter, TriggerMetadata, deepMergeFilters } from "@systemfsoftware/trigger.dev_core";
 import { Job } from "../job";
 import { TriggerClient } from "../triggerClient";
 import {

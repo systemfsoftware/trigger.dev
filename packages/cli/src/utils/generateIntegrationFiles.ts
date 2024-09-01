@@ -36,7 +36,7 @@ function createExampleMessages() {
     {
       role: "assistant",
       content: createExampleResponse({
-        packageName: "@trigger.dev/slack",
+        packageName: "@systemfsoftware/trigger.dev_slack",
         sdkPackage: "@slack/web-api",
         files: {
           "index.ts": `
@@ -59,7 +59,7 @@ import {
   type RunTaskErrorCallback,
   type RunTaskOptions,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 
 export type SlackIntegrationOptions = {
   id: string;
@@ -226,7 +226,7 @@ function isPlatformError(error: unknown): error is WebAPIPlatformError {
     {
       role: "user",
       content: createPrompt(
-        "@trigger.dev/typeform",
+        "@systemfsoftware/trigger.dev_typeform",
         "@typeform/api-client",
         'Note that the only auth method support for typeform is API Key so authSource() should be "LOCAL"'
       ),
@@ -234,11 +234,11 @@ function isPlatformError(error: unknown): error is WebAPIPlatformError {
     {
       role: "assistant",
       content: createExampleResponse({
-        packageName: "@trigger.dev/typeform",
+        packageName: "@systemfsoftware/trigger.dev_typeform",
         sdkPackage: "@typeform/api-client",
         files: {
           "index.ts": `
-import { safeParseBody } from "@trigger.dev/integration-kit";
+import { safeParseBody } from "@systemfsoftware/trigger.dev_integration-kit";
 import {
   ConnectionAuth,
   EventSpecification,
@@ -254,7 +254,7 @@ import {
   RunTaskOptions,
   TriggerIntegration,
   retry,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { createClient } from "@typeform/api-client";
 import { createHmac } from "node:crypto";
 import { z } from "zod";
@@ -341,7 +341,7 @@ export class Typeform implements TriggerIntegration {
 }       
           `,
           "forms.ts": `
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import { GetFormParams, GetFormResponse, ListFormsParams, TypeformRunTask } from ".";
 import { Typeform } from "@typeform/api-client";
 
@@ -392,7 +392,7 @@ export class Forms {
 }
           `,
           "responses.ts": `
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import {
   GetAllResponsesParams,
   GetAllResponsesResponse,
@@ -475,7 +475,7 @@ export class Responses {
           
           `,
           "types.ts": `
-          import { Prettify } from "@trigger.dev/integration-kit";
+          import { Prettify } from "@systemfsoftware/trigger.dev_integration-kit";
 import { Typeform, createClient } from "@typeform/api-client";
 
 export type TypeformIntegrationOptions = {

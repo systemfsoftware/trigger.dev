@@ -1,5 +1,5 @@
 import { CheckCircleIcon, ClockIcon, XCircleIcon } from "@heroicons/react/20/solid";
-import { EndpointIndexStatus } from "@trigger.dev/database";
+import { EndpointIndexStatus } from "@systemfsoftware/trigger.dev_database";
 import { cn } from "~/utils/cn";
 import { Spinner } from "../primitives/Spinner";
 

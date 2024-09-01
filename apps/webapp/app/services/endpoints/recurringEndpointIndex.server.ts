@@ -1,7 +1,7 @@
 import { PrismaClient, prisma } from "~/db.server";
 import { logger } from "../logger.server";
 import { workerQueue } from "../worker.server";
-import { RuntimeEnvironmentType } from "@trigger.dev/database";
+import { RuntimeEnvironmentType } from "@systemfsoftware/trigger.dev_database";
 
 export class RecurringEndpointIndexService {
   #prismaClient: PrismaClient;

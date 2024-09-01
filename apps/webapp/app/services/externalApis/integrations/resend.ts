@@ -3,7 +3,7 @@ import type { Integration } from "../types";
 export const resend: Integration = {
   identifier: "resend",
   name: "Resend",
-  packageName: "@trigger.dev/resend@latest",
+  packageName: "@systemfsoftware/trigger.dev_resend@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -12,7 +12,7 @@ export const resend: Integration = {
           {
             title: "Creating the client",
             code: `
-import { Resend } from "@trigger.dev/resend";
+import { Resend } from "@systemfsoftware/trigger.dev_resend";
 
 const resend = new Resend({
   id: "__SLUG__",

@@ -1,4 +1,4 @@
-import type { TriggerClient } from "@trigger.dev/sdk";
+import type { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 import type { APIRoute } from "astro";
 
 export function createAstroRoute(client: TriggerClient) {

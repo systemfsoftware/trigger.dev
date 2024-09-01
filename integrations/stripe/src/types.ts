@@ -1,6 +1,6 @@
 /// <reference types="stripe-event-types" />
 import { Stripe } from "stripe";
-import { Prettify } from "@trigger.dev/integration-kit";
+import { Prettify } from "@systemfsoftware/trigger.dev_integration-kit";
 
 export type StripeSDK = Stripe;
 

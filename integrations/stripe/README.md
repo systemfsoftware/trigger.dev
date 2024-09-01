@@ -1,1 +1,1 @@
-# @trigger.dev/stripe
+# @systemfsoftware/trigger.dev_stripe

@@ -1,4 +1,4 @@
-import type { EventDispatcher } from "@trigger.dev/database";
+import type { EventDispatcher } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { workerQueue } from "../worker.server";
 import { DeliverScheduledEventService } from "./deliverScheduledEvent.server";

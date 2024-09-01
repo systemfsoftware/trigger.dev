@@ -1,4 +1,4 @@
-import type { TriggerConfig, ResolveEnvironmentVariablesFunction } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig, ResolveEnvironmentVariablesFunction } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { OpenAIInstrumentation } from "@traceloop/instrumentation-openai";
 import { AppDataSource } from "@/trigger/orm";
 import { InfisicalClient } from "@infisical/sdk";

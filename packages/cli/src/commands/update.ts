@@ -73,7 +73,7 @@ export async function updateCommand(projectPath: string, anyOptions: any) {
 
   // If there are no @trigger.dev packages
   if (triggerPackages.length === 0) {
-    logger.success(`✔ All @trigger.dev/* packages are up to date.`);
+    logger.success(`✔ All @systemfsoftware/trigger.dev_* packages are up to date.`);
     return;
   }
 
@@ -83,7 +83,7 @@ export async function updateCommand(projectPath: string, anyOptions: any) {
 
   // If no packages require any updation
   if (packagesToUpdate.length === 0) {
-    logger.success(`✔ All @trigger.dev/* packages are up to date.`);
+    logger.success(`✔ All @systemfsoftware/trigger.dev_* packages are up to date.`);
     return;
   }
 

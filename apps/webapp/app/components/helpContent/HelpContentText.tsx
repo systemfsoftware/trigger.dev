@@ -181,7 +181,7 @@ export function HowToDisableAJob({
         stepNumber="2"
         title={
           <>
-            Run the <InlineCode>@trigger.dev/cli dev</InlineCode> command
+            Run the <InlineCode>@systemfsoftware/trigger.dev_cli dev</InlineCode> command
           </>
         }
       />

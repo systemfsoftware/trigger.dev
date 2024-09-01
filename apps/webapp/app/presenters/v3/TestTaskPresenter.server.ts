@@ -1,10 +1,10 @@
-import { ScheduledTaskPayload, parsePacket, prettyPrintPacket } from "@trigger.dev/core/v3";
+import { ScheduledTaskPayload, parsePacket, prettyPrintPacket } from "@systemfsoftware/trigger.dev_core/v3";
 import {
   RuntimeEnvironmentType,
   TaskRunAttemptStatus,
   TaskRunStatus,
   TaskTriggerSource,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { sqlDatabaseSchema, PrismaClient, prisma } from "~/db.server";
 import { getTimezones } from "~/utils/timezones.server";
 import { getUsername } from "~/utils/username";

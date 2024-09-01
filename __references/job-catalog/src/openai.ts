@@ -1,6 +1,6 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { TriggerClient, eventTrigger, invokeTrigger } from "@trigger.dev/sdk";
-import { OpenAI } from "@trigger.dev/openai";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { TriggerClient, eventTrigger, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
 import fs from "node:fs";
 import fsPromises from "node:fs/promises";
 import { z } from "zod";

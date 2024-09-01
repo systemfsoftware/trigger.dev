@@ -1,4 +1,4 @@
-import { logger, type HandleErrorFunction } from "@trigger.dev/sdk/v3";
+import { logger, type HandleErrorFunction } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const handleError: HandleErrorFunction = async (
   payload,

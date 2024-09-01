@@ -1,5 +1,5 @@
-import type { Endpoint } from "@trigger.dev/database";
-import type { SourceMetadataV2 } from "@trigger.dev/core";
+import type { Endpoint } from "@systemfsoftware/trigger.dev_database";
+import type { SourceMetadataV2 } from "@systemfsoftware/trigger.dev_core";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";
 import { prisma } from "~/db.server";
 import type { AuthenticatedEnvironment } from "../apiAuth.server";

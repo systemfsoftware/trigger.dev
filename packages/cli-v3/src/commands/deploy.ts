@@ -6,8 +6,8 @@ import {
   TaskMetadataFailedToParseData,
   detectDependencyVersion,
   flattenAttributes,
-} from "@trigger.dev/core/v3";
-import { recordSpanException } from "@trigger.dev/core/v3/workers";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { recordSpanException } from "@systemfsoftware/trigger.dev_core/v3/workers";
 import { Command, Option as CommandOption } from "commander";
 import { Metafile, build } from "esbuild";
 import { execa } from "execa";
@@ -1790,24 +1790,24 @@ export async function resolveRequiredDependencies(
       }
     }
 
-    if (!dependencies["@trigger.dev/sdk"]) {
-      logger.debug("Adding missing @trigger.dev/sdk dependency", {
+    if (!dependencies["@systemfsoftware/trigger.dev_sdk"]) {
+      logger.debug("Adding missing @systemfsoftware/trigger.dev_sdk dependency", {
         version: packageJson.version,
       });
 
       span.setAttribute("addingMissingSDK", packageJson.version);
 
-      dependencies["@trigger.dev/sdk"] = packageJson.version;
+      dependencies["@systemfsoftware/trigger.dev_sdk"] = packageJson.version;
     }
 
-    if (!dependencies["@trigger.dev/core"]) {
-      logger.debug("Adding missing @trigger.dev/core dependency", {
+    if (!dependencies["@systemfsoftware/trigger.dev_core"]) {
+      logger.debug("Adding missing @systemfsoftware/trigger.dev_core dependency", {
         version: packageJson.version,
       });
 
       span.setAttribute("addingMissingCore", packageJson.version);
 
-      dependencies["@trigger.dev/core"] = packageJson.version;
+      dependencies["@systemfsoftware/trigger.dev_core"] = packageJson.version;
     }
 
     // Make sure we sort the dependencies by key to ensure consistent hashing

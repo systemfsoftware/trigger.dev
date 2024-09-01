@@ -1,4 +1,4 @@
-import type { TaskRunAttemptStatus, TaskRunStatus } from "@trigger.dev/database";
+import type { TaskRunAttemptStatus, TaskRunStatus } from "@systemfsoftware/trigger.dev_database";
 
 export const CANCELLABLE_RUN_STATUSES: TaskRunStatus[] = [
   "DELAYED",

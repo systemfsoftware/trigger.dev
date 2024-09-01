@@ -1,4 +1,4 @@
-export type { FetchRetryOptions, FetchTimeoutOptions } from "@trigger.dev/core";
+export type { FetchRetryOptions, FetchTimeoutOptions } from "@systemfsoftware/trigger.dev_core";
 
 export type Nullable<T> = T extends Record<string, any>
   ? {

@@ -20,7 +20,7 @@ import { useV2OnboardingApiKey } from "../_app.orgs.$organizationSlug.projects.$
 const AppModuleCode = `
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { TriggerDevModule } from '@trigger.dev/nestjs';
+import { TriggerDevModule } from '@systemfsoftware/trigger.dev_nestjs';
 
 @Module({
   imports: [
@@ -44,8 +44,8 @@ export class AppModule {}
 
 const JobControllerCode = `
 import { Controller, Get } from '@nestjs/common';
-import { InjectTriggerDevClient } from '@trigger.dev/nestjs';
-import { eventTrigger, TriggerClient } from '@trigger.dev/sdk';
+import { InjectTriggerDevClient } from '@systemfsoftware/trigger.dev_nestjs';
+import { eventTrigger, TriggerClient } from '@systemfsoftware/trigger.dev_sdk';
 
 @Controller()
 export class JobController {
@@ -78,7 +78,7 @@ export class JobController {
 const AppModuleWithControllerCode = `
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { TriggerDevModule } from '@trigger.dev/nestjs';
+import { TriggerDevModule } from '@systemfsoftware/trigger.dev_nestjs';
 import { JobController } from './job.controller';
 
 @Module({
@@ -147,7 +147,7 @@ export default function SetupNestJS() {
         <StepNumber stepNumber="1" title="Add the dependencies" />
         <StepContentContainer>
           <InstallPackages
-            packages={["@trigger.dev/sdk", "@trigger.dev/nestjs", "@nestjs/config"]}
+            packages={["@systemfsoftware/trigger.dev_sdk", "@systemfsoftware/trigger.dev_nestjs", "@nestjs/config"]}
           />
         </StepContentContainer>
         <StepNumber stepNumber="2" title="Add the environment variables" />

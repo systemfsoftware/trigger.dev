@@ -4,7 +4,7 @@ import { HashtagIcon, LockClosedIcon } from "@heroicons/react/20/solid";
 import { Form, useActionData, useNavigate, useNavigation } from "@remix-run/react";
 import { type LoaderFunctionArgs } from "@remix-run/router";
 import { type ActionFunctionArgs, json } from "@remix-run/server-runtime";
-import { SlackIcon } from "@trigger.dev/companyicons";
+import { SlackIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { useEffect, useState } from "react";
 import { typedjson, useTypedLoaderData } from "remix-typedjson";
 import { z } from "zod";

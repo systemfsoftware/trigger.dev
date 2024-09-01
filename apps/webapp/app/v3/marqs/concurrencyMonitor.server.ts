@@ -1,4 +1,4 @@
-import { Logger } from "@trigger.dev/core-backend";
+import { Logger } from "@systemfsoftware/trigger.dev_core-backend";
 import { Redis } from "ioredis";
 import { prisma } from "~/db.server";
 import { logger } from "~/services/logger.server";

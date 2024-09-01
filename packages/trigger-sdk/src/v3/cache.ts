@@ -1,4 +1,4 @@
-import { SemanticInternalAttributes } from "@trigger.dev/core/v3";
+import { SemanticInternalAttributes } from "@systemfsoftware/trigger.dev_core/v3";
 import { tracer } from "./tracer";
 
 export type CacheMetadata = {

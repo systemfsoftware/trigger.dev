@@ -6,32 +6,32 @@ description: Using the Trigger.dev v3 management API
 
 ## Installation
 
-The management API is available through the same `@trigger.dev/sdk` package used in defining and triggering tasks. If you have already installed the package in your project, you can skip this step.
+The management API is available through the same `@systemfsoftware/trigger.dev_sdk` package used in defining and triggering tasks. If you have already installed the package in your project, you can skip this step.
 
 <Note>Make sure you use the `beta` tag when installing, as v3 is still in Developer Preview.</Note>
 
 <CodeGroup>
 
 ```bash npm
-npm i @trigger.dev/sdk@beta
+npm i @systemfsoftware/trigger.dev_sdk@beta
 ```
 
 ```bash pnpm
-pnpm add @trigger.dev/sdk@beta
+pnpm add @systemfsoftware/trigger.dev_sdk@beta
 ```
 
 ```bash yarn
-yarn add @trigger.dev/sdk@beta
+yarn add @systemfsoftware/trigger.dev_sdk@beta
 ```
 
 </CodeGroup>
 
 ## Usage
 
-All `v3` functionality is provided through the `@trigger.dev/sdk/v3` module. You can import the entire module or individual resources as needed.
+All `v3` functionality is provided through the `@systemfsoftware/trigger.dev_sdk/v3` module. You can import the entire module or individual resources as needed.
 
 ```ts
-import { configure, runs } from "@trigger.dev/sdk/v3";
+import { configure, runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 configure({
   // this is the default and if the `TRIGGER_SECRET_KEY` environment variable is set, can omit calling configure
@@ -60,7 +60,7 @@ There are two methods of authenticating with the management API: using a secret 
 Certain API functions work with both authentication methods, but require different arguments depending on the method used. For example, the `runs.list` function can be called using either a `secretKey` or a `personalAccessToken`, but the `projectRef` argument is required when using a `personalAccessToken`:
 
 ```ts
-import { configure, runs } from "@trigger.dev/sdk/v3";
+import { configure, runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 // Using secretKey authentication
 configure({
@@ -127,7 +127,7 @@ A PAT is a token associated with a specific user, and gives access to all the or
 For example, when uploading environment variables using a PAT, you must provide the `projectRef` and `environment` arguments:
 
 ```ts
-import { configure, envvars } from "@trigger.dev/sdk/v3";
+import { configure, envvars } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 configure({
   secretKey: process.env["TRIGGER_ACCESS_TOKEN"], // starts with tr_pat_
@@ -146,7 +146,7 @@ await envvars.upload("proj_1234", "dev", {
 When the SDK method is unable to connect to the API server, or the API server returns a non-successful response, the SDK will throw an `ApiError` that you can catch and handle:
 
 ```ts
-import { runs, APIError } from "@trigger.dev/sdk/v3";
+import { runs, APIError } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 async function main() {
   try {
@@ -168,7 +168,7 @@ The SDK will automatically retry requests that fail due to network errors or ser
 You can customize the retry behavior by passing a `requestOptions` option to the `configure` function:
 
 ```ts
-import { configure } from "@trigger.dev/sdk/v3";
+import { configure } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 configure({
   requestOptions: {
@@ -186,7 +186,7 @@ configure({
 All SDK functions also take a `requestOptions` parameter as the last argument, which can be used to customize the request options. You can use this to disable retries for a specific request:
 
 ```ts
-import { runs } from "@trigger.dev/sdk/v3";
+import { runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 async function main() {
   const run = await runs.retrieve("run_1234", {
@@ -208,7 +208,7 @@ All list endpoints in the management API support auto-pagination.
 You can use `for await … of` syntax to iterate through items across all pages:
 
 ```ts
-import { runs } from "@trigger.dev/sdk/v3";
+import { runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 async function fetchAllRuns() {
   const allRuns = [];
@@ -224,7 +224,7 @@ async function fetchAllRuns() {
 You can also use helpers on the return value from any `list` method to get the next/previous page of results:
 
 ```ts
-import { runs } from "@trigger.dev/sdk/v3";
+import { runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 async function main() {
   let page = await runs.list({ limit: 10 });
@@ -247,7 +247,7 @@ async function main() {
 All API methods return a `Promise` subclass `ApiPromise` that includes helpers for accessing the underlying HTTP response:
 
 ```ts
-import { runs } from "@trigger.dev/sdk/v3";
+import { runs } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 async function main() {
   const { data: run, response: raw } = await runs.retrieve("run_1234").withResponse();

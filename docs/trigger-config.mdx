@@ -9,7 +9,7 @@ import BundlePackages from '/snippets/bundle-packages.mdx';
 Let's take a look at a basic `trigger.config.ts` file. This is generated for you when you follow [the quick start guide](/quick-start). This file is used to configure your project and how it's bundled.
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   //Your project ref (you can see it on the Project settings page in the dashboard)
@@ -38,7 +38,7 @@ Most of the time you don't need to change anything in this file, or if you do th
 You can run code before any task is run by adding a `init` function to your `trigger.config.ts` file.
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   //..other stuff
@@ -55,7 +55,7 @@ You'll have access to the run payload and the context object. Currently you cann
 You can add lifecycle functions to get notified when any task starts, succeeds, or fails using `onStart`, `onSuccess` and `onFailure`:
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   //..other stuff
@@ -82,7 +82,7 @@ We use OpenTelemetry (OTEL) for our run logs. This means you get a lot of inform
 Here we add Prisma and OpenAI instrumentations to your `trigger.config.ts` file.
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { PrismaInstrumentation } from "@prisma/instrumentation";
 import { OpenAIInstrumentation } from "@traceloop/instrumentation-openai";
 
@@ -168,7 +168,7 @@ Prisma works by generating a client from your `prisma.schema` file. This means y
   <Step title="Add prisma and the schema to trigger.config.ts">
 
     ```ts trigger.config.ts
-    import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+    import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
     export const config: TriggerConfig = {
       //..other stuff
@@ -234,7 +234,7 @@ export const AppDataSource = new DataSource({
 And then in your trigger.config.ts file you can initialize the datasource using the `onStart` lifecycle function option:
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { AppDataSource } from "@/trigger/orm";
 
 export const config: TriggerConfig = {
@@ -248,7 +248,7 @@ export const config: TriggerConfig = {
 Now you are ready to use this in your tasks:
 
 ```ts
-import { task } from "@trigger.dev/sdk/v3";
+import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { AppDataSource, Photo } from "./orm";
 
 export const taskThatUsesDecorators = task({

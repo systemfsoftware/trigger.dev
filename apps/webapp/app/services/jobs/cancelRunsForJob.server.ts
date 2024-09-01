@@ -2,7 +2,7 @@ import { $transaction, PrismaClient, prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "../apiAuth.server";
 import { CancelRunService } from "../runs/cancelRun.server";
 import { logger } from "../logger.server";
-import { CancelRunsForJob } from "@trigger.dev/core";
+import { CancelRunsForJob } from "@systemfsoftware/trigger.dev_core";
 import { JobRunStatus } from "~/database-types";
 
 const CANCELLABLE_JOB_RUN_STATUS: Array<keyof typeof JobRunStatus> = [

@@ -6,7 +6,7 @@ import {
   RectangleStackIcon,
   XCircleIcon,
 } from "@heroicons/react/20/solid";
-import type { TaskRunAttemptStatus as TaskRunAttemptStatusType } from "@trigger.dev/database";
+import type { TaskRunAttemptStatus as TaskRunAttemptStatusType } from "@systemfsoftware/trigger.dev_database";
 import { TaskRunAttemptStatus } from "~/database-types";
 import assertNever from "assert-never";
 import { SnowflakeIcon } from "lucide-react";

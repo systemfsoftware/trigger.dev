@@ -1,6 +1,6 @@
 import type { LoaderFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { GetProjectEnvResponse } from "@trigger.dev/core/v3";
+import { GetProjectEnvResponse } from "@systemfsoftware/trigger.dev_core/v3";
 import { z } from "zod";
 import { prisma } from "~/db.server";
 import { env as processEnv } from "~/env.server";

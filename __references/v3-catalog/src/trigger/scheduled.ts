@@ -1,4 +1,4 @@
-import { logger, schedules, task } from "@trigger.dev/sdk/v3";
+import { logger, schedules, task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const firstScheduledTask = schedules.task({
   id: "first-scheduled-task",

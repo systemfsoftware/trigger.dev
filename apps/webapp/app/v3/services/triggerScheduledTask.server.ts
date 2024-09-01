@@ -3,7 +3,7 @@ import { BaseService } from "./baseService.server";
 import { workerQueue } from "~/services/worker.server";
 import { RegisterNextTaskScheduleInstanceService } from "./registerNextTaskScheduleInstance.server";
 import { TriggerTaskService } from "./triggerTask.server";
-import { stringifyIO } from "@trigger.dev/core/v3";
+import { stringifyIO } from "@systemfsoftware/trigger.dev_core/v3";
 import { nextScheduledTimestamps } from "../utils/calculateNextSchedule.server";
 import { findCurrentWorkerDeployment } from "../models/workerDeployment.server";
 import { logger } from "~/services/logger.server";

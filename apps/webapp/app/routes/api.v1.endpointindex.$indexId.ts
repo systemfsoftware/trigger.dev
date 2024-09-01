@@ -1,4 +1,4 @@
-import { GetEndpointIndexResponse, GetEndpointIndexResponseSchema } from "@trigger.dev/core";
+import { GetEndpointIndexResponse, GetEndpointIndexResponseSchema } from "@systemfsoftware/trigger.dev_core";
 import { ActionFunctionArgs, json } from "@remix-run/server-runtime";
 import { z } from "zod";
 import { prisma } from "~/db.server";

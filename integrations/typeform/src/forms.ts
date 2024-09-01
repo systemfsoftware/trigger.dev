@@ -1,4 +1,4 @@
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import { GetFormParams, GetFormResponse, ListFormsParams, TypeformRunTask } from ".";
 import { Typeform } from "@typeform/api-client";
 

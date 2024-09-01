@@ -1,4 +1,4 @@
-import { task, tasks, runs, logger, schedules, envvars } from "@trigger.dev/sdk/v3";
+import { task, tasks, runs, logger, schedules, envvars } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const sdkUsage = task({
   id: "sdk-usage",

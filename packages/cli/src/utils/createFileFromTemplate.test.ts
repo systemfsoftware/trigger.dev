@@ -7,14 +7,14 @@ afterEach(() => {
   mock.restore();
 });
 
-const preReplacement = `import { createPagesRoute } from "@trigger.dev/nextjs";
+const preReplacement = `import { createPagesRoute } from "@systemfsoftware/trigger.dev_nextjs";
 import { client } from "\${routePathPrefix}trigger";
 import { other } from "\${routePathPrefix}trigger";
 import "\${anotherPathPrefix}jobs";
 
 const { handler, config } = createPagesRoute(client);`;
 
-const postReplacement = `import { createPagesRoute } from "@trigger.dev/nextjs";
+const postReplacement = `import { createPagesRoute } from "@systemfsoftware/trigger.dev_nextjs";
 import { client } from "@/trigger";
 import { other } from "@/trigger";
 import "@/src/jobs";

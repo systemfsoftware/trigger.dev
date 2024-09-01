@@ -4,9 +4,9 @@ import {
   parsePacket,
   RunTags,
   stringifyIO,
-} from "@trigger.dev/core/v3";
-import { replaceSuperJsonPayload } from "@trigger.dev/core/v3/utils/ioSerialization";
-import { TaskRun } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { replaceSuperJsonPayload } from "@systemfsoftware/trigger.dev_core/v3/utils/ioSerialization";
+import { TaskRun } from "@systemfsoftware/trigger.dev_database";
 import { findEnvironmentById } from "~/models/runtimeEnvironment.server";
 import { getTagsForRunId } from "~/models/taskRunTag.server";
 import { logger } from "~/services/logger.server";

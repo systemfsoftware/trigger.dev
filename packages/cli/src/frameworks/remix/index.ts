@@ -38,9 +38,9 @@ export class Remix implements Framework {
 
   async dependencies(): Promise<InstallPackage[]> {
     return [
-      { name: "@trigger.dev/sdk", tag: "latest" },
-      { name: "@trigger.dev/remix", tag: "latest" },
-      { name: "@trigger.dev/react", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_sdk", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_remix", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_react", tag: "latest" },
     ];
   }
 

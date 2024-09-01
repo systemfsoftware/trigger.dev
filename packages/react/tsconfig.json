@@ -7,8 +7,8 @@
     "strict": true,
     "lib": ["es2015", "dom"],
     "paths": {
-      "@trigger.dev/core": ["../core/src/index"],
-      "@trigger.dev/core/*": ["../core/src/*"]
+      "@systemfsoftware/trigger.dev_core": ["../core/src/index"],
+      "@systemfsoftware/trigger.dev_core/*": ["../core/src/*"]
     }
   },
   "exclude": ["node_modules"]

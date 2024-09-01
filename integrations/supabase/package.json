@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/supabase",
+  "name": "@systemfsoftware/trigger.dev_supabase",
   "version": "3.0.0-beta.55",
   "description": "Trigger.dev integration for @supabase/supabase-js",
   "main": "./dist/index.js",
@@ -11,12 +11,12 @@
     "dist"
   ],
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/node": "18.x",
     "rimraf": "^3.0.2",
     "tsup": "8.0.1",
     "typescript": "^5.3.0",
-    "@trigger.dev/tsup": "workspace:*"
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.26.0",
-    "@trigger.dev/integration-kit": "workspace:^3.0.0-beta.55",
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
     "supabase-management-js": "^1.0.0",
     "zod": "3.22.3"
   },

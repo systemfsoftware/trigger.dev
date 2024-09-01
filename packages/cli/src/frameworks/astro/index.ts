@@ -38,9 +38,9 @@ export class Astro implements Framework {
 
   async dependencies(): Promise<InstallPackage[]> {
     return [
-      { name: "@trigger.dev/sdk", tag: "latest" },
-      { name: "@trigger.dev/astro", tag: "latest" },
-      { name: "@trigger.dev/react", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_sdk", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_astro", tag: "latest" },
+      { name: "@systemfsoftware/trigger.dev_react", tag: "latest" },
     ];
   }
 

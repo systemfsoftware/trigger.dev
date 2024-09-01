@@ -3,8 +3,8 @@ import {
   ExternalBuildData,
   TaskMetadataFailedToParseData,
   groupTaskMetadataIssuesByTask,
-} from "@trigger.dev/core/v3";
-import { WorkerDeployment, WorkerDeploymentStatus } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { WorkerDeployment, WorkerDeploymentStatus } from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { PrismaClient, prisma } from "~/db.server";
 import { Organization } from "~/models/organization.server";

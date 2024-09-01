@@ -1,5 +1,5 @@
-import { ScheduleMetadataSchema } from "@trigger.dev/core";
-import { User } from "@trigger.dev/database";
+import { ScheduleMetadataSchema } from "@systemfsoftware/trigger.dev_core";
+import { User } from "@systemfsoftware/trigger.dev_database";
 import { Organization } from "~/models/organization.server";
 import { Project } from "~/models/project.server";
 import { calculateNextScheduledEvent } from "~/services/schedules/nextScheduledEvent.server";

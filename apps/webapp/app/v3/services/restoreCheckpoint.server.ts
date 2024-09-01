@@ -1,4 +1,4 @@
-import { type Checkpoint } from "@trigger.dev/database";
+import { type Checkpoint } from "@systemfsoftware/trigger.dev_database";
 import { logger } from "~/services/logger.server";
 import { socketIo } from "../handleSocketIo.server";
 import { machinePresetFromConfig } from "../machinePresets.server";

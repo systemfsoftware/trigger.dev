@@ -1,4 +1,4 @@
-import { MachinePresetName, prettyPrintPacket, TaskRunError } from "@trigger.dev/core/v3";
+import { MachinePresetName, prettyPrintPacket, TaskRunError } from "@systemfsoftware/trigger.dev_core/v3";
 import { RUNNING_STATUSES } from "~/components/runs/v3/TaskRunStatus";
 import { eventRepository } from "~/v3/eventRepository.server";
 import { machinePresetFromName } from "~/v3/machinePresets.server";

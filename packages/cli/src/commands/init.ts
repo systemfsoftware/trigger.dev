@@ -171,7 +171,7 @@ async function printNextSteps(
   logger.info("Next steps:");
   logger.info(`   1. Run your ${framework.name} project locally with '${packageManager} run dev'`);
   logger.info(
-    `   2. In a separate terminal, run 'npx @trigger.dev/cli@latest dev' to watch for changes and automatically register Trigger.dev jobs`
+    `   2. In a separate terminal, run 'npx @systemfsoftware/trigger.dev_cli@latest dev' to watch for changes and automatically register Trigger.dev jobs`
   );
   logger.info(`   3. View your jobs at ${projectUrl}`);
 

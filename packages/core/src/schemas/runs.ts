@@ -34,7 +34,7 @@ export const RunTaskSchema = z.object({
   name: z.string(),
   /** The icon of the Task, a string.
    * For integrations, this will be a lowercase name of the company.
-   * Can be used with the [@trigger.dev/companyicons](https://www.npmjs.com/package/@trigger.dev/companyicons) package to display an svg. */
+   * Can be used with the [@systemfsoftware/trigger.dev_companyicons](https://www.npmjs.com/package/@systemfsoftware/trigger.dev_companyicons) package to display an svg. */
   icon: z.string().nullable(),
   /** When the task started */
   startedAt: z.coerce.date().nullable(),

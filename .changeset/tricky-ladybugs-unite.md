@@ -1,8 +1,8 @@
 ---
-"@trigger.dev/sdk": patch
-"@trigger.dev/core-apps": patch
+"@systemfsoftware/trigger.dev_sdk": patch
+"@systemfsoftware/trigger.dev_core-apps": patch
 "trigger.dev": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
-Extracting out all the non-SDK related features from the main @trigger.dev/core/v3 export
+Extracting out all the non-SDK related features from the main @systemfsoftware/trigger.dev_core/v3 export

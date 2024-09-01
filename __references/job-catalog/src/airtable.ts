@@ -1,7 +1,7 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
 import { z } from "zod";
-import { Airtable, Collaborator, Formula } from "@trigger.dev/airtable";
+import { Airtable, Collaborator, Formula } from "@systemfsoftware/trigger.dev_airtable";
 
 export const client = new TriggerClient({
   id: "job-catalog",

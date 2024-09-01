@@ -4,16 +4,16 @@
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
     "paths": {
-      "@trigger.dev/sdk": ["../../packages/trigger-sdk/src/index"],
-      "@trigger.dev/sdk/*": ["../../packages/trigger-sdk/src/*"],
-      "@trigger.dev/hono": ["../../packages/hono/src/index"],
-      "@trigger.dev/hono/*": ["../../packages/hono/src/*"],
-      "@trigger.dev/core": ["../../packages/core/src/index"],
-      "@trigger.dev/core/*": ["../../packages/core/src/*"],
-      "@trigger.dev/integration-kit": ["../../packages/integration-kit/src/index"],
-      "@trigger.dev/integration-kit/*": ["../../packages/integration-kit/src/*"],
-      "@trigger.dev/openai": ["../../integrations/openai/src/index"],
-      "@trigger.dev/openai/*": ["../../integrations/openai/src/*"]
+      "@systemfsoftware/trigger.dev_sdk": ["../../packages/trigger-sdk/src/index"],
+      "@systemfsoftware/trigger.dev_sdk/*": ["../../packages/trigger-sdk/src/*"],
+      "@systemfsoftware/trigger.dev_hono": ["../../packages/hono/src/index"],
+      "@systemfsoftware/trigger.dev_hono/*": ["../../packages/hono/src/*"],
+      "@systemfsoftware/trigger.dev_core": ["../../packages/core/src/index"],
+      "@systemfsoftware/trigger.dev_core/*": ["../../packages/core/src/*"],
+      "@systemfsoftware/trigger.dev_integration-kit": ["../../packages/integration-kit/src/index"],
+      "@systemfsoftware/trigger.dev_integration-kit/*": ["../../packages/integration-kit/src/*"],
+      "@systemfsoftware/trigger.dev_openai": ["../../integrations/openai/src/index"],
+      "@systemfsoftware/trigger.dev_openai/*": ["../../integrations/openai/src/*"]
     }
   }
 }

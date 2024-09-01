@@ -1,5 +1,5 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { Job, TriggerClient, invokeTrigger } from "@trigger.dev/sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { Job, TriggerClient, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import fs from "node:fs";
 import fsPromises from "node:fs/promises";
 

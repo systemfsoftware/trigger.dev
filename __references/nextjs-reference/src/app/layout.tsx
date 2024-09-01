@@ -1,7 +1,7 @@
 /* eslint-disable turbo/no-undeclared-env-vars */
 
 import { ReactQuery } from "@/components/ReactQuery";
-import { TriggerProvider } from "@trigger.dev/react";
+import { TriggerProvider } from "@systemfsoftware/trigger.dev_react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

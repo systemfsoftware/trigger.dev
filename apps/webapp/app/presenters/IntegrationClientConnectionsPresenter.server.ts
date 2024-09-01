@@ -1,4 +1,4 @@
-import { User } from "@trigger.dev/database";
+import { User } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, prisma } from "~/db.server";
 import { Organization } from "~/models/organization.server";
 import { ConnectionMetadataSchema } from "~/services/externalApis/types";

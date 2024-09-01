@@ -1,4 +1,4 @@
-import { BatchTaskRunExecutionResult } from "@trigger.dev/core/v3";
+import { BatchTaskRunExecutionResult } from "@systemfsoftware/trigger.dev_core/v3";
 import { executionResultForTaskRun } from "~/models/taskRun.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { BasePresenter } from "./basePresenter.server";

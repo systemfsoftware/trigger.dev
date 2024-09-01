@@ -6,8 +6,8 @@ import {
   Prettify,
   RunNotification,
   SuccessfulRunNotification,
-} from "@trigger.dev/core";
-import { LogLevel } from "@trigger.dev/core-backend";
+} from "@systemfsoftware/trigger.dev_core";
+import { LogLevel } from "@systemfsoftware/trigger.dev_core-backend";
 import { ConcurrencyLimit } from "./concurrencyLimit";
 import { IOWithIntegrations, TriggerIntegration } from "./integrations";
 import { runLocalStorage } from "./runLocalStorage";

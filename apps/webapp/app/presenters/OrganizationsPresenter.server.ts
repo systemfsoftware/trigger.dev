@@ -1,4 +1,4 @@
-import { PrismaClient } from "@trigger.dev/database";
+import { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 import { redirect } from "remix-typedjson";
 import { prisma } from "~/db.server";
 import { redirectWithErrorMessage } from "~/models/message.server";

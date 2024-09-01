@@ -5,7 +5,7 @@ import {
   clock,
   taskCatalog,
   type HandleErrorFunction,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import {
   TaskExecutor,
   DurableClock,
@@ -16,7 +16,7 @@ import {
   type TracingSDK,
   usage,
   DevUsageManager,
-} from "@trigger.dev/core/v3/workers";
+} from "@systemfsoftware/trigger.dev_core/v3/workers";
 
 __WORKER_SETUP__;
 declare const __WORKER_SETUP__: unknown;
@@ -39,13 +39,13 @@ import {
   logger,
   runtime,
   workerToChildMessages,
-} from "@trigger.dev/core/v3";
-import { DevRuntimeManager } from "@trigger.dev/core/v3/dev";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { DevRuntimeManager } from "@systemfsoftware/trigger.dev_core/v3/dev";
 import {
   ZodMessageHandler,
   ZodMessageSender,
   ZodSchemaParsedError,
-} from "@trigger.dev/core/v3/zodMessageHandler";
+} from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
 import type { Tracer } from "@opentelemetry/api";
 import type { Logger } from "@opentelemetry/api-logs";
 

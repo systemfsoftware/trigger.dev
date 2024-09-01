@@ -1,4 +1,4 @@
-import { TriggerClient } from "@trigger.dev/sdk";
+import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 
 export const client = new TriggerClient({
   id: "${endpointSlug}",

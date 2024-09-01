@@ -1,8 +1,8 @@
 import { CalendarDaysIcon, ReceiptRefundIcon } from "@heroicons/react/20/solid";
 import { ArrowUpCircleIcon } from "@heroicons/react/24/outline";
 import { Outlet } from "@remix-run/react";
-import { ActiveSubscription } from "@trigger.dev/platform/v2";
-import { formatDurationInDays } from "@trigger.dev/core/v3";
+import { ActiveSubscription } from "@systemfsoftware/trigger.dev_platform/v2";
+import { formatDurationInDays } from "@systemfsoftware/trigger.dev_core/v3";
 import { PageBody, PageContainer } from "~/components/layout/AppLayout";
 import { LinkButton } from "~/components/primitives/Buttons";
 import { DateTime } from "~/components/primitives/DateTime";

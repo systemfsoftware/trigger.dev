@@ -5,7 +5,7 @@ import {
   RegisterWebhookSource,
   TriggerMetadata,
   deepMergeFilters,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { IOWithIntegrations, TriggerIntegration } from "../integrations";
 import { IO } from "../io";
 import { Job } from "../job";
@@ -18,8 +18,8 @@ import type {
   VerifyResult,
 } from "../types";
 import { slugifyId } from "../utils";
-import { SerializableJson } from "@trigger.dev/core";
-import { Prettify } from "@trigger.dev/core";
+import { SerializableJson } from "@systemfsoftware/trigger.dev_core";
+import { Prettify } from "@systemfsoftware/trigger.dev_core";
 import { createHash } from "node:crypto";
 
 type WebhookCRUDContext<TParams extends any, TConfig extends Record<string, string[]>> = {

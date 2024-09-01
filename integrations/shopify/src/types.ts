@@ -3,7 +3,7 @@ import {
   OmitIndexSignature,
   OmitValues,
   Prettify,
-} from "@trigger.dev/integration-kit";
+} from "@systemfsoftware/trigger.dev_integration-kit";
 import { ShopifyRestResources } from "./index";
 
 type OmitNonSerializable<T> = OmitFunctions<OmitIndexSignature<T>>;

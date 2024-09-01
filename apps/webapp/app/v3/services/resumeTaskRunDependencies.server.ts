@@ -1,4 +1,4 @@
-import { BatchTaskRunItem, TaskRunAttempt, TaskRunDependency } from "@trigger.dev/database";
+import { BatchTaskRunItem, TaskRunAttempt, TaskRunDependency } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";
 import { workerQueue } from "~/services/worker.server";
 import { BaseService } from "./baseService.server";

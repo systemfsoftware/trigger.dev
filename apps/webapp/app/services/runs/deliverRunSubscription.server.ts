@@ -1,4 +1,4 @@
-import { RunNotification } from "@trigger.dev/core";
+import { RunNotification } from "@systemfsoftware/trigger.dev_core";
 import { subtle } from "node:crypto";
 import { PrismaClient, prisma } from "~/db.server";
 import { EndpointApi } from "../endpointApi.server";

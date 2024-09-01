@@ -1,3 +1,3 @@
 
-# @trigger.dev/airtable
+# @systemfsoftware/trigger.dev_airtable
   

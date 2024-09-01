@@ -43,8 +43,8 @@ import {
   WebhookDeliveryResponse,
   WebhookMetadata,
   WebhookSourceRequestHeadersSchema,
-} from "@trigger.dev/core";
-import { LogLevel, Logger } from "@trigger.dev/core-backend";
+} from "@systemfsoftware/trigger.dev_core";
+import { LogLevel, Logger } from "@systemfsoftware/trigger.dev_core-backend";
 import EventEmitter from "node:events";
 import { env } from "node:process";
 import * as packageJson from "../package.json";
@@ -686,7 +686,7 @@ export class TriggerClient {
 
     if (existingRegisteredJob && options.__internal !== true) {
       console.warn(
-        `[@trigger.dev/sdk] Warning: The Job "${existingRegisteredJob.id}" you're attempting to define has already been defined. Please assign a different ID to the job.`
+        `[@systemfsoftware/trigger.dev_sdk] Warning: The Job "${existingRegisteredJob.id}" you're attempting to define has already been defined. Please assign a different ID to the job.`
       );
     }
 
@@ -729,7 +729,7 @@ export class TriggerClient {
     const existingHttpEndpoint = this.#registeredHttpEndpoints[options.id];
     if (!suppressWarnings && existingHttpEndpoint) {
       console.warn(
-        `[@trigger.dev/sdk] Warning: The HttpEndpoint "${existingHttpEndpoint.id}" you're attempting to define has already been defined. Please assign a different ID to the HttpEndpoint.`
+        `[@systemfsoftware/trigger.dev_sdk] Warning: The HttpEndpoint "${existingHttpEndpoint.id}" you're attempting to define has already been defined. Please assign a different ID to the HttpEndpoint.`
       );
     }
 

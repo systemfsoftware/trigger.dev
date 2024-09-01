@@ -5,7 +5,7 @@ import {
   RequestFilter,
   RequestWithRawBodySchema,
   TriggerMetadata,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { ParsedPayloadSchemaError } from "./errors";
 import { Job } from "./job";
 import { TriggerClient } from "./triggerClient";

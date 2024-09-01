@@ -1,4 +1,4 @@
-import { createRemixRoute } from "@trigger.dev/remix";
+import { createRemixRoute } from "@systemfsoftware/trigger.dev_remix";
 
 import { client } from "~/trigger";
 

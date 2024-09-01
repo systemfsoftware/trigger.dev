@@ -1,5 +1,5 @@
 import { type ActionFunctionArgs, json } from "@remix-run/server-runtime";
-import type { TriggerClient } from "@trigger.dev/sdk";
+import type { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 
 export function createRemixRoute(client: TriggerClient) {
   const action = async ({ request }: ActionFunctionArgs) => {

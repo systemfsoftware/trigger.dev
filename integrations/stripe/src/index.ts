@@ -13,7 +13,7 @@ import {
   type HandlerEvent,
   type Logger,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { Stripe as StripeClient } from "stripe";
 import type { StripeIntegrationOptions, WebhookEvents } from "./types";
 
@@ -67,7 +67,7 @@ export class Stripe implements TriggerIntegration {
    *
    * @example
    * ```ts
-   * import { Stripe } from "@trigger.dev/stripe";
+   * import { Stripe } from "@systemfsoftware/trigger.dev_stripe";
    *
    * const stripe = new Stripe({
    *  id: "stripe",
@@ -1133,12 +1133,12 @@ function createWebhookEventSource(
 }
 
 async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger) {
-  logger.debug("[@trigger.dev/stripe] Handling webhook payload");
+  logger.debug("[@systemfsoftware/trigger.dev_stripe] Handling webhook payload");
 
   const { rawEvent: request, source } = event;
 
   if (!request.body) {
-    logger.debug("[@trigger.dev/stripe] No body found");
+    logger.debug("[@systemfsoftware/trigger.dev_stripe] No body found");
 
     return { events: [] };
   }
@@ -1172,11 +1172,11 @@ async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger) {
       };
     } catch (error) {
       if (error instanceof Error) {
-        logger.error("[@trigger.dev/stripe] Error while validating webhook signature", {
+        logger.error("[@systemfsoftware/trigger.dev_stripe] Error while validating webhook signature", {
           error: { name: error.name, message: error.message },
         });
       } else {
-        logger.error("[@trigger.dev/stripe] Unknown Error while validating webhook signature");
+        logger.error("[@systemfsoftware/trigger.dev_stripe] Unknown Error while validating webhook signature");
       }
 
       return { events: [] };

@@ -1,4 +1,4 @@
-# @trigger.dev/eslint-plugin
+# @systemfsoftware/trigger.dev_eslint-plugin
 
 ## 3.0.0-beta.55
 

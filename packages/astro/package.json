@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/astro",
+  "name": "@systemfsoftware/trigger.dev_astro",
   "description": "An Astro-native integration for Trigger.dev background jobs platform",
   "version": "3.0.0-beta.55",
   "main": "./dist/index.js",
@@ -20,11 +20,11 @@
     "build:tsup": "tsup"
   },
   "peerDependencies": {
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55"
   },
   "devDependencies": {
     "astro": "^3.0.12",
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/ws": "^8.5.3",
     "rimraf": "^3.0.2",

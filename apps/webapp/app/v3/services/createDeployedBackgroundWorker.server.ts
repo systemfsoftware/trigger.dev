@@ -1,5 +1,5 @@
-import { CreateBackgroundWorkerRequestBody } from "@trigger.dev/core/v3";
-import type { BackgroundWorker } from "@trigger.dev/database";
+import { CreateBackgroundWorkerRequestBody } from "@systemfsoftware/trigger.dev_core/v3";
+import type { BackgroundWorker } from "@systemfsoftware/trigger.dev_database";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { generateFriendlyId } from "../friendlyIdentifiers";
 import { BaseService } from "./baseService.server";

@@ -1,4 +1,4 @@
-import { PrismaClient } from "@trigger.dev/database";
+import { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 
 type SetDBCallback = (prisma: PrismaClient) => Promise<void>;
 

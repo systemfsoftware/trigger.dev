@@ -1,5 +1,5 @@
 import { Buffer } from "node:buffer";
-import { IntegrationTaskKey } from "@trigger.dev/sdk";
+import { IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import OpenAI from "openai";
 import { OpenAIRunTask } from "./index";
 import { OpenAIIntegrationOptions, OpenAIRequestOptions } from "./types";

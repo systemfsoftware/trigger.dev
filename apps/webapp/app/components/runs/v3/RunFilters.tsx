@@ -13,7 +13,7 @@ import type {
   TaskTriggerSource,
   TaskRunStatus,
   BulkActionType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { ListFilterIcon } from "lucide-react";
 import type { ReactNode } from "react";
 import { startTransition, useCallback, useEffect, useMemo, useState } from "react";

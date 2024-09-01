@@ -10,8 +10,8 @@ import {
   calculateRetryAt,
   eventFilterMatches,
   responseFilterMatches,
-} from "@trigger.dev/core";
-import { type Task } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core";
+import { type Task } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClient, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { formatUnknownError } from "~/utils/formatErrors.server";
 import { safeJsonFromResponse } from "~/utils/json";

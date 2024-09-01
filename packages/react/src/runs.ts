@@ -1,7 +1,7 @@
 "use client";
 
 import { UseQueryResult, useQuery } from "@tanstack/react-query";
-import { GetRun, GetRunOptions, GetRunSchema, urlWithSearchParams } from "@trigger.dev/core";
+import { GetRun, GetRunOptions, GetRunSchema, urlWithSearchParams } from "@systemfsoftware/trigger.dev_core";
 import { useTriggerProvider } from "./TriggerProvider";
 import { zodfetch } from "./fetch";
 

@@ -1,6 +1,6 @@
 ---
-"@trigger.dev/sdk": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_sdk": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Updates the `trigger`, `batchTrigger` and their `*AndWait` variants to use the first parameter for the payload/items, and the second parameter for options.

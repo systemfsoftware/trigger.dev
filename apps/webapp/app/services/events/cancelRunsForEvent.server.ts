@@ -3,8 +3,8 @@ import { $transaction, prisma } from "~/db.server";
 import type { AuthenticatedEnvironment } from "../apiAuth.server";
 import { CancelRunService } from "../runs/cancelRun.server";
 import { logger } from "../logger.server";
-import type { CancelRunsForEvent } from "@trigger.dev/core";
-import type { JobRunStatus as JobRunStatusType } from "@trigger.dev/database";
+import type { CancelRunsForEvent } from "@systemfsoftware/trigger.dev_core";
+import type { JobRunStatus as JobRunStatusType } from "@systemfsoftware/trigger.dev_database";
 import { JobRunStatus } from "~/database-types";
 
 

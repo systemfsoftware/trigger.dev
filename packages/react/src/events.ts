@@ -1,7 +1,7 @@
 "use client";
 
 import { UseQueryResult, useQuery } from "@tanstack/react-query";
-import { GetEvent, GetEventSchema } from "@trigger.dev/core";
+import { GetEvent, GetEventSchema } from "@systemfsoftware/trigger.dev_core";
 import { useTriggerProvider } from "./TriggerProvider";
 import { zodfetch } from "./fetch";
 import { RunDetailOptions, UseRunDetailsResult, runResolvedStatuses, useRunDetails } from "./runs";

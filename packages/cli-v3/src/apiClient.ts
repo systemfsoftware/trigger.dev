@@ -17,8 +17,8 @@ import {
   ImportEnvironmentVariablesRequestBody,
   EnvironmentVariableResponseBody,
   TaskRunExecution,
-} from "@trigger.dev/core/v3";
-import { zodfetch, ApiError } from "@trigger.dev/core/v3/zodfetch";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { zodfetch, ApiError } from "@systemfsoftware/trigger.dev_core/v3/zodfetch";
 
 export class CliApiClient {
   private readonly apiURL: string;

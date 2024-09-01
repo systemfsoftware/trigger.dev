@@ -10,12 +10,12 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@trigger.dev/sdk": "workspace:*",
-    "@trigger.dev/stripe": "workspace:*",
-    "@trigger.dev/testing": "workspace:*"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:*",
+    "@systemfsoftware/trigger.dev_stripe": "workspace:*",
+    "@systemfsoftware/trigger.dev_testing": "workspace:*"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "tsconfig-paths": "^3.14.1",
     "typescript": "^5.2.2",
     "vitest": "^0.34.3",

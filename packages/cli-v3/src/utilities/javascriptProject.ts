@@ -7,8 +7,8 @@ import { PackageJson } from "type-fest";
 import { assertExhaustive } from "./assertExhaustive";
 import { builtinModules } from "node:module";
 import { tracer } from "../cli/common";
-import { recordSpanException } from "@trigger.dev/core/v3/otel";
-import { flattenAttributes } from "@trigger.dev/core/v3";
+import { recordSpanException } from "@systemfsoftware/trigger.dev_core/v3/otel";
+import { flattenAttributes } from "@systemfsoftware/trigger.dev_core/v3";
 
 export type ResolveOptions = { allowDev: boolean };
 export type DependencyMeta = { version: string; external: boolean };

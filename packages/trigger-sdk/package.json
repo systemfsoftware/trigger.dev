@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/sdk",
+  "name": "@systemfsoftware/trigger.dev_sdk",
   "version": "3.0.0-beta.55",
   "description": "trigger.dev Node.JS SDK",
   "license": "MIT",
@@ -48,8 +48,8 @@
     "@opentelemetry/api": "^1.8.0",
     "@opentelemetry/api-logs": "^0.48.0",
     "@opentelemetry/semantic-conventions": "^1.22.0",
-    "@trigger.dev/core": "workspace:3.0.0-beta.55",
-    "@trigger.dev/core-backend": "workspace:3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_core": "workspace:3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_core-backend": "workspace:3.0.0-beta.55",
     "chalk": "^5.2.0",
     "cronstrue": "^2.21.0",
     "debug": "^4.3.4",
@@ -66,8 +66,8 @@
     "msw": "^2.2.1"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/node": "18",
     "@types/slug": "^5.0.3",

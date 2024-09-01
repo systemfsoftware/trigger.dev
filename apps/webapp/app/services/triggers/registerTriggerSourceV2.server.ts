@@ -3,7 +3,7 @@ import {
   RegisterSourceEventV2,
   RegisterTriggerBodyV2,
   RegisteredOptionsDiff,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { $transaction, PrismaClient, prisma } from "~/db.server";
 import { env } from "~/env.server";

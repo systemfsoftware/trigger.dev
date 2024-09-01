@@ -23,7 +23,7 @@ const userAnnotation: ScopeAnnotation = {
 const usageSample: HelpSample = {
   title: "Using the client",
   code: `
-import { Github, events } from "@trigger.dev/github";
+import { Github, events } from "@systemfsoftware/trigger.dev_github";
 
 const github = new Github({
   id: "__SLUG__",
@@ -65,7 +65,7 @@ client.defineJob({
 export const github: Integration = {
   identifier: "github",
   name: "GitHub",
-  packageName: "@trigger.dev/github@latest",
+  packageName: "@systemfsoftware/trigger.dev_github@latest",
   authenticationMethods: {
     oauth2: {
       name: "OAuth",
@@ -301,7 +301,7 @@ export const github: Integration = {
           {
             title: "Creating the client",
             code: `
-import { Github } from "@trigger.dev/github";
+import { Github } from "@systemfsoftware/trigger.dev_github";
 
 const github = new Github({
   id: "__SLUG__"
@@ -319,7 +319,7 @@ const github = new Github({
           {
             title: "Creating the client",
             code: `
-import { Github } from "@trigger.dev/github";
+import { Github } from "@systemfsoftware/trigger.dev_github";
 
 const github = new Github({
   id: "__SLUG__",

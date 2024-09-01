@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 v3: fix missing init output in task run function when no middleware is defined

@@ -1,6 +1,6 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { Github, events } from "@trigger.dev/github";
-import { DynamicTrigger, TriggerClient, eventTrigger } from "@trigger.dev/sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { Github, events } from "@systemfsoftware/trigger.dev_github";
+import { DynamicTrigger, TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { z } from "zod";
 
 export const client = new TriggerClient({

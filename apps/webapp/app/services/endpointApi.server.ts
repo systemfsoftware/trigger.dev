@@ -19,7 +19,7 @@ import {
   ValidateResponse,
   ValidateResponseSchema,
   WebhookDeliveryResponseSchema,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { performance } from "node:perf_hooks";
 import { safeBodyFromResponse, safeParseBodyFromResponse } from "~/utils/json";
 import { logger } from "./logger.server";

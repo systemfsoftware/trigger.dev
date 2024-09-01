@@ -1,5 +1,5 @@
 {
-  "extends": "@trigger.dev/tsconfig/node18.json",
+  "extends": "@systemfsoftware/trigger.dev_tsconfig/node18.json",
   "include": [
     "./src/**/*.ts"
   ],
@@ -13,106 +13,106 @@
       "@/*": [
         "./src/*"
       ],
-      "@trigger.dev/sdk": [
+      "@systemfsoftware/trigger.dev_sdk": [
         "../../packages/trigger-sdk/src/index"
       ],
-      "@trigger.dev/sdk/*": [
+      "@systemfsoftware/trigger.dev_sdk/*": [
         "../../packages/trigger-sdk/src/*"
       ],
-      "@trigger.dev/express": [
+      "@systemfsoftware/trigger.dev_express": [
         "../../packages/express/src/index"
       ],
-      "@trigger.dev/express/*": [
+      "@systemfsoftware/trigger.dev_express/*": [
         "../../packages/express/src/*"
       ],
-      "@trigger.dev/core": [
+      "@systemfsoftware/trigger.dev_core": [
         "../../packages/core/src/index"
       ],
-      "@trigger.dev/core/*": [
+      "@systemfsoftware/trigger.dev_core/*": [
         "../../packages/core/src/*"
       ],
-      "@trigger.dev/integration-kit": [
+      "@systemfsoftware/trigger.dev_integration-kit": [
         "../../packages/integration-kit/src/index"
       ],
-      "@trigger.dev/integration-kit/*": [
+      "@systemfsoftware/trigger.dev_integration-kit/*": [
         "../../packages/integration-kit/src/*"
       ],
-      "@trigger.dev/github": [
+      "@systemfsoftware/trigger.dev_github": [
         "../../integrations/github/src/index"
       ],
-      "@trigger.dev/github/*": [
+      "@systemfsoftware/trigger.dev_github/*": [
         "../../integrations/github/src/*"
       ],
-      "@trigger.dev/slack": [
+      "@systemfsoftware/trigger.dev_slack": [
         "../../integrations/slack/src/index"
       ],
-      "@trigger.dev/slack/*": [
+      "@systemfsoftware/trigger.dev_slack/*": [
         "../../integrations/slack/src/*"
       ],
-      "@trigger.dev/openai": [
+      "@systemfsoftware/trigger.dev_openai": [
         "../../integrations/openai/src/index"
       ],
-      "@trigger.dev/openai/*": [
+      "@systemfsoftware/trigger.dev_openai/*": [
         "../../integrations/openai/src/*"
       ],
-      "@trigger.dev/resend": [
+      "@systemfsoftware/trigger.dev_resend": [
         "../../integrations/resend/src/index"
       ],
-      "@trigger.dev/resend/*": [
+      "@systemfsoftware/trigger.dev_resend/*": [
         "../../integrations/resend/src/*"
       ],
-      "@trigger.dev/typeform": [
+      "@systemfsoftware/trigger.dev_typeform": [
         "../../integrations/typeform/src/index"
       ],
-      "@trigger.dev/typeform/*": [
+      "@systemfsoftware/trigger.dev_typeform/*": [
         "../../integrations/typeform/src/*"
       ],
-      "@trigger.dev/plain": [
+      "@systemfsoftware/trigger.dev_plain": [
         "../../integrations/plain/src/index"
       ],
-      "@trigger.dev/plain/*": [
+      "@systemfsoftware/trigger.dev_plain/*": [
         "../../integrations/plain/src/*"
       ],
-      "@trigger.dev/supabase": [
+      "@systemfsoftware/trigger.dev_supabase": [
         "../../integrations/supabase/src/index"
       ],
-      "@trigger.dev/supabase/*": [
+      "@systemfsoftware/trigger.dev_supabase/*": [
         "../../integrations/supabase/src/*"
       ],
-      "@trigger.dev/stripe": [
+      "@systemfsoftware/trigger.dev_stripe": [
         "../../integrations/stripe/src/index"
       ],
-      "@trigger.dev/stripe/*": [
+      "@systemfsoftware/trigger.dev_stripe/*": [
         "../../integrations/stripe/src/*"
       ],
-      "@trigger.dev/sendgrid": [
+      "@systemfsoftware/trigger.dev_sendgrid": [
         "../../integrations/sendgrid/src/index"
       ],
-      "@trigger.dev/sendgrid/*": [
+      "@systemfsoftware/trigger.dev_sendgrid/*": [
         "../../integrations/sendgrid/src/*"
       ],
-      "@trigger.dev/airtable": [
+      "@systemfsoftware/trigger.dev_airtable": [
         "../../integrations/airtable/src/index"
       ],
-      "@trigger.dev/airtable/*": [
+      "@systemfsoftware/trigger.dev_airtable/*": [
         "../../integrations/airtable/src/*"
       ],
-      "@trigger.dev/linear": [
+      "@systemfsoftware/trigger.dev_linear": [
         "../../integrations/linear/src/index"
       ],
-      "@trigger.dev/linear/*": [
+      "@systemfsoftware/trigger.dev_linear/*": [
         "../../integrations/linear/src/*"
       ],
-      "@trigger.dev/replicate": [
+      "@systemfsoftware/trigger.dev_replicate": [
         "../../integrations/replicate/src/index"
       ],
-      "@trigger.dev/replicate/*": [
+      "@systemfsoftware/trigger.dev_replicate/*": [
         "../../integrations/replicate/src/*"
       ],
-      "@trigger.dev/shopify": [
+      "@systemfsoftware/trigger.dev_shopify": [
         "../../integrations/shopify/src/index"
       ],
-      "@trigger.dev/shopify/*": [
+      "@systemfsoftware/trigger.dev_shopify/*": [
         "../../integrations/shopify/src/*"
       ]
     }

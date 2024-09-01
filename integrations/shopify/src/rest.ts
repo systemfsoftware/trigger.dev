@@ -1,5 +1,5 @@
 import { PageInfo, Session } from "@shopify/shopify-api";
-import { OmitIndexSignature, Optional, SomeNonNullable } from "@trigger.dev/integration-kit";
+import { OmitIndexSignature, Optional, SomeNonNullable } from "@systemfsoftware/trigger.dev_integration-kit";
 import { z } from "zod";
 import { ShopifyRestResources, ShopifyRunTask } from "./index";
 import { basicProperties, serializeShopifyResource } from "./utils";

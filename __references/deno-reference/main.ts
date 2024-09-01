@@ -1,5 +1,5 @@
-import { TriggerClient } from "npm:@trigger.dev/sdk";
-import { eventTrigger } from "npm:@trigger.dev/sdk";
+import { TriggerClient } from "npm:@systemfsoftware/trigger.dev_sdk";
+import { eventTrigger } from "npm:@systemfsoftware/trigger.dev_sdk";
 
 export const triggerClient = new TriggerClient({
   id: "borderless",

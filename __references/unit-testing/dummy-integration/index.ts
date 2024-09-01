@@ -6,8 +6,8 @@ import type {
   RunTaskErrorCallback,
   RunTaskOptions,
   TriggerIntegration,
-} from "@trigger.dev/sdk";
-import { IntegrationTaskKey, retry } from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
+import { IntegrationTaskKey, retry } from "@systemfsoftware/trigger.dev_sdk";
 
 type DummyIntegrationOptions = {
   id: string;

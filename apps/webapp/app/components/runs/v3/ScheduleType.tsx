@@ -1,5 +1,5 @@
 import { ArchiveBoxIcon, ArrowsRightLeftIcon } from "@heroicons/react/20/solid";
-import type { ScheduleType } from "@trigger.dev/database";
+import type { ScheduleType } from "@systemfsoftware/trigger.dev_database";
 import { cn } from "~/utils/cn";
 
 export function ScheduleTypeCombo({ type, className }: { type: ScheduleType; className?: string }) {

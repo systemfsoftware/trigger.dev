@@ -1,5 +1,5 @@
-import { CreateBackgroundWorkerRequestBody, TaskResource } from "@trigger.dev/core/v3";
-import type { BackgroundWorker } from "@trigger.dev/database";
+import { CreateBackgroundWorkerRequestBody, TaskResource } from "@systemfsoftware/trigger.dev_core/v3";
+import type { BackgroundWorker } from "@systemfsoftware/trigger.dev_database";
 import { Prisma, PrismaClientOrTransaction } from "~/db.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { logger } from "~/services/logger.server";

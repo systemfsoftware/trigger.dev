@@ -12,7 +12,7 @@ import {
   SEMATTRS_MESSAGING_OPERATION,
   SEMATTRS_MESSAGING_SYSTEM,
 } from "@opentelemetry/semantic-conventions";
-import { flattenAttributes } from "@trigger.dev/core/v3";
+import { flattenAttributes } from "@systemfsoftware/trigger.dev_core/v3";
 import Redis, { type Callback, type RedisOptions, type Result } from "ioredis";
 import { env } from "~/env.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";

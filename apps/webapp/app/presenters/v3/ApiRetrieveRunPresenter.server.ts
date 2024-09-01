@@ -8,8 +8,8 @@ import {
   createJsonErrorObject,
   logger,
   parsePacket,
-} from "@trigger.dev/core/v3";
-import { Prisma, TaskRunAttemptStatus, TaskRunStatus } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { Prisma, TaskRunAttemptStatus, TaskRunStatus } from "@systemfsoftware/trigger.dev_database";
 import assertNever from "assert-never";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { generatePresignedUrl } from "~/v3/r2.server";

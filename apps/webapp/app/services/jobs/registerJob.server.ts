@@ -4,8 +4,8 @@ import {
   SCHEDULED_EVENT,
   TriggerMetadata,
   assertExhaustive,
-} from "@trigger.dev/core";
-import type { Endpoint, Integration, Job, JobIntegration, JobVersion } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core";
+import type { Endpoint, Integration, Job, JobIntegration, JobVersion } from "@systemfsoftware/trigger.dev_database";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";
 import { ExtendedEndpoint, findEndpoint } from "~/models/endpoint.server";

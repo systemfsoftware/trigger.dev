@@ -1,6 +1,6 @@
-import { eventTrigger } from "@trigger.dev/sdk";
+import { eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { client } from "../trigger";
-import { OpenAI } from "@trigger.dev/openai";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
 
 const openai = new OpenAI({
   id: "openai",

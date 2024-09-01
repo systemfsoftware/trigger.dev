@@ -1,4 +1,4 @@
-import type { RuntimeEnvironment } from "@trigger.dev/database";
+import type { RuntimeEnvironment } from "@systemfsoftware/trigger.dev_database";
 import { prisma } from "~/db.server";
 import { customAlphabet } from "nanoid";
 import { RuntimeEnvironmentType } from "~/database-types";

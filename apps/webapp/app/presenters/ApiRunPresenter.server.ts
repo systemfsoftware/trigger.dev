@@ -1,4 +1,4 @@
-import { Job } from "@trigger.dev/database";
+import { Job } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, prisma } from "~/db.server";
 
 type ApiRunOptions = {

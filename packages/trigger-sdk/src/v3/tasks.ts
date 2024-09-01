@@ -1,4 +1,4 @@
-import { InitOutput } from "@trigger.dev/core/v3";
+import { InitOutput } from "@systemfsoftware/trigger.dev_core/v3";
 import {
   batchTrigger,
   batchTriggerAndWait,
@@ -45,7 +45,7 @@ export type {
  * @example 
  * 
  * ```ts
- * import { task } from "@trigger.dev/sdk/v3";
+ * import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
  *
  * export const helloWorld = task({
     id: "hello-world",

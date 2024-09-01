@@ -2,7 +2,7 @@ import {
   type ProjectAlertChannel,
   type ProjectAlertChannelType,
   type ProjectAlertType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import assertNever from "assert-never";
 import { z } from "zod";
 import { env } from "~/env.server";

@@ -1,4 +1,4 @@
-import type { RedactString } from "@trigger.dev/core";
+import type { RedactString } from "@systemfsoftware/trigger.dev_core";
 
 // Replaces redacted strings with "******".
 // For example, this object: {"Authorization":{"__redactedString":true,"strings":["Bearer ",""],"interpolations":["sk-1234"]}}

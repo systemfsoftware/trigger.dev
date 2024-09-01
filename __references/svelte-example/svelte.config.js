@@ -15,12 +15,12 @@ const config = {
 		alias: {
 			$trigger: 'src/trigger',
 			'$jobs/*': 'src/jobs/*',
-			'@trigger.dev/sveltekit': '../../packages/sveltekit/src/index',
-			'@trigger.dev/sveltekit/*': '../../packages/sveltekit/src/*',
-			'@trigger.dev/sdk': '../../packages/trigger-sdk/src/index',
-			'@trigger.dev/sdk/*': '../../packages/trigger-sdk/src/*',
-			'@trigger.dev/core': '../../packages/core/src/index',
-			'@trigger.dev/core/*': '../../packages/core/src/*'
+			'@systemfsoftware/trigger.dev_sveltekit': '../../packages/sveltekit/src/index',
+			'@systemfsoftware/trigger.dev_sveltekit/*': '../../packages/sveltekit/src/*',
+			'@systemfsoftware/trigger.dev_sdk': '../../packages/trigger-sdk/src/index',
+			'@systemfsoftware/trigger.dev_sdk/*': '../../packages/trigger-sdk/src/*',
+			'@systemfsoftware/trigger.dev_core': '../../packages/core/src/index',
+			'@systemfsoftware/trigger.dev_core/*': '../../packages/core/src/*'
 		}
 	}
 };

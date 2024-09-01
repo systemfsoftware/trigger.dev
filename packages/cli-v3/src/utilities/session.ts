@@ -1,4 +1,4 @@
-import { recordSpanException } from "@trigger.dev/core/v3/workers";
+import { recordSpanException } from "@systemfsoftware/trigger.dev_core/v3/workers";
 import { CliApiClient } from "../apiClient.js";
 import { readAuthConfigProfile } from "./configFiles.js";
 import { getTracer } from "../telemetry/tracing.js";

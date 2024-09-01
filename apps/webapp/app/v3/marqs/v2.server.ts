@@ -1,6 +1,6 @@
 import { trace } from "@opentelemetry/api";
-import { RetryOptions, calculateNextRetryDelay } from "@trigger.dev/core/v3";
-import { ConcurrencyLimitGroup, Job, JobVersion } from "@trigger.dev/database";
+import { RetryOptions, calculateNextRetryDelay } from "@systemfsoftware/trigger.dev_core/v3";
+import { ConcurrencyLimitGroup, Job, JobVersion } from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { env } from "~/env.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";

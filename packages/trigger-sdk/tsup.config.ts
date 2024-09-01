@@ -1,5 +1,5 @@
 import { Options, defineConfig as defineConfigTSUP } from "tsup";
-import { packageOptions } from "@trigger.dev/tsup";
+import { packageOptions } from "@systemfsoftware/trigger.dev_tsup";
 
 const options: Options = {
   ...packageOptions,

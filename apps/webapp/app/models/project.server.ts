@@ -1,11 +1,11 @@
 import { nanoid, customAlphabet } from "nanoid";
 import slug from "slug";
 import { prisma } from "~/db.server";
-import type { Project } from "@trigger.dev/database";
+import type { Project } from "@systemfsoftware/trigger.dev_database";
 import { Organization, createEnvironment } from "./organization.server";
 import { env } from "~/env.server";
 import { projectCreated } from "~/services/platform.v3.server";
-export type { Project } from "@trigger.dev/database";
+export type { Project } from "@systemfsoftware/trigger.dev_database";
 
 const externalRefGenerator = customAlphabet("abcdefghijklmnopqrstuvwxyz", 20);
 

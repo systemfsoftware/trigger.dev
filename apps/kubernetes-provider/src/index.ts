@@ -6,14 +6,14 @@ import {
   TaskOperationsIndexOptions,
   TaskOperationsPrePullDeploymentOptions,
   TaskOperationsRestoreOptions,
-} from "@trigger.dev/core-apps/provider";
-import { SimpleLogger } from "@trigger.dev/core-apps/logger";
+} from "@systemfsoftware/trigger.dev_core-apps/provider";
+import { SimpleLogger } from "@systemfsoftware/trigger.dev_core-apps/logger";
 import {
   MachinePreset,
   PostStartCauses,
   PreStopCauses,
   EnvironmentType,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { randomUUID } from "crypto";
 import { TaskMonitor } from "./taskMonitor";
 import { PodCleaner } from "./podCleaner";

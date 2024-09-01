@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/core",
+  "name": "@systemfsoftware/trigger.dev_core",
   "version": "3.0.0-beta.55",
   "description": "Core code used across the Trigger.dev SDK and platform",
   "license": "MIT",
@@ -295,8 +295,8 @@
     "zod-validation-error": "^1.5.0"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/humanize-duration": "^3.27.1",
     "@types/jest": "^29.5.3",
     "@types/node": "20.12.7",

@@ -1,4 +1,4 @@
-import { tasks, task } from "@trigger.dev/sdk/v3";
+import { tasks, task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const triggerKitchenSink = task({
   id: "trigger-kitchen-sink",

@@ -1,4 +1,4 @@
-import type { Job } from "@trigger.dev/database";
+import type { Job } from "@systemfsoftware/trigger.dev_database";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";
 import { telemetry } from "../telemetry.server";

@@ -8,7 +8,7 @@ import {
   TaskRunSuccessfulExecutionResult,
   flattenAttributes,
   sanitizeError,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { logger } from "~/services/logger.server";
@@ -20,7 +20,7 @@ import { CancelAttemptService } from "./cancelAttempt.server";
 import { ResumeTaskRunDependenciesService } from "./resumeTaskRunDependencies.server";
 import { MAX_TASK_RUN_ATTEMPTS } from "~/consts";
 import { CreateCheckpointService } from "./createCheckpoint.server";
-import { TaskRun } from "@trigger.dev/database";
+import { TaskRun } from "@systemfsoftware/trigger.dev_database";
 import { RetryAttemptService } from "./retryAttempt.server";
 import { isFinalAttemptStatus, isFinalRunStatus } from "../taskStatus";
 import { FinalizeTaskRunService } from "./finalizeTaskRun.server";

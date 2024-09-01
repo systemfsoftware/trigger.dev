@@ -631,18 +631,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trigger.dev/core-backend@npm:3.0.0-beta.33":
+"@systemfsoftware/trigger.dev_core-backend@npm:3.0.0-beta.33":
   version: 3.0.0-beta.33
-  resolution: "@trigger.dev/core-backend@npm:3.0.0-beta.33"
+  resolution: "@systemfsoftware/trigger.dev_core-backend@npm:3.0.0-beta.33"
   dependencies:
     "@opentelemetry/api": "npm:^1.8.0"
   checksum: 10c0/6c2a2478fa0e919477b89746b15b56c97feca7c0b5c9734ecd6d177d4a0fb3264301634dad9c787503eabd8a6c8e48af4dde40bf49f6f80a09a56a32d81eeb4e
   languageName: node
   linkType: hard
 
-"@trigger.dev/core@npm:3.0.0-beta.33":
+"@systemfsoftware/trigger.dev_core@npm:3.0.0-beta.33":
   version: 3.0.0-beta.33
-  resolution: "@trigger.dev/core@npm:3.0.0-beta.33"
+  resolution: "@systemfsoftware/trigger.dev_core@npm:3.0.0-beta.33"
   dependencies:
     "@google-cloud/precise-date": "npm:^4.0.0"
     "@opentelemetry/api": "npm:^1.8.0"
@@ -667,15 +667,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trigger.dev/sdk@npm:3.0.0-beta.33":
+"@systemfsoftware/trigger.dev_sdk@npm:3.0.0-beta.33":
   version: 3.0.0-beta.33
-  resolution: "@trigger.dev/sdk@npm:3.0.0-beta.33"
+  resolution: "@systemfsoftware/trigger.dev_sdk@npm:3.0.0-beta.33"
   dependencies:
     "@opentelemetry/api": "npm:^1.8.0"
     "@opentelemetry/api-logs": "npm:^0.48.0"
     "@opentelemetry/semantic-conventions": "npm:^1.22.0"
-    "@trigger.dev/core": "npm:3.0.0-beta.33"
-    "@trigger.dev/core-backend": "npm:3.0.0-beta.33"
+    "@systemfsoftware/trigger.dev_core": "npm:3.0.0-beta.33"
+    "@systemfsoftware/trigger.dev_core-backend": "npm:3.0.0-beta.33"
     chalk: "npm:^5.2.0"
     cronstrue: "npm:^2.21.0"
     debug: "npm:^4.3.4"
@@ -1266,7 +1266,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server-only@workspace:."
   dependencies:
-    "@trigger.dev/sdk": "npm:3.0.0-beta.33"
+    "@systemfsoftware/trigger.dev_sdk": "npm:3.0.0-beta.33"
     server-only: "npm:^0.0.1"
   languageName: unknown
   linkType: soft

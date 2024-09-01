@@ -1,6 +1,6 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import { TaskEventStyle } from "@trigger.dev/core/v3";
-import type { TaskEventLevel } from "@trigger.dev/database";
+import { TaskEventStyle } from "@systemfsoftware/trigger.dev_core/v3";
+import type { TaskEventLevel } from "@systemfsoftware/trigger.dev_database";
 import { Fragment } from "react";
 import { RunEvent } from "~/presenters/v3/RunPresenter.server";
 import { cn } from "~/utils/cn";

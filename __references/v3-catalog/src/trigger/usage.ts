@@ -1,4 +1,4 @@
-import { logger, task, wait, usage } from "@trigger.dev/sdk/v3";
+import { logger, task, wait, usage } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const usagePlayground = task({
   id: "usage-playground",

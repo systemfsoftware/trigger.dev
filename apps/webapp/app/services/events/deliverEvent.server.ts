@@ -1,7 +1,7 @@
 import { fromZodError } from "zod-validation-error";
-import type { EventDispatcher, EventRecord } from "@trigger.dev/database";
-import type { EventFilter } from "@trigger.dev/core";
-import { EventFilterSchema, RequestWithRawBodySchema, eventFilterMatches } from "@trigger.dev/core";
+import type { EventDispatcher, EventRecord } from "@systemfsoftware/trigger.dev_database";
+import type { EventFilter } from "@systemfsoftware/trigger.dev_core";
+import { EventFilterSchema, RequestWithRawBodySchema, eventFilterMatches } from "@systemfsoftware/trigger.dev_core";
 import { $transaction, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { logger } from "~/services/logger.server";
 import { workerQueue } from "../worker.server";

@@ -10,7 +10,7 @@ import {
 } from "~/v3/eventRepository.server";
 import { createGzip } from "zlib";
 import { Readable } from "stream";
-import { formatDurationMilliseconds } from "@trigger.dev/core/v3/utils/durations";
+import { formatDurationMilliseconds } from "@systemfsoftware/trigger.dev_core/v3/utils/durations";
 
 export async function loader({ params, request }: LoaderFunctionArgs) {
   const userId = await requireUserId(request);

@@ -1,6 +1,6 @@
 ---
 "trigger.dev": patch
-"@trigger.dev/cli": patch
+"@systemfsoftware/trigger.dev_cli": patch
 ---
 
 Add support for tasks located in subdirectories inside trigger dirs

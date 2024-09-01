@@ -1,11 +1,11 @@
 import type { Tracer } from "@opentelemetry/api";
 import * as packageJson from "../../../package.json";
-import { ProjectConfig, taskCatalog } from "@trigger.dev/core/v3";
+import { ProjectConfig, taskCatalog } from "@systemfsoftware/trigger.dev_core/v3";
 import {
   TracingDiagnosticLogLevel,
   TracingSDK,
   StandardTaskCatalog,
-} from "@trigger.dev/core/v3/workers";
+} from "@systemfsoftware/trigger.dev_core/v3/workers";
 import type { Logger } from "@opentelemetry/api-logs";
 
 __SETUP_IMPORTED_PROJECT_CONFIG__;

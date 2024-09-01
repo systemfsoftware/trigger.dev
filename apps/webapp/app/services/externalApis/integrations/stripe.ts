@@ -3,7 +3,7 @@ import type { Integration } from "../types";
 export const stripe: Integration = {
   identifier: "stripe",
   name: "Stripe",
-  packageName: "@trigger.dev/stripe",
+  packageName: "@systemfsoftware/trigger.dev_stripe",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -12,7 +12,7 @@ export const stripe: Integration = {
           {
             title: "Creating the integration",
             code: `
-import { Stripe } from "@trigger.dev/stripe";
+import { Stripe } from "@systemfsoftware/trigger.dev_stripe";
 
 export const stripe = new Stripe({
   id: "__SLUG__",

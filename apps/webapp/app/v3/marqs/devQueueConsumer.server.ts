@@ -6,9 +6,9 @@ import {
   TaskRunExecutionResult,
   TaskRunFailedExecutionResult,
   serverWebsocketMessages,
-} from "@trigger.dev/core/v3";
-import { ZodMessageSender } from "@trigger.dev/core/v3/zodMessageHandler";
-import { BackgroundWorker, BackgroundWorkerTask } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { ZodMessageSender } from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
+import { BackgroundWorker, BackgroundWorkerTask } from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { prisma } from "~/db.server";
 import { createNewSession, disconnectSession } from "~/models/runtimeEnvironment.server";

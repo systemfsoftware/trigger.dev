@@ -12,7 +12,7 @@ import {
   GitHubDarkIcon,
   GitHubLightIcon,
   SlackIcon,
-} from "@trigger.dev/companyicons";
+} from "@systemfsoftware/trigger.dev_companyicons";
 import { Button } from "~/components/primitives/Buttons";
 import { Header1, Header3 } from "~/components/primitives/Headers";
 import { NamedIcon } from "~/components/primitives/NamedIcon";

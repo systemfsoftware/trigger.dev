@@ -15,7 +15,7 @@ import {
   Res,
 } from "@nestjs/common";
 import { Headers as StandardHeaders, Request as StandardRequest } from "@remix-run/web-fetch";
-import { TriggerClient, TriggerClientOptions } from "@trigger.dev/sdk";
+import { TriggerClient, TriggerClientOptions } from "@systemfsoftware/trigger.dev_sdk";
 import type { Response as ExpressResponse } from "express";
 import type { FastifyReply } from "fastify";
 
@@ -41,7 +41,7 @@ export const InjectTriggerDevClient = (customProviderToken: InjectionToken = Tri
  *
  * @example```ts
  * import { Module } from '@nestjs/common';
- * import { TriggerDevModule } from '@trigger.dev/nestjs';
+ * import { TriggerDevModule } from '@systemfsoftware/trigger.dev_nestjs';
  *
  * @Module({
  *   imports: [

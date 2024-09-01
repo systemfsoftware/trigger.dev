@@ -7,13 +7,13 @@ import type {
   EndpointIndexStatus,
   RuntimeEnvironment,
   RuntimeEnvironmentType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import {
   EndpointIndexError,
   EndpointIndexErrorSchema,
   IndexEndpointStats,
   parseEndpointIndexStats,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { sortEnvironments } from "~/utils/environmentSort";
 
 export type Client = {

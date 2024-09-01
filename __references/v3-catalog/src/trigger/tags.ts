@@ -1,5 +1,5 @@
-import { RunTags } from "@trigger.dev/core/v3";
-import { logger, runs, tags, task, tasks } from "@trigger.dev/sdk/v3";
+import { RunTags } from "@systemfsoftware/trigger.dev_core/v3";
+import { logger, runs, tags, task, tasks } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { simpleChildTask } from "./subtasks";
 
 type Payload = {

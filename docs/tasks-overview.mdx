@@ -11,7 +11,7 @@ There are different types of tasks including [regular tasks](/tasks-regular) and
 Here's an incredibly simple task:
 
 ```ts /trigger/hello-world.ts
-import { task } from "@trigger.dev/sdk/v3";
+import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 //1. You need to export each task
 export const helloWorld = task({
@@ -194,7 +194,7 @@ export const taskWithOnStart = task({
 You can also define an `onStart` function in your `trigger.config.ts` file to get notified when any task starts.
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   onStart: async (payload, { ctx }) => {
@@ -222,7 +222,7 @@ export const taskWithOnSuccess = task({
 You can also define an `onSuccess` function in your `trigger.config.ts` file to get notified when any task succeeds.
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   onSuccess: async (payload, output, { ctx }) => {
@@ -250,7 +250,7 @@ export const taskWithOnFailure = task({
 You can also define an `onFailure` function in your `trigger.config.ts` file to get notified when any task fails.
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   onFailure: async (payload, error, { ctx }) => {

@@ -269,7 +269,7 @@
   And then in your trigger.config.ts file you can initialize the datasource using the new `init` option:
 
   ```ts trigger.config.ts
-  import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+  import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
   import { AppDataSource } from "@/trigger/orm";
 
   export const config: TriggerConfig = {
@@ -283,7 +283,7 @@
   Now you are ready to use this in your tasks:
 
   ```ts
-  import { task } from "@trigger.dev/sdk/v3";
+  import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
   import { AppDataSource, Photo } from "./orm";
 
   export const taskThatUsesDecorators = task({
@@ -317,7 +317,7 @@
 ### Patch Changes
 
 - b68012f81: Move to our global system from AsyncLocalStorage for the current task context storage
-- b68012f81: Extracting out all the non-SDK related features from the main @trigger.dev/core/v3 export
+- b68012f81: Extracting out all the non-SDK related features from the main @systemfsoftware/trigger.dev_core/v3 export
 
 ## 3.0.0-beta.17
 
@@ -548,7 +548,7 @@
 
 - 067e19fe: - Simplify `Webhook Triggers` and use the new HTTP Endpoints
   - Add a `Key-Value Store` for use in and outside of Jobs
-  - Add a `@trigger.dev/shopify` package
+  - Add a `@systemfsoftware/trigger.dev_shopify` package
 
 ## 2.2.7
 
@@ -575,7 +575,7 @@
 
 ### Patch Changes
 
-- c1710ae7: Creates a new package @trigger.dev/core-backend that includes code shared between @trigger.dev/sdk and the Trigger.dev server
+- c1710ae7: Creates a new package @systemfsoftware/trigger.dev_core-backend that includes code shared between @systemfsoftware/trigger.dev_sdk and the Trigger.dev server
 
 ## 2.2.3
 
@@ -613,7 +613,7 @@
 
 ### Patch Changes
 
-- 6a992a19: First release of `@trigger.dev/replicate` integration with remote callback support.
+- 6a992a19: First release of `@systemfsoftware/trigger.dev_replicate` integration with remote callback support.
 - ab9e4a98: Send client version back to the server via headers
 - ab9e4a98: Better performance when resuming a run, especially one with a large amount of tasks
 
@@ -717,7 +717,7 @@
 
 ### Patch Changes
 
-- 92233f2e: @trigger.dev/core is now a separate package
+- 92233f2e: @systemfsoftware/trigger.dev_core is now a separate package
 - 92233f2e: Packages move to @latest
 - e26923eb: backgroundFetch jsdocs
 
@@ -737,13 +737,13 @@
 
 ### Patch Changes
 
-- 6673798: Bundling common-schemas into @trigger.dev/sdk
+- 6673798: Bundling common-schemas into @systemfsoftware/trigger.dev_sdk
 - Updated dependencies [6673798]
-  - @trigger.dev/core@0.1.1
+  - @systemfsoftware/trigger.dev_core@0.1.1
 
 ## 0.0.2
 
 ### Patch Changes
 
 - Updated dependencies [92dd011]
-  - @trigger.dev/core@0.1.0
+  - @systemfsoftware/trigger.dev_core@0.1.0

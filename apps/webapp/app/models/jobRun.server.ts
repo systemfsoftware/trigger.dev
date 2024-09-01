@@ -1,4 +1,4 @@
-import type { JobRun, JobRunStatus } from "@trigger.dev/database";
+import type { JobRun, JobRunStatus } from "@systemfsoftware/trigger.dev_database";
 
 const COMPLETED_STATUSES: Array<JobRun["status"]> = [
   "CANCELED",

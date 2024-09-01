@@ -1,4 +1,4 @@
-import { BatchTriggerTaskRequestBody, logger } from "@trigger.dev/core/v3";
+import { BatchTriggerTaskRequestBody, logger } from "@systemfsoftware/trigger.dev_core/v3";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { generateFriendlyId } from "../friendlyIdentifiers";
 import { BaseService, ServiceValidationError } from "./baseService.server";

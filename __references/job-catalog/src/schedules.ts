@@ -1,6 +1,6 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { Resend } from "@trigger.dev/resend";
-import { TriggerClient, cronTrigger, intervalTrigger } from "@trigger.dev/sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { Resend } from "@systemfsoftware/trigger.dev_resend";
+import { TriggerClient, cronTrigger, intervalTrigger } from "@systemfsoftware/trigger.dev_sdk";
 
 export const client = new TriggerClient({
   id: "job-catalog",

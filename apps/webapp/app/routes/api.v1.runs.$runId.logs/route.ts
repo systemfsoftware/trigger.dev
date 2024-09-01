@@ -1,6 +1,6 @@
 import type { ActionFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { LogMessageSchema } from "@trigger.dev/core";
+import { LogMessageSchema } from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { authenticateApiRequest } from "~/services/apiAuth.server";
 import { CreateRunLogService } from "./CreateRunLogService.server";

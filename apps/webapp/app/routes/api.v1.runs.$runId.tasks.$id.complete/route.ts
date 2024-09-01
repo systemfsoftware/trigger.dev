@@ -1,11 +1,11 @@
 import type { ActionFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import type { CompleteTaskBodyOutput } from "@trigger.dev/core";
+import type { CompleteTaskBodyOutput } from "@systemfsoftware/trigger.dev_core";
 import {
   API_VERSIONS,
   CompleteTaskBodyInputSchema,
   CompleteTaskBodyV2InputSchema,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import type { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { authenticateApiRequest } from "~/services/apiAuth.server";

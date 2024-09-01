@@ -11,8 +11,8 @@ export type { Context };
 
 import type { Context } from "./shared";
 
-import type { ApiClientConfiguration } from "@trigger.dev/core/v3";
-import { apiClientManager } from "@trigger.dev/core/v3";
+import type { ApiClientConfiguration } from "@systemfsoftware/trigger.dev_core/v3";
+import { apiClientManager } from "@systemfsoftware/trigger.dev_core/v3";
 
 export type { ApiClientConfiguration };
 
@@ -29,7 +29,7 @@ export {
   AbortTaskRunError,
   logger,
   type LogLevel,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 
 export { runs } from "./runs";
 export * as schedules from "./schedules";
@@ -45,7 +45,7 @@ export type { ImportEnvironmentVariablesParams } from "./envvars";
  * @example
  *
  * ```typescript
- * import { configure } from "@trigger.dev/sdk/v3";
+ * import { configure } from "@systemfsoftware/trigger.dev_sdk/v3";
  *
  * configure({
  *  baseURL: "https://api.trigger.dev",

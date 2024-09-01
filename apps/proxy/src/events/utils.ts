@@ -1,4 +1,4 @@
-import { SendEventOptions } from "@trigger.dev/core";
+import { SendEventOptions } from "@systemfsoftware/trigger.dev_core";
 
 export function calculateDeliverAt(options?: SendEventOptions) {
   // If deliverAt is a string and a valid date, convert it to a Date object

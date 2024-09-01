@@ -1,7 +1,7 @@
-import { ConnectionAuth, IntegrationMetadata } from "@trigger.dev/core";
+import { ConnectionAuth, IntegrationMetadata } from "@systemfsoftware/trigger.dev_core";
 import { IO } from "./io";
-import { Prettify } from "@trigger.dev/core";
-export type { ConnectionAuth } from "@trigger.dev/core";
+import { Prettify } from "@systemfsoftware/trigger.dev_core";
+export type { ConnectionAuth } from "@systemfsoftware/trigger.dev_core";
 
 export interface TriggerIntegration {
   id: string;

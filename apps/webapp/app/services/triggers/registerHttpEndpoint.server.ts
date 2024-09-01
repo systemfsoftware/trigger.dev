@@ -1,4 +1,4 @@
-import { HttpEndpointMetadata } from "@trigger.dev/core";
+import { HttpEndpointMetadata } from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { $transaction, Prisma, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { ExtendedEndpoint, findEndpoint } from "~/models/endpoint.server";

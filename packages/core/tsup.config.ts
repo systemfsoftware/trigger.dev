@@ -1,4 +1,4 @@
-import { packageOptions, defineConfig } from "@trigger.dev/tsup";
+import { packageOptions, defineConfig } from "@systemfsoftware/trigger.dev_tsup";
 
 export default defineConfig({
   ...packageOptions,

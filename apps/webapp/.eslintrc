@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "@trigger.dev/eslint-plugin",
+    "@systemfsoftware/trigger.dev_eslint-plugin",
     "react-hooks",
     "@typescript-eslint/eslint-plugin",
     "import"
@@ -10,8 +10,8 @@
     {
       "files": ["*.ts", "*.tsx"],
       "rules": {
-        // Autofixes imports from "@trigger.dev/core" to fine grained modules
-        "@trigger.dev/no-trigger-core-import": "error",
+        // Autofixes imports from "@systemfsoftware/trigger.dev_core" to fine grained modules
+        "@systemfsoftware/trigger.dev_no-trigger-core-import": "error",
         // Normalize `import type {}` and `import { type }`
         "@typescript-eslint/consistent-type-imports": [
           "warn",

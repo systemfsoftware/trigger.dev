@@ -48,7 +48,7 @@
     "emitDecoratorMetadata": true,
     "types": ["vitest/globals"],
     "paths": {
-      "@trigger.dev/yalt": ["../yalt/src/index"]
+      "@systemfsoftware/trigger.dev_yalt": ["../yalt/src/index"]
     }
   },
   "exclude": ["node_modules"]

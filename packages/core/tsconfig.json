@@ -1,5 +1,5 @@
 {
-  "extends": "@trigger.dev/tsconfig/node18.json",
+  "extends": "@systemfsoftware/trigger.dev_tsconfig/node18.json",
   "include": ["src/globals.d.ts", "./src/**/*.ts", "tsup.config.ts", "./test/**/*.ts"],
   "compilerOptions": {
     "experimentalDecorators": true,
@@ -10,8 +10,8 @@
     "types": ["jest"],
     "lib": ["DOM", "DOM.Iterable"],
     "paths": {
-      "@trigger.dev/tsup/*": ["../../config-packages/tsup/src/*"],
-      "@trigger.dev/tsup": ["../../config-packages/tsup/src/index"]
+      "@systemfsoftware/trigger.dev_tsup/*": ["../../config-packages/tsup/src/*"],
+      "@systemfsoftware/trigger.dev_tsup": ["../../config-packages/tsup/src/index"]
     }
   },
   "exclude": ["node_modules"]

@@ -11,8 +11,8 @@ import type {
   SourceEventOption,
   SuccessfulRunNotification,
   TriggerMetadata,
-} from "@trigger.dev/core";
-import { Logger } from "@trigger.dev/core-backend";
+} from "@systemfsoftware/trigger.dev_core";
+import { Logger } from "@systemfsoftware/trigger.dev_core-backend";
 import type TypedEmitter from "typed-emitter";
 import { z } from "zod";
 import { Job } from "./job";

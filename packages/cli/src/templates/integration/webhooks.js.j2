@@ -5,7 +5,7 @@ import {
   HandlerEvent,
   IntegrationTaskKey,
   Logger,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import {
   Document,
   {{ identifier | capitalize }}Webhooks,
@@ -247,7 +247,7 @@ export function createWebhookEventSource(
 }
 
 async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger, integration: {{ identifier | capitalize }}) {
-  logger.debug("[@trigger.dev/{{ identifier }}] Handling webhook payload");
+  logger.debug("[@systemfsoftware/trigger.dev_{{ identifier }}] Handling webhook payload");
 
   const { rawEvent: request, source } = event;
 
@@ -255,20 +255,20 @@ async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger, integ
   const payloadEvent = request.headers.get("{{ identifier | capitalize }}-Event");
 
   if (!payloadUuid || !payloadEvent) {
-    logger.debug("[@trigger.dev/{{ identifier }}] Missing required {{ identifier | capitalize }} headers");
+    logger.debug("[@systemfsoftware/trigger.dev_{{ identifier }}] Missing required {{ identifier | capitalize }} headers");
     return { events: [] };
   }
 
   if (!request.body) {
-    logger.debug("[@trigger.dev/{{ identifier }}] No body found");
+    logger.debug("[@systemfsoftware/trigger.dev_{{ identifier }}] No body found");
     return { events: [] };
   }
 
   const signature = request.headers.get("WEBHOOK_SIGNATURE_HEADER");
 
   if (!signature) {
-    logger.error("[@trigger.dev/{{ identifier }}] Error validating webhook signature, no signature found");
-    throw Error("[@trigger.dev/{{ identifier }}] No signature found");
+    logger.error("[@systemfsoftware/trigger.dev_{{ identifier }}] Error validating webhook signature, no signature found");
+    throw Error("[@systemfsoftware/trigger.dev_{{ identifier }}] No signature found");
   }
 
   const rawBody = await request.text();
@@ -276,8 +276,8 @@ async function webhookHandler(event: HandlerEvent<"HTTP">, logger: Logger, integ
   const webhookHelper = new {{ identifier | capitalize }}Webhooks(source.secret);
 
   if (!webhookHelper.verify(Buffer.from(rawBody), signature)) {
-    logger.error("[@trigger.dev/{{ identifier }}] Error validating webhook signature, they don't match");
-    throw Error("[@trigger.dev/{{ identifier }}] Invalid signature");
+    logger.error("[@systemfsoftware/trigger.dev_{{ identifier }}] Error validating webhook signature, they don't match");
+    throw Error("[@systemfsoftware/trigger.dev_{{ identifier }}] Invalid signature");
   }
 
   const webhookPayload = WebhookPayloadSchema.parse(body);

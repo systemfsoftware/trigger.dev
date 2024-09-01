@@ -1,5 +1,5 @@
-import type { RetryOptions } from "@trigger.dev/core";
-import { calculateRetryAt } from "@trigger.dev/core";
+import type { RetryOptions } from "@systemfsoftware/trigger.dev_core";
+import { calculateRetryAt } from "@systemfsoftware/trigger.dev_core";
 
 export { calculateRetryAt };
 export type { RetryOptions };

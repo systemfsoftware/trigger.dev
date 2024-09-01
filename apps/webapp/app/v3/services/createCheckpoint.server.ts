@@ -1,6 +1,6 @@
-import { CoordinatorToPlatformMessages } from "@trigger.dev/core/v3";
-import type { InferSocketMessageSchema } from "@trigger.dev/core/v3/zodSocket";
-import type { Checkpoint, CheckpointRestoreEvent } from "@trigger.dev/database";
+import { CoordinatorToPlatformMessages } from "@systemfsoftware/trigger.dev_core/v3";
+import type { InferSocketMessageSchema } from "@systemfsoftware/trigger.dev_core/v3/zodSocket";
+import type { Checkpoint, CheckpointRestoreEvent } from "@systemfsoftware/trigger.dev_database";
 import { logger } from "~/services/logger.server";
 import { marqs } from "~/v3/marqs/index.server";
 import { generateFriendlyId } from "../friendlyIdentifiers";

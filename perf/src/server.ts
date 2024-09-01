@@ -1,5 +1,5 @@
 import { triggerClient } from "./trigger";
-import { createExpressServer } from "@trigger.dev/express";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
 
 const app = createExpressServer(
   triggerClient,

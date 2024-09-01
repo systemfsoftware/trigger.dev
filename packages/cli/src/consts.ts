@@ -16,7 +16,7 @@ export const TITLE_TEXT = `
 `;
 
 export const DEFAULT_APP_NAME = "my-triggers";
-export const COMMAND_NAME = "@trigger.dev/cli";
+export const COMMAND_NAME = "@systemfsoftware/trigger.dev_cli";
 export const TEMPLATE_ORGANIZATION = "triggerdotdev";
 export const CLOUD_TRIGGER_URL = "https://cloud.trigger.dev";
 export const CLOUD_API_URL = "https://api.trigger.dev";

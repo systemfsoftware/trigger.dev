@@ -13,8 +13,8 @@ import {
 } from "@heroicons/react/20/solid";
 import { Form, Outlet, useActionData, useNavigation } from "@remix-run/react";
 import { type ActionFunctionArgs, type LoaderFunctionArgs, json } from "@remix-run/server-runtime";
-import { SlackIcon } from "@trigger.dev/companyicons";
-import { type ProjectAlertChannelType, type ProjectAlertType } from "@trigger.dev/database";
+import { SlackIcon } from "@systemfsoftware/trigger.dev_companyicons";
+import { type ProjectAlertChannelType, type ProjectAlertType } from "@systemfsoftware/trigger.dev_database";
 import assertNever from "assert-never";
 import { typedjson, useTypedLoaderData } from "remix-typedjson";
 import { z } from "zod";

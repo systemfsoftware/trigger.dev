@@ -3,14 +3,14 @@ import {
   DisplayPropertySchema,
   EventSpecificationSchema,
   TriggerHelpSchema,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { PrismaClient, Prisma, prisma } from "~/db.server";
 import { Organization } from "~/models/organization.server";
 import { Project } from "~/models/project.server";
 import { User } from "~/models/user.server";
 import { z } from "zod";
 import { projectPath } from "~/utils/pathBuilder";
-import { Job } from "@trigger.dev/database";
+import { Job } from "@systemfsoftware/trigger.dev_database";
 import { BasePresenter } from "./v3/basePresenter.server";
 
 export class JobPresenter extends BasePresenter {

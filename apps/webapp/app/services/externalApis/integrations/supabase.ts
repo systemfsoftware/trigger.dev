@@ -3,7 +3,7 @@ import type { HelpSample, Integration } from "../types";
 const managementUsageSample: HelpSample = {
   title: "Using the client",
   code: `
-import { SupabaseManagement } from "@trigger.dev/supabase";
+import { SupabaseManagement } from "@systemfsoftware/trigger.dev_supabase";
 
 const supabase = new SupabaseManagement({
   id: "__SLUG__",
@@ -25,7 +25,7 @@ client.defineJob({
 const managementApiKeyUsageSample: HelpSample = {
   title: "Using the client",
   code: `
-import { SupabaseManagement } from "@trigger.dev/supabase";
+import { SupabaseManagement } from "@systemfsoftware/trigger.dev_supabase";
 
 const supabase = new SupabaseManagement({
   id: "__SLUG__",
@@ -49,7 +49,7 @@ export const supabaseManagement: Integration = {
   identifier: "supabase-management",
   icon: "supabase",
   name: "Supabase Management",
-  packageName: "@trigger.dev/supabase",
+  packageName: "@systemfsoftware/trigger.dev_supabase",
   description: "Use database webhooks, manage your organizations and projects.",
   authenticationMethods: {
     apikey: {
@@ -59,7 +59,7 @@ export const supabaseManagement: Integration = {
           {
             title: "Creating the client",
             code: `
-import { SupabaseManagement } from "@trigger.dev/supabase";
+import { SupabaseManagement } from "@systemfsoftware/trigger.dev_supabase";
 
 const supabase = new SupabaseManagement({
   id: "__SLUG__"
@@ -110,7 +110,7 @@ const supabase = new SupabaseManagement({
           {
             title: "Creating the client",
             code: `
-import { SupabaseManagement } from "@trigger.dev/supabase";
+import { SupabaseManagement } from "@systemfsoftware/trigger.dev_supabase";
 
 const supabase = new SupabaseManagement({
   id: "__SLUG__"
@@ -127,7 +127,7 @@ const supabase = new SupabaseManagement({
 const supabaseUsageSample: HelpSample = {
   title: "Using the client",
   code: `
-import { Supabase } from "@trigger.dev/supabase";
+import { Supabase } from "@systemfsoftware/trigger.dev_supabase";
 import { Database } from "@/supabase.types";
 
 const supabase = new Supabase<Database>({
@@ -159,7 +159,7 @@ export const supabase: Integration = {
   identifier: "supabase",
   icon: "supabase",
   name: "Supabase",
-  packageName: "@trigger.dev/supabase",
+  packageName: "@systemfsoftware/trigger.dev_supabase",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -168,7 +168,7 @@ export const supabase: Integration = {
           {
             title: "Creating the client",
             code: `
-import { Supabase } from "@trigger.dev/supabase";
+import { Supabase } from "@systemfsoftware/trigger.dev_supabase";
 
 const supabase = new Supabase({
   id: "__SLUG__"

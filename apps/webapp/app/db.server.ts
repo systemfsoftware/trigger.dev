@@ -1,4 +1,4 @@
-import { PrismaClient, Prisma } from "@trigger.dev/database";
+import { PrismaClient, Prisma } from "@systemfsoftware/trigger.dev_database";
 import invariant from "tiny-invariant";
 import { z } from "zod";
 import { logger } from "./services/logger.server";
@@ -196,7 +196,7 @@ function redactUrlSecrets(hrefOrUrl: string | URL) {
   return url.href;
 }
 
-export type { PrismaClient } from "@trigger.dev/database";
+export type { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 
 export const PrismaErrorSchema = z.object({
   code: z.string(),

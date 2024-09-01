@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/nextjs",
+  "name": "@systemfsoftware/trigger.dev_nextjs",
   "version": "3.0.0-beta.55",
   "description": "Trigger.dev Next.js integration",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/ws": "^8.5.3",
     "next": "^14.0.0",
@@ -33,7 +33,7 @@
     "typescript": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@trigger.dev/tsup": "workspace:*"
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -41,7 +41,7 @@
     "build:tsup": "tsup"
   },
   "peerDependencies": {
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
     "next": ">=12.0.0"
   },
   "dependencies": {

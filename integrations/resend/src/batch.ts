@@ -1,4 +1,4 @@
-import { IntegrationTaskKey, retry } from "@trigger.dev/sdk";
+import { IntegrationTaskKey, retry } from "@systemfsoftware/trigger.dev_sdk";
 import { Resend } from "resend";
 import type { ResendRunTask } from "./index";
 import { handleResendError } from "./utils";

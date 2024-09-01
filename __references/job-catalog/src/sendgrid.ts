@@ -1,7 +1,7 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
 import { z } from "zod";
-import { SendGrid } from "@trigger.dev/sendgrid";
+import { SendGrid } from "@systemfsoftware/trigger.dev_sendgrid";
 
 export const client = new TriggerClient({
   id: "job-catalog",

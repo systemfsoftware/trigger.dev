@@ -5,7 +5,7 @@ export const openai: Integration = {
   identifier: "openai",
   name: "OpenAI",
   description: "You can perform very long completions with the integration",
-  packageName: "@trigger.dev/openai@latest",
+  packageName: "@systemfsoftware/trigger.dev_openai@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -14,7 +14,7 @@ export const openai: Integration = {
           {
             title: "Creating the client",
             code: `
-import { OpenAI } from "@trigger.dev/openai";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
 
 const openai = new OpenAI({
   id: "__SLUG__",

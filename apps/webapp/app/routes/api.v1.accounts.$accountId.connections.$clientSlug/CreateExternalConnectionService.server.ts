@@ -1,4 +1,4 @@
-import { CreateExternalConnectionBody } from "@trigger.dev/core";
+import { CreateExternalConnectionBody } from "@systemfsoftware/trigger.dev_core";
 import { PrismaClientOrTransaction, prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { integrationAuthRepository } from "~/services/externalApis/integrationAuthRepository.server";

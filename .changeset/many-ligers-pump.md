@@ -1,6 +1,6 @@
 ---
 "trigger.dev": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Handle string and non-stringifiable outputs like functions

@@ -3,4 +3,4 @@ export type {
   ScheduledTaskPayload,
   ListScheduleOptions,
   UpdateScheduleOptions,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";

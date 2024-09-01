@@ -1,8 +1,8 @@
 /// <reference lib="dom" />
 /// <reference lib="dom.iterable" />
 import { describe, expect, it } from "bun:test";
-import { createMiddleware } from "@trigger.dev/hono";
-import { TriggerClient, invokeTrigger } from "@trigger.dev/sdk";
+import { createMiddleware } from "@systemfsoftware/trigger.dev_hono";
+import { TriggerClient, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { Hono } from "hono";
 
 function createApp() {

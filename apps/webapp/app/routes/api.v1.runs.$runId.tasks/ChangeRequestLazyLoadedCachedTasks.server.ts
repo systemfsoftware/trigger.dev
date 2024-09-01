@@ -1,5 +1,5 @@
-import { ServerTask, RunTaskResponseWithCachedTasksBody } from "@trigger.dev/core";
-import { PrismaClient } from "@trigger.dev/database";
+import { ServerTask, RunTaskResponseWithCachedTasksBody } from "@systemfsoftware/trigger.dev_core";
+import { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 import { prisma } from "~/db.server";
 import { prepareTasksForCaching } from "~/models/task.server";
 

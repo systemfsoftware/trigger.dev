@@ -35,7 +35,7 @@ import {
   stringifyIO,
   taskCatalog,
   taskContext,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import * as packageJson from "../../package.json";
 import { tracer } from "./tracer";
 import { PollOptions, RetrieveRunResult, runs } from "./runs";
@@ -372,7 +372,7 @@ export type TaskRunOptions = {
    * @example
    *
    * ```typescript
-   * import { idempotencyKeys, task } from "@trigger.dev/sdk/v3";
+   * import { idempotencyKeys, task } from "@systemfsoftware/trigger.dev_sdk/v3";
    *
    * export const myTask = task({
    *  id: "my-task",
@@ -401,7 +401,7 @@ export type TaskRunOptions = {
    * @example
    *
    * ```typescript
-   * import { idempotencyKeys, tasks } from "@trigger.dev/sdk/v3";
+   * import { idempotencyKeys, tasks } from "@systemfsoftware/trigger.dev_sdk/v3";
    *
    * // Somewhere in your backend
    * const idempotencyKey = await idempotenceKeys.create(["my-task-trigger", "user-123"]);
@@ -570,7 +570,7 @@ export function createTask<
  * @example
  *
  * ```ts
- * import { tasks, runs } from "@trigger.dev/sdk/v3";
+ * import { tasks, runs } from "@systemfsoftware/trigger.dev_sdk/v3";
  * import type { myTask } from "./myTasks"; // Import just the type of the task
  *
  * const handle = await tasks.trigger<typeof myTask>("my-task", { foo: "bar" }); // The id and payload are fully typesafe
@@ -603,7 +603,7 @@ export async function trigger<TTask extends AnyTask>(
  * @returns TaskRunResult
  * @example
  * ```ts
- * import { tasks } from "@trigger.dev/sdk/v3";
+ * import { tasks } from "@systemfsoftware/trigger.dev_sdk/v3";
  * const result = await tasks.triggerAndWait("my-task", { foo: "bar" });
  *
  * if (result.ok) {
@@ -636,7 +636,7 @@ export async function triggerAndWait<TTask extends AnyTask>(
  * @example
  *
  * ```ts
- * import { tasks } from "@trigger.dev/sdk/v3";
+ * import { tasks } from "@systemfsoftware/trigger.dev_sdk/v3";
  *
  * const result = await tasks.batchTriggerAndWait("my-task", [
  *  { payload: { foo: "bar" } },
@@ -671,7 +671,7 @@ export async function batchTriggerAndWait<TTask extends AnyTask>(
  * @example
  *
  * ```ts
- * import { tasks, runs } from "@trigger.dev/sdk/v3";
+ * import { tasks, runs } from "@systemfsoftware/trigger.dev_sdk/v3";
  * import type { myTask } from "./myTasks"; // Import just the type of the task
  *
  * const run = await tasks.triggerAndPoll<typeof myTask>("my-task", { foo: "bar" }); // The id and payload are fully typesafe

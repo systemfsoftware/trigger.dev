@@ -16,7 +16,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { UserGroupIcon, UserPlusIcon } from "@heroicons/react/24/solid";
 import { useNavigation } from "@remix-run/react";
-import { DiscordIcon, SlackIcon } from "@trigger.dev/companyicons";
+import { DiscordIcon, SlackIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { TaskIcon } from "~/assets/icons/TaskIcon";
 import { useFeatures } from "~/hooks/useFeatures";

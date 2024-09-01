@@ -1,5 +1,5 @@
 import { Squares2X2Icon } from "@heroicons/react/20/solid";
-import { GitHubDarkIcon } from "@trigger.dev/companyicons";
+import { GitHubDarkIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { useOrganization } from "~/hooks/useOrganizations";
 import { useProject } from "~/hooks/useProject";
 import { projectSetupPath } from "~/utils/pathBuilder";

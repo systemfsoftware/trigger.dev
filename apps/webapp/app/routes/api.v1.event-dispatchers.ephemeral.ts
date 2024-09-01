@@ -3,7 +3,7 @@ import { json } from "@remix-run/server-runtime";
 import {
   EphemeralEventDispatcherRequestBodySchema,
   InvokeJobRequestBodySchema,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { PrismaErrorSchema } from "~/db.server";
 import { authenticateApiRequest } from "~/services/apiAuth.server";

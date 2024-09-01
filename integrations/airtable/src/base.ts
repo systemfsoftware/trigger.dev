@@ -1,4 +1,4 @@
-import { DisplayProperty, IntegrationTaskKey } from "@trigger.dev/sdk";
+import { DisplayProperty, IntegrationTaskKey } from "@systemfsoftware/trigger.dev_sdk";
 import AirtableSDK from "airtable";
 import { AirtableFieldSet, AirtableRecord, AirtableRunTask } from ".";
 

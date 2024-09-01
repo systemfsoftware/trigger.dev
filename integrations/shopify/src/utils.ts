@@ -1,6 +1,6 @@
 import { Base } from "@shopify/shopify-api/rest/base";
-import { DisplayProperty, EventSpecification, EventSpecificationExample } from "@trigger.dev/sdk";
-import { titleCase } from "@trigger.dev/integration-kit";
+import { DisplayProperty, EventSpecification, EventSpecificationExample } from "@systemfsoftware/trigger.dev_sdk";
+import { titleCase } from "@systemfsoftware/trigger.dev_integration-kit";
 import { WebhookTopic } from "./schemas";
 import { RecursiveShopifySerializer } from "./types";
 

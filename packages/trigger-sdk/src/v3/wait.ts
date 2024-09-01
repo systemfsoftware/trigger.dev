@@ -1,4 +1,4 @@
-import { SemanticInternalAttributes, accessoryAttributes, runtime } from "@trigger.dev/core/v3";
+import { SemanticInternalAttributes, accessoryAttributes, runtime } from "@systemfsoftware/trigger.dev_core/v3";
 import { tracer } from "./tracer";
 
 export type WaitOptions =

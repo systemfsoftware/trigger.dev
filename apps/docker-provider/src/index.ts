@@ -5,11 +5,11 @@ import {
   TaskOperationsCreateOptions,
   TaskOperationsIndexOptions,
   TaskOperationsRestoreOptions,
-} from "@trigger.dev/core-apps/provider";
-import { SimpleLogger } from "@trigger.dev/core-apps/logger";
-import { isExecaChildProcess, testDockerCheckpoint } from "@trigger.dev/core-apps/checkpoints";
+} from "@systemfsoftware/trigger.dev_core-apps/provider";
+import { SimpleLogger } from "@systemfsoftware/trigger.dev_core-apps/logger";
+import { isExecaChildProcess, testDockerCheckpoint } from "@systemfsoftware/trigger.dev_core-apps/checkpoints";
 import { setTimeout } from "node:timers/promises";
-import { PostStartCauses, PreStopCauses } from "@trigger.dev/core/v3";
+import { PostStartCauses, PreStopCauses } from "@systemfsoftware/trigger.dev_core/v3";
 
 const MACHINE_NAME = process.env.MACHINE_NAME || "local";
 const COORDINATOR_PORT = process.env.COORDINATOR_PORT || 8020;

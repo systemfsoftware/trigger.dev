@@ -1,4 +1,4 @@
-import { EphemeralEventDispatcherRequestBody } from "@trigger.dev/core";
+import { EphemeralEventDispatcherRequestBody } from "@systemfsoftware/trigger.dev_core";
 import { $transaction, PrismaClient, prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "../apiAuth.server";
 import { ExpireDispatcherService } from "./expireDispatcher.server";

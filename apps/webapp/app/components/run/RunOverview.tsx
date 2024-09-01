@@ -10,7 +10,7 @@ import {
   useNavigate,
   useNavigation,
 } from "@remix-run/react";
-import { RuntimeEnvironmentType, User } from "@trigger.dev/database";
+import { RuntimeEnvironmentType, User } from "@systemfsoftware/trigger.dev_database";
 import { useMemo } from "react";
 import { usePathName } from "~/hooks/usePathName";
 import type { RunBasicStatus } from "~/models/jobRun.server";
@@ -51,7 +51,7 @@ import {
 } from "./RunCard";
 import { TaskCard } from "./TaskCard";
 import { TaskCardSkeleton } from "./TaskCardSkeleton";
-import { formatDuration, formatDurationMilliseconds } from "@trigger.dev/core/v3";
+import { formatDuration, formatDurationMilliseconds } from "@systemfsoftware/trigger.dev_core/v3";
 
 type RunOverviewProps = {
   run: ViewRun;

@@ -1,5 +1,5 @@
 import { DeliverEmailSchema } from "@/../../packages/emails/src";
-import { ScheduledPayloadSchema, addMissingVersionField } from "@trigger.dev/core";
+import { ScheduledPayloadSchema, addMissingVersionField } from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { prisma } from "~/db.server";
 import { env } from "~/env.server";

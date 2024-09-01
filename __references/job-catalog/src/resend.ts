@@ -1,6 +1,6 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { Resend } from "@trigger.dev/resend";
-import { TriggerClient, eventTrigger, invokeTrigger } from "@trigger.dev/sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { Resend } from "@systemfsoftware/trigger.dev_resend";
+import { TriggerClient, eventTrigger, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { z } from "zod";
 
 export const client = new TriggerClient({

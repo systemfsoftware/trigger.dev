@@ -1,4 +1,4 @@
-# @trigger.dev/core-apps
+# @systemfsoftware/trigger.dev_core-apps
 
 ## 3.0.0-beta.55
 
@@ -134,7 +134,7 @@
 
 ### Patch Changes
 
-- b68012f81: Extracting out all the non-SDK related features from the main @trigger.dev/core/v3 export
+- b68012f81: Extracting out all the non-SDK related features from the main @systemfsoftware/trigger.dev_core/v3 export
 
 ## 3.0.0-beta.17
 

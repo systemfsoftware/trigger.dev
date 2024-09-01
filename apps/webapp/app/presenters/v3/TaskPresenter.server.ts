@@ -1,4 +1,4 @@
-import { BackgroundWorkerTask } from "@trigger.dev/database";
+import { BackgroundWorkerTask } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, prisma } from "~/db.server";
 import { Project } from "~/models/project.server";
 import { User } from "~/models/user.server";

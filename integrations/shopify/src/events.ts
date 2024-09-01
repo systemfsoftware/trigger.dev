@@ -1,4 +1,4 @@
-import { Nullable, Prettify } from "@trigger.dev/integration-kit";
+import { Nullable, Prettify } from "@systemfsoftware/trigger.dev_integration-kit";
 import { basicProperties, eventSpec } from "./utils";
 import { ShopifyExamples, ShopifyPayloads, shopifyExample } from "./payload-examples";
 

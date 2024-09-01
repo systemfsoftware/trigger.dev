@@ -7,13 +7,13 @@ import { RegisterDynamicScheduleService } from "../triggers/registerDynamicSched
 import { RegisterDynamicTriggerService } from "../triggers/registerDynamicTrigger.server";
 import { DisableJobService } from "../jobs/disableJob.server";
 import { RegisterSourceServiceV2 } from "../sources/registerSourceV2.server";
-import { EndpointIndexError } from "@trigger.dev/core";
+import { EndpointIndexError } from "@systemfsoftware/trigger.dev_core";
 import { safeBodyFromResponse } from "~/utils/json";
 import { fromZodError } from "zod-validation-error";
-import { IndexEndpointStats } from "@trigger.dev/core";
+import { IndexEndpointStats } from "@systemfsoftware/trigger.dev_core";
 import { RegisterHttpEndpointService } from "../triggers/registerHttpEndpoint.server";
 import { RegisterWebhookService } from "../triggers/registerWebhook.server";
-import { EndpointIndex } from "@trigger.dev/database";
+import { EndpointIndex } from "@systemfsoftware/trigger.dev_database";
 import { env } from "~/env.server";
 
 const MAX_SEQUENTIAL_FAILURE_COUNT = env.MAX_SEQUENTIAL_INDEX_FAILURE_COUNT;

@@ -1,4 +1,4 @@
-import { User, Webhook } from "@trigger.dev/database";
+import { User, Webhook } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, prisma } from "~/db.server";
 import { Organization } from "~/models/organization.server";
 import { Project } from "~/models/project.server";

@@ -1,7 +1,7 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
-import { Github, events } from "@trigger.dev/github";
-import { Slack } from "@trigger.dev/slack";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { Github, events } from "@systemfsoftware/trigger.dev_github";
+import { Slack } from "@systemfsoftware/trigger.dev_slack";
 import { z } from "zod";
 
 export const client = new TriggerClient({

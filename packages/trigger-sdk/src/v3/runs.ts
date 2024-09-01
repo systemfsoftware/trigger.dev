@@ -3,7 +3,7 @@ import type {
   ListProjectRunsQueryParams,
   ListRunsQueryParams,
   RescheduleRunRequestBody,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import {
   ApiPromise,
   CanceledRunResponse,
@@ -16,7 +16,7 @@ import {
   flattenAttributes,
   isRequestOptions,
   mergeRequestOptions,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { AnyTask, Prettify, RunHandle, Task, apiClientMissingError } from "./shared";
 import { tracer } from "./tracer";
 

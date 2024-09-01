@@ -4,7 +4,7 @@ import {
   SemanticInternalAttributes,
   TriggerTaskRequestBody,
   packetRequiresOffloading,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { env } from "~/env.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { autoIncrementCounter } from "~/services/autoIncrementCounter.server";

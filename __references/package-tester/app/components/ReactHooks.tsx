@@ -5,7 +5,7 @@ import {
   useEventRunDetails,
   useRunDetails,
   useTriggerProvider,
-} from "@trigger.dev/react";
+} from "@systemfsoftware/trigger.dev_react";
 import Link from "next/link";
 
 export function ReactHooks({ eventId }: { eventId: string }) {

@@ -20,9 +20,9 @@ import {
   UpdateTriggerSourceBodyV2,
   UpdateWebhookBody,
   supportsFeature,
-} from "@trigger.dev/core";
-import { LogLevel, Logger } from "@trigger.dev/core-backend";
-import { BloomFilter } from "@trigger.dev/core-backend";
+} from "@systemfsoftware/trigger.dev_core";
+import { LogLevel, Logger } from "@systemfsoftware/trigger.dev_core-backend";
+import { BloomFilter } from "@systemfsoftware/trigger.dev_core-backend";
 import { AsyncLocalStorage } from "node:async_hooks";
 import { webcrypto } from "node:crypto";
 import { ApiClient } from "./apiClient";

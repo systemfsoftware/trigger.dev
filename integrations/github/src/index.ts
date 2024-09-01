@@ -13,7 +13,7 @@ import {
   StarCreatedEvent,
   StarEvent,
 } from "@octokit/webhooks-types";
-import { truncate } from "@trigger.dev/integration-kit";
+import { truncate } from "@systemfsoftware/trigger.dev_integration-kit";
 import {
   ConnectionAuth,
   EventSpecification,
@@ -26,7 +26,7 @@ import {
   RunTaskOptions,
   TriggerIntegration,
   retry,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { Octokit } from "octokit";
 import { createOrgEventSource, createRepoEventSource } from "./sources";
 import {

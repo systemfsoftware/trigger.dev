@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/core-apps": patch
+"@systemfsoftware/trigger.dev_core-apps": patch
 "trigger.dev": patch
 ---
 

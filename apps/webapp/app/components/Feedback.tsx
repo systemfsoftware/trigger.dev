@@ -9,7 +9,7 @@ import {
   LightBulbIcon,
 } from "@heroicons/react/24/solid";
 import { Form, useActionData, useLocation, useNavigation } from "@remix-run/react";
-import { DiscordIcon } from "@trigger.dev/companyicons";
+import { DiscordIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { ActivityIcon } from "lucide-react";
 import { type ReactNode, useState } from "react";
 import { type FeedbackType, feedbackTypeLabel, schema } from "~/routes/resources.feedback";

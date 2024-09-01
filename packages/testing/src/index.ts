@@ -4,7 +4,7 @@ import {
   SendEventBodySchema,
   SendEventOptions,
   ServerTask,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import type {
   EventSpecification,
   IO,
@@ -16,7 +16,7 @@ import type {
   TriggerClient,
   TriggerEventType,
   TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { Mock, vi as vitestVi } from "vitest";
 
 declare module "vitest" {

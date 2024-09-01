@@ -4,7 +4,7 @@ import { chalkError, chalkPurple, chalkGrey, chalkGreen, chalkWarning, cliLink }
 import { logger } from "./logger";
 import { ReadConfigResult } from "./configFiles";
 import { z } from "zod";
-import { groupTaskMetadataIssuesByTask } from "@trigger.dev/core/v3";
+import { groupTaskMetadataIssuesByTask } from "@systemfsoftware/trigger.dev_core/v3";
 import { docs } from "./links";
 
 export type ESMRequireError = {

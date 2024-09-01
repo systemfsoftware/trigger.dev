@@ -4,7 +4,7 @@ import {
   REGISTER_SOURCE_EVENT_V2,
   RegisterSourceEventV2,
   RegisterTriggerBodySchemaV2,
-} from "@trigger.dev/core";
+} from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { authenticateApiRequest } from "~/services/apiAuth.server";
 import { IngestSendEvent } from "~/services/events/ingestSendEvent.server";

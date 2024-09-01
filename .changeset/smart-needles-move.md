@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/sdk": patch
+"@systemfsoftware/trigger.dev_sdk": patch
 ---
 
 Remove unimplemented batchOptions

@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { BeakerIcon, BookOpenIcon, CheckIcon } from "@heroicons/react/24/solid";
 import { useLocation } from "@remix-run/react";
-import { formatDuration, formatDurationMilliseconds } from "@trigger.dev/core/v3";
+import { formatDuration, formatDurationMilliseconds } from "@systemfsoftware/trigger.dev_core/v3";
 import { useCallback, useRef } from "react";
 import { Button, LinkButton } from "~/components/primitives/Buttons";
 import { Checkbox } from "~/components/primitives/Checkbox";

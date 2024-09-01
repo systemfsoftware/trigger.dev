@@ -1,5 +1,5 @@
-import { IntegrationTaskKey, verifyRequestSignature, WebhookSource } from "@trigger.dev/sdk";
-import { registerJobNamespace } from "@trigger.dev/integration-kit";
+import { IntegrationTaskKey, verifyRequestSignature, WebhookSource } from "@systemfsoftware/trigger.dev_sdk";
+import { registerJobNamespace } from "@systemfsoftware/trigger.dev_integration-kit";
 import { z } from "zod";
 import { Shopify, ShopifyRunTask } from "./index";
 import {

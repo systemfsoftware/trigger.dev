@@ -1,6 +1,6 @@
 import type { ActionFunctionArgs, LoaderFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { ScheduleObject, UpdateScheduleOptions } from "@trigger.dev/core/v3";
+import { ScheduleObject, UpdateScheduleOptions } from "@systemfsoftware/trigger.dev_core/v3";
 import { z } from "zod";
 import { Prisma, prisma } from "~/db.server";
 import { ViewSchedulePresenter } from "~/presenters/v3/ViewSchedulePresenter.server";

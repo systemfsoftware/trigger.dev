@@ -1,5 +1,5 @@
 /**
- * @fileoverview Prevent importing from `@trigger.dev/core` directly
+ * @fileoverview Prevent importing from `@systemfsoftware/trigger.dev_core` directly
  * @author
  */
 "use strict";
@@ -24,14 +24,14 @@ const ruleTester = new RuleTester({
 ruleTester.run("no-trigger-core-import", rule, {
   valid: [
     {
-      code: `import { conditionallyImportPacket, parsePacket } from "@trigger.dev/core/v3/utils/ioSerialization";`,
+      code: `import { conditionallyImportPacket, parsePacket } from "@systemfsoftware/trigger.dev_core/v3/utils/ioSerialization";`,
     },
   ],
 
   invalid: [
     {
-      code: `import { parsePacket } from '@trigger.dev/core/v3';`,
-      output: `import { parsePacket } from '@trigger.dev/core/v3/utils/ioSerialization';`,
+      code: `import { parsePacket } from '@systemfsoftware/trigger.dev_core/v3';`,
+      output: `import { parsePacket } from '@systemfsoftware/trigger.dev_core/v3/utils/ioSerialization';`,
       errors: [
         {
           messageId: "noTriggerCoreImportFixable",
@@ -39,9 +39,9 @@ ruleTester.run("no-trigger-core-import", rule, {
       ],
     },
     {
-      code: `import { CreateBackgroundWorkerRequestBody, TaskResource } from '@trigger.dev/core/v3';`,
-      output: `import { CreateBackgroundWorkerRequestBody } from '@trigger.dev/core/v3/schemas';
-import { TaskResource } from '@trigger.dev/core/v3/schemas';`,
+      code: `import { CreateBackgroundWorkerRequestBody, TaskResource } from '@systemfsoftware/trigger.dev_core/v3';`,
+      output: `import { CreateBackgroundWorkerRequestBody } from '@systemfsoftware/trigger.dev_core/v3/schemas';
+import { TaskResource } from '@systemfsoftware/trigger.dev_core/v3/schemas';`,
       errors: [
         {
           messageId: "noTriggerCoreImportFixable",
@@ -49,9 +49,9 @@ import { TaskResource } from '@trigger.dev/core/v3/schemas';`,
       ],
     },
     {
-      code: `import { CreateBackgroundWorkerRequestBody, stringifyIO } from '@trigger.dev/core/v3';`,
-      output: `import { CreateBackgroundWorkerRequestBody } from '@trigger.dev/core/v3/schemas';
-import { stringifyIO } from '@trigger.dev/core/v3/utils/ioSerialization';`,
+      code: `import { CreateBackgroundWorkerRequestBody, stringifyIO } from '@systemfsoftware/trigger.dev_core/v3';`,
+      output: `import { CreateBackgroundWorkerRequestBody } from '@systemfsoftware/trigger.dev_core/v3/schemas';
+import { stringifyIO } from '@systemfsoftware/trigger.dev_core/v3/utils/ioSerialization';`,
       errors: [
         {
           messageId: "noTriggerCoreImportFixable",
@@ -63,10 +63,10 @@ import { stringifyIO } from '@trigger.dev/core/v3/utils/ioSerialization';`,
   isExceptionSpanEvent,
  ExceptionEventProperties,
  SpanEvent as OtelSpanEvent,
-} from "@trigger.dev/core/v3";`,
-      output: `import { isExceptionSpanEvent } from '@trigger.dev/core/v3/schemas';
-import { ExceptionEventProperties } from '@trigger.dev/core/v3/schemas';
-import { SpanEvent as OtelSpanEvent } from '@trigger.dev/core/v3/schemas';`,
+} from "@systemfsoftware/trigger.dev_core/v3";`,
+      output: `import { isExceptionSpanEvent } from '@systemfsoftware/trigger.dev_core/v3/schemas';
+import { ExceptionEventProperties } from '@systemfsoftware/trigger.dev_core/v3/schemas';
+import { SpanEvent as OtelSpanEvent } from '@systemfsoftware/trigger.dev_core/v3/schemas';`,
       errors: [
         {
           messageId: "noTriggerCoreImportFixable",

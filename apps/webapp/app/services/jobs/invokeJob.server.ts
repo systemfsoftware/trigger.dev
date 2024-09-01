@@ -1,6 +1,6 @@
 import { $transaction, PrismaClient, prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "../apiAuth.server";
-import { InvokeJobRequestBody } from "@trigger.dev/core";
+import { InvokeJobRequestBody } from "@systemfsoftware/trigger.dev_core";
 import { ulid } from "../ulid.server";
 import { CreateRunService } from "../runs/createRun.server";
 

@@ -1,10 +1,10 @@
-import { createExpressServer } from "@trigger.dev/express";
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { Resend } from "@trigger.dev/resend";
-import { Stripe } from "@trigger.dev/stripe";
-import { Slack } from "@trigger.dev/slack";
-import { OpenAI } from "@trigger.dev/openai";
-import { Github, events } from "@trigger.dev/github";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { Resend } from "@systemfsoftware/trigger.dev_resend";
+import { Stripe } from "@systemfsoftware/trigger.dev_stripe";
+import { Slack } from "@systemfsoftware/trigger.dev_slack";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
+import { Github, events } from "@systemfsoftware/trigger.dev_github";
 import { Clerk } from "@clerk/backend";
 
 const clerk = Clerk({ apiKey: process.env.CLERK_API_KEY });

@@ -2,7 +2,7 @@
 
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["@trigger.dev/sdk", "@trigger.dev/github", "@trigger.dev/core"],
+  transpilePackages: ["@systemfsoftware/trigger.dev_sdk", "@systemfsoftware/trigger.dev_github", "@systemfsoftware/trigger.dev_core"],
   experimental: {
     appDir: true,
   },

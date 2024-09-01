@@ -1,5 +1,5 @@
-import { RuntimeEnvironment } from "@trigger.dev/database";
-import type { AsyncMap } from "@trigger.dev/core";
+import { RuntimeEnvironment } from "@systemfsoftware/trigger.dev_database";
+import type { AsyncMap } from "@systemfsoftware/trigger.dev_core";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";
 import { logger } from "../logger.server";

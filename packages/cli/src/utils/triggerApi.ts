@@ -1,6 +1,6 @@
 import fetch from "./fetchUseProxy";
 import { z } from "zod";
-import { GetEndpointIndexResponseSchema } from "@trigger.dev/core";
+import { GetEndpointIndexResponseSchema } from "@systemfsoftware/trigger.dev_core";
 
 export type CreateEndpointOptions = {
   id: string;

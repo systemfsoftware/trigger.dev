@@ -1,7 +1,7 @@
 ---
-"@trigger.dev/core-apps": patch
+"@systemfsoftware/trigger.dev_core-apps": patch
 "trigger.dev": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Tasks should now be much more robust and resilient to reconnects during crucial operations and other failure scenarios.

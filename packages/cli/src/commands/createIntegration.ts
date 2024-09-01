@@ -66,27 +66,27 @@ export async function createIntegrationCommand(path: string, cliOptions: any) {
 
   const sdkVersion = await getInternalOrExternalPackageVersion({
     path: "packages/trigger-sdk",
-    packageName: "@trigger.dev/sdk",
+    packageName: "@systemfsoftware/trigger.dev_sdk",
     tag: "latest",
     monorepoPath: triggerMonorepoPath,
   });
 
   if (!sdkVersion) {
-    logger.error(`Could not find the latest version of @trigger.dev/sdk. Please try again later.`);
+    logger.error(`Could not find the latest version of @systemfsoftware/trigger.dev_sdk. Please try again later.`);
 
     process.exit(1);
   }
 
   const integrationKitVersion = await getInternalOrExternalPackageVersion({
     path: "packages/integration-kit",
-    packageName: "@trigger.dev/integration-kit",
+    packageName: "@systemfsoftware/trigger.dev_integration-kit",
     tag: "latest",
     monorepoPath: triggerMonorepoPath,
   });
 
   if (!integrationKitVersion) {
     logger.error(
-      `Could not find the latest version of @trigger.dev/integration-kit. Please try again later.`
+      `Could not find the latest version of @systemfsoftware/trigger.dev_integration-kit. Please try again later.`
     );
 
     process.exit(1);
@@ -94,7 +94,7 @@ export async function createIntegrationCommand(path: string, cliOptions: any) {
 
   const integrationVersion = await getInternalOrExternalPackageVersion({
     path: "integrations/github",
-    packageName: "@trigger.dev/github",
+    packageName: "@systemfsoftware/trigger.dev_github",
     tag: "latest",
     monorepoPath: triggerMonorepoPath,
     prependWorkspace: false,
@@ -102,7 +102,7 @@ export async function createIntegrationCommand(path: string, cliOptions: any) {
 
   if (!integrationVersion) {
     logger.error(
-      `Could not find the latest version of @trigger.dev/github. Please try again later.`
+      `Could not find the latest version of @systemfsoftware/trigger.dev_github. Please try again later.`
     );
 
     process.exit(1);
@@ -337,7 +337,7 @@ export const promptPackageName = async (path: string): Promise<string> => {
   const { packageName } = await inquirer.prompt<{ packageName: string }>({
     type: "input",
     name: "packageName",
-    default: `@trigger.dev/${basename}`,
+    default: `@systemfsoftware/trigger.dev_${basename}`,
     message: "What is the name of your integration package?",
     validate: (input) => {
       if (!input) {

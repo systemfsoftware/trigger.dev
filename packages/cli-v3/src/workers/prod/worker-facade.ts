@@ -7,7 +7,7 @@ import {
   ProjectConfig,
   clock,
   taskCatalog,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import {
   ConsoleInterceptor,
   DevUsageManager,
@@ -19,9 +19,9 @@ import {
   logLevels,
   usage,
   type TracingSDK,
-} from "@trigger.dev/core/v3/workers";
-import { ZodIpcConnection } from "@trigger.dev/core/v3/zodIpc";
-import { ZodSchemaParsedError } from "@trigger.dev/core/v3/zodMessageHandler";
+} from "@systemfsoftware/trigger.dev_core/v3/workers";
+import { ZodIpcConnection } from "@systemfsoftware/trigger.dev_core/v3/zodIpc";
+import { ZodSchemaParsedError } from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
 import "source-map-support/register.js";
 
 __WORKER_SETUP__;
@@ -45,8 +45,8 @@ import {
   TriggerTracer,
   logger,
   runtime,
-} from "@trigger.dev/core/v3";
-import { ProdRuntimeManager } from "@trigger.dev/core/v3/prod";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { ProdRuntimeManager } from "@systemfsoftware/trigger.dev_core/v3/prod";
 
 const heartbeatIntervalMs = getEnvVar("USAGE_HEARTBEAT_INTERVAL_MS");
 const usageEventUrl = getEnvVar("USAGE_EVENT_URL");

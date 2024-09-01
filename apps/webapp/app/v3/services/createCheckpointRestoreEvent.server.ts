@@ -1,4 +1,4 @@
-import type { CheckpointRestoreEvent, CheckpointRestoreEventType } from "@trigger.dev/database";
+import type { CheckpointRestoreEvent, CheckpointRestoreEventType } from "@systemfsoftware/trigger.dev_database";
 import { logger } from "~/services/logger.server";
 import { BaseService } from "./baseService.server";
 

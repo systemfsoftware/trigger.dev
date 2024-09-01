@@ -1,4 +1,4 @@
-import type { TaskStatus } from "@trigger.dev/core";
+import type { TaskStatus } from "@systemfsoftware/trigger.dev_core";
 import {
   CheckCircleIcon,
   CheckIcon,

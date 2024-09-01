@@ -9,7 +9,7 @@ import type {
   TaskRunStatus as TaskRunStatusType,
   JobRunStatus as JobRunStatusType,
   RuntimeEnvironmentType as RuntimeEnvironmentTypeType,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 
 export const BatchTaskRunItemStatus = {
   PENDING: "PENDING",

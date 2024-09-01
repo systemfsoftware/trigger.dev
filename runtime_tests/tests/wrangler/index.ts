@@ -1,5 +1,5 @@
-import { addMiddleware } from "@trigger.dev/hono";
-import { TriggerClient, invokeTrigger } from "@trigger.dev/sdk";
+import { addMiddleware } from "@systemfsoftware/trigger.dev_hono";
+import { TriggerClient, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { Hono } from "hono";
 
 type Bindings = {

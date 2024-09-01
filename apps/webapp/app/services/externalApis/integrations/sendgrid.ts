@@ -3,7 +3,7 @@ import type { Integration } from "../types";
 export const sendgrid: Integration = {
   identifier: "sendgrid",
   name: "SendGrid",
-  packageName: "@trigger.dev/sendgrid@latest",
+  packageName: "@systemfsoftware/trigger.dev_sendgrid@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",
@@ -12,7 +12,7 @@ export const sendgrid: Integration = {
           {
             title: "Creating the client",
             code: `
-import { SendGrid } from "@trigger.dev/sendgrid";
+import { SendGrid } from "@systemfsoftware/trigger.dev_sendgrid";
 
 const sendgrid = new SendGrid({
   id: "__SLUG__",

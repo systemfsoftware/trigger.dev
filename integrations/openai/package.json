@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/openai",
+  "name": "@systemfsoftware/trigger.dev_openai",
   "version": "3.0.0-beta.55",
   "description": "The official OpenAI integration for Trigger.dev",
   "main": "./dist/index.js",
@@ -23,11 +23,11 @@
     "dist"
   ],
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
     "@types/node": "18",
     "rimraf": "^3.0.2",
     "tsup": "^8.0.1",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "typescript": "^5.3.0",
     "@types/jest": "^29.5.3",
     "jest": "^29.6.2",
@@ -42,8 +42,8 @@
   },
   "dependencies": {
     "openai": "^4.16.1",
-    "@trigger.dev/sdk": "workspace:^3.0.0-beta.55",
-    "@trigger.dev/integration-kit": "workspace:^3.0.0-beta.55"
+    "@systemfsoftware/trigger.dev_sdk": "workspace:^3.0.0-beta.55",
+    "@systemfsoftware/trigger.dev_integration-kit": "workspace:^3.0.0-beta.55"
   },
   "engines": {
     "node": ">=18.0.0"

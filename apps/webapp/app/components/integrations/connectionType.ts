@@ -1,4 +1,4 @@
-import type { ConnectionType } from "@trigger.dev/database";
+import type { ConnectionType } from "@systemfsoftware/trigger.dev_database";
 
 export function connectionType(type: ConnectionType) {
   switch (type) {

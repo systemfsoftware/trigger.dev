@@ -1,5 +1,5 @@
-import { ListRunResponse, ListRunResponseItem, RunStatus } from "@trigger.dev/core/v3";
-import { Project, RuntimeEnvironment, TaskRunStatus } from "@trigger.dev/database";
+import { ListRunResponse, ListRunResponseItem, RunStatus } from "@systemfsoftware/trigger.dev_core/v3";
+import { Project, RuntimeEnvironment, TaskRunStatus } from "@systemfsoftware/trigger.dev_database";
 import assertNever from "assert-never";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";

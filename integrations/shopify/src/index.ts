@@ -8,8 +8,8 @@ import {
   Json,
   retry,
   ConnectionAuth,
-} from "@trigger.dev/sdk";
-import { OmitIndexSignature } from "@trigger.dev/integration-kit";
+} from "@systemfsoftware/trigger.dev_sdk";
+import { OmitIndexSignature } from "@systemfsoftware/trigger.dev_integration-kit";
 
 import {
   ApiVersion,

@@ -2,7 +2,7 @@ import { ActionFunctionArgs, json } from "@remix-run/server-runtime";
 import {
   InitializeDeploymentRequestBody,
   InitializeDeploymentResponseBody,
-} from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
 import { env } from "~/env.server";
 import { authenticateApiRequest } from "~/services/apiAuth.server";
 import { logger } from "~/services/logger.server";

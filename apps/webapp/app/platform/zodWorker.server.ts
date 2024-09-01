@@ -18,7 +18,7 @@ import {
   parseCronItems,
 } from "graphile-worker";
 
-import { flattenAttributes } from "@trigger.dev/core/v3";
+import { flattenAttributes } from "@systemfsoftware/trigger.dev_core/v3";
 import omit from "lodash.omit";
 import { z } from "zod";
 import { $replica, PrismaClient, PrismaClientOrTransaction } from "~/db.server";

@@ -1,4 +1,4 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 
 export const triggerClient = new TriggerClient({
   id: "perf",

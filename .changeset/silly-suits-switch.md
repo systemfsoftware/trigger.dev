@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/otlp-importer": patch
+"@systemfsoftware/trigger.dev_otlp-importer": patch
 "trigger.dev": patch
 ---
 

@@ -6,7 +6,7 @@ import {
   WebAPIRateLimitedError,
   WebAPIRequestError,
 } from "@slack/web-api";
-import { TaskRunError, createJsonErrorObject } from "@trigger.dev/core/v3";
+import { TaskRunError, createJsonErrorObject } from "@systemfsoftware/trigger.dev_core/v3";
 import assertNever from "assert-never";
 import { subtle } from "crypto";
 import { Prisma, PrismaClientOrTransaction, prisma } from "~/db.server";

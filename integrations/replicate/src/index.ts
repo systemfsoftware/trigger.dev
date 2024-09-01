@@ -8,7 +8,7 @@ import {
   Json,
   retry,
   ConnectionAuth,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import ReplicateClient, { Page, Prediction } from "replicate";
 
 import { Predictions } from "./predictions";

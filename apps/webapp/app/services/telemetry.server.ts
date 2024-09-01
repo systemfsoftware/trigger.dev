@@ -1,5 +1,5 @@
-import { Job } from "@trigger.dev/database";
-import { TriggerClient } from "@trigger.dev/sdk";
+import { Job } from "@systemfsoftware/trigger.dev_database";
+import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 import { PostHog } from "posthog-node";
 import { env } from "~/env.server";
 import { MatchedOrganization } from "~/hooks/useOrganizations";

@@ -1,4 +1,4 @@
-import type { SchemaError } from "@trigger.dev/core";
+import type { SchemaError } from "@systemfsoftware/trigger.dev_core";
 import { SchemaParserIssue } from "../types";
 
 export function formatSchemaErrors(errors: SchemaParserIssue[]): SchemaError[] {

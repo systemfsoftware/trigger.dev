@@ -9,7 +9,7 @@ import {
   RunTaskOptions,
   TriggerIntegration,
   retry,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { GenericSchema } from "./types";
 
 export type SupabaseIntegrationOptions<TSchema extends string> =
@@ -35,7 +35,7 @@ export type SupabaseIntegrationOptions<TSchema extends string> =
  *
  * @example
  * ```ts
- * import { Supabase } from "@trigger.dev/supabase";
+ * import { Supabase } from "@systemfsoftware/trigger.dev_supabase";
  * import { Database } from "@/supabase.types";
  *
  * const supabase = new Supabase<Database>({
@@ -69,7 +69,7 @@ export class Supabase<
    *
    * @example
    * ```ts
-   * import { Supabase } from "@trigger.dev/supabase";
+   * import { Supabase } from "@systemfsoftware/trigger.dev_supabase";
    * import { Database } from "@/supabase.types";
    *
    * const supabase = new Supabase<Database>({

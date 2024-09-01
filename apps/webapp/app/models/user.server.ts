@@ -1,8 +1,8 @@
-import type { Prisma, User } from "@trigger.dev/database";
+import type { Prisma, User } from "@systemfsoftware/trigger.dev_database";
 import type { GitHubProfile } from "remix-auth-github";
 import { prisma } from "~/db.server";
 import { env } from "~/env.server";
-export type { User } from "@trigger.dev/database";
+export type { User } from "@systemfsoftware/trigger.dev_database";
 
 type FindOrCreateMagicLink = {
   authenticationMethod: "MAGIC_LINK";

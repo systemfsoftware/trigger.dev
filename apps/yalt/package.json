@@ -12,6 +12,6 @@
     "wrangler": "^3.21.0"
   },
   "dependencies": {
-    "@trigger.dev/yalt": "workspace:*"
+    "@systemfsoftware/trigger.dev_yalt": "workspace:*"
   }
 }

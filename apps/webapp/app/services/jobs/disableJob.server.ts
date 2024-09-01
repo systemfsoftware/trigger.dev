@@ -1,4 +1,4 @@
-import type { JobVersion } from "@trigger.dev/database";
+import type { JobVersion } from "@systemfsoftware/trigger.dev_database";
 import type { PrismaClient } from "~/db.server";
 import { prisma } from "~/db.server";
 import { ExtendedEndpoint, findEndpoint } from "~/models/endpoint.server";

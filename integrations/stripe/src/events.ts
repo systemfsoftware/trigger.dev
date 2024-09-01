@@ -1,4 +1,4 @@
-import type { EventSpecification } from "@trigger.dev/sdk";
+import type { EventSpecification } from "@systemfsoftware/trigger.dev_sdk";
 import {
   amountCapturablePaymentIntentExample,
   cancelledPaymentIntentExample,

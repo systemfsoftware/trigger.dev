@@ -1,5 +1,5 @@
 {
-  "name": "@trigger.dev/yalt",
+  "name": "@systemfsoftware/trigger.dev_yalt",
   "version": "3.0.0-beta.55",
   "description": "yalt.dev client library",
   "license": "MIT",
@@ -38,8 +38,8 @@
     "zod": "3.22.3"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/jest": "^29.5.3",
     "@types/node": "18",

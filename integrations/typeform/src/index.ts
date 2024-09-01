@@ -1,4 +1,4 @@
-import { safeParseBody } from "@trigger.dev/integration-kit";
+import { safeParseBody } from "@systemfsoftware/trigger.dev_integration-kit";
 import {
   ConnectionAuth,
   EventSpecification,
@@ -14,7 +14,7 @@ import {
   RunTaskOptions,
   TriggerIntegration,
   retry,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import { createClient } from "@typeform/api-client";
 import { createHmac } from "node:crypto";
 import { z } from "zod";

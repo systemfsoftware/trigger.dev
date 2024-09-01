@@ -1,5 +1,5 @@
 import { Message, SQSClient } from "@aws-sdk/client-sqs";
-import { SendEventBodySchema } from "@trigger.dev/core";
+import { SendEventBodySchema } from "@systemfsoftware/trigger.dev_core";
 import { Consumer } from "sqs-consumer";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";

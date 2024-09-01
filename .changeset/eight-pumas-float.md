@@ -1,5 +1,5 @@
 ---
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Fixed batch otel flushing

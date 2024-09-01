@@ -1,4 +1,4 @@
-import { Prisma, RuntimeEnvironmentType, ScheduleType } from "@trigger.dev/database";
+import { Prisma, RuntimeEnvironmentType, ScheduleType } from "@systemfsoftware/trigger.dev_database";
 import { ScheduleListFilters } from "~/components/runs/v3/ScheduleFilters";
 import { sqlDatabaseSchema } from "~/db.server";
 import { displayableEnvironment } from "~/models/runtimeEnvironment.server";

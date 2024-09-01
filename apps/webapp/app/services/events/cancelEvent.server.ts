@@ -1,4 +1,4 @@
-import type { EventRecord } from "@trigger.dev/database";
+import type { EventRecord } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClientOrTransaction, prisma } from "~/db.server";
 import { workerQueue } from "../worker.server";
 import { AuthenticatedEnvironment } from "../apiAuth.server";

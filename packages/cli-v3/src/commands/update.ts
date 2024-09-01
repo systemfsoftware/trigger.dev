@@ -23,7 +23,7 @@ export type UpdateCommandOptions = z.infer<typeof UpdateCommandOptions>;
 export function configureUpdateCommand(program: Command) {
   return program
     .command("update")
-    .description("Updates all @trigger.dev/* packages to match the CLI version")
+    .description("Updates all @systemfsoftware/trigger.dev_* packages to match the CLI version")
     .argument("[path]", "The path to the directory that contains the package.json file", ".")
     .option(
       "-l, --log-level <level>",
@@ -150,7 +150,7 @@ export async function updateTriggerPackages(
     console.log(
       `ERROR: Version mismatch detected while running in CI. This won't end well. Aborting.
   
-  Please run the dev command locally and check that your CLI version matches the one printed below. Additionally, all \`@trigger.dev/*\` packages also need to match this version.
+  Please run the dev command locally and check that your CLI version matches the one printed below. Additionally, all \`@systemfsoftware/trigger.dev_*\` packages also need to match this version.
   
   If your local CLI version doesn't match the one below, you may want to pin the CLI version in this CI step. To do that, just replace \`trigger.dev@beta\` with \`trigger.dev@<FULL_VERSION>\`, for example: \`npx trigger.dev@3.0.0-beta.17 deploy\`
   
@@ -293,7 +293,7 @@ function getTriggerDependencies(packageJson: PackageJson): Dependency[] {
         continue;
       }
 
-      const ignoredPackages = ["@trigger.dev/companyicons"];
+      const ignoredPackages = ["@systemfsoftware/trigger.dev_companyicons"];
 
       if (ignoredPackages.includes(name)) {
         continue;

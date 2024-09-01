@@ -1,6 +1,6 @@
 ---
 "trigger.dev": patch
-"@trigger.dev/core": patch
+"@systemfsoftware/trigger.dev_core": patch
 ---
 
 Adds support for `emitDecoratorMetadata: true` and `experimentalDecorators: true` in your tsconfig using the [`@anatine/esbuild-decorators`](https://github.com/anatine/esbuildnx/tree/main/packages/esbuild-decorators) package. This allows you to use libraries like TypeORM: 
@@ -47,7 +47,7 @@ export const AppDataSource = new DataSource({
 And then in your trigger.config.ts file you can initialize the datasource using the new `init` option:
 
 ```ts trigger.config.ts
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { AppDataSource } from "@/trigger/orm";
 
 export const config: TriggerConfig = {
@@ -61,7 +61,7 @@ export const config: TriggerConfig = {
 Now you are ready to use this in your tasks:
 
 ```ts
-import { task } from "@trigger.dev/sdk/v3";
+import { task } from "@systemfsoftware/trigger.dev_sdk/v3";
 import { AppDataSource, Photo } from "./orm";
 
 export const taskThatUsesDecorators = task({

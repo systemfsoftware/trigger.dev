@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@trigger.dev/sdk':
+      '@systemfsoftware/trigger.dev_sdk':
         specifier: 3.0.0-beta.40
         version: 3.0.0-beta.40
 
@@ -553,14 +553,14 @@ packages:
     resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
     dev: false
 
-  /@trigger.dev/core-backend@3.0.0-beta.40:
+  /@systemfsoftware/trigger.dev_core-backend@3.0.0-beta.40:
     resolution: {integrity: sha512-Utu2bMbK7/8XCzbqH++baYnErOEaAey3VKg2AQdl3R4x0yVVHk2M1DbfTi7eQ7WyRDhGuDi9rxzwWBbNbiodwg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@opentelemetry/api': 1.9.0
     dev: false
 
-  /@trigger.dev/core@3.0.0-beta.40:
+  /@systemfsoftware/trigger.dev_core@3.0.0-beta.40:
     resolution: {integrity: sha512-ttNRbJUBjM/RR4xPwbhHuHfBBQd0hxTRiOnXGwM8R2WFZk2BzkxuzpoqF8QhRlVzRqX8kGox//CL4BpXoKVy6w==}
     engines: {node: '>=18.0.0'}
     dependencies:
@@ -589,15 +589,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@trigger.dev/sdk@3.0.0-beta.40:
+  /@systemfsoftware/trigger.dev_sdk@3.0.0-beta.40:
     resolution: {integrity: sha512-mRp6dh+74Am7WvpWcvKlcJ1635+UBvL7upgvYOYx6e6hcavbhWYxWJm1PCxjiyG0oGiEK8RLcqcJxEAF+cxOKw==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/api-logs': 0.48.0
       '@opentelemetry/semantic-conventions': 1.25.1
-      '@trigger.dev/core': 3.0.0-beta.40
-      '@trigger.dev/core-backend': 3.0.0-beta.40
+      '@systemfsoftware/trigger.dev_core': 3.0.0-beta.40
+      '@systemfsoftware/trigger.dev_core-backend': 3.0.0-beta.40
       chalk: 5.3.0
       cronstrue: 2.50.0
       debug: 4.3.5

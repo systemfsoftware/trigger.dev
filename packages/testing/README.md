@@ -8,19 +8,19 @@ The testing package provides useful helpers to write your own tests in jest and 
 
 ```bash
 # npm
-npm install -D @trigger.dev/testing
+npm install -D @systemfsoftware/trigger.dev_testing
 
 # yarn
-yarn add -D @trigger.dev/testing
+yarn add -D @systemfsoftware/trigger.dev_testing
 
 # pnpm
-pnpm add -D @trigger.dev/testing
+pnpm add -D @systemfsoftware/trigger.dev_testing
 ```
 
 2. Import the package in a test as follows:
 
 ```js
-import { toHaveSucceeded, createJobTester } from "@trigger.dev/testing";
+import { toHaveSucceeded, createJobTester } from "@systemfsoftware/trigger.dev_testing";
 import { expect, vi } from "vitest";
 
 expect.extend({ toHaveSucceeded });

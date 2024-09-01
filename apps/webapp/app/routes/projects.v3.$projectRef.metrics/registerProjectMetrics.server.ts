@@ -1,4 +1,4 @@
-import { TaskQueue } from "@trigger.dev/database";
+import { TaskQueue } from "@systemfsoftware/trigger.dev_database";
 import { Gauge, Registry } from "prom-client";
 import { prisma } from "~/db.server";
 import { AuthenticatedEnvironment } from "~/services/apiAuth.server";

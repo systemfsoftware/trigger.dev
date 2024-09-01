@@ -4,7 +4,7 @@ import {
   Organization,
   OrganizationIntegration,
   SecretReference,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { $transaction, prisma } from "~/db.server";
 import { env } from "~/env.server";

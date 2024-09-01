@@ -1,4 +1,4 @@
-import { ClientMessages, createRequestMessage } from '@trigger.dev/yalt';
+import { ClientMessages, createRequestMessage } from '@systemfsoftware/trigger.dev_yalt';
 
 export interface Env {
 	// environemnt variables
@@ -250,7 +250,7 @@ export class YaltConnection implements DurableObject {
 const createErrorResponse = () =>
 	new Response(
 		JSON.stringify({
-			message: 'Could not connect to your dev server. Make sure you are running the `npx @trigger.dev/cli@latest dev` command',
+			message: 'Could not connect to your dev server. Make sure you are running the `npx @systemfsoftware/trigger.dev_cli@latest dev` command',
 		}),
 		{
 			status: 400,

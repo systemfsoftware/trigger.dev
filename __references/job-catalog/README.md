@@ -11,7 +11,7 @@ You will need to create a `.env` file. You can duplicate the `.env.example` file
 You need to build the CLI:
 
 ```sh
-pnpm run build --filter @trigger.dev/cli
+pnpm run build --filter @systemfsoftware/trigger.dev_cli
 ```
 
 Each file in `src` is a separate set of jobs that can be run separately. For example, the `src/stripe.ts` file can be run with:
@@ -35,8 +35,8 @@ Navigate to your trigger.dev instance ([http://localhost:3030](http://localhost:
 You can add a new file to `src` with it's own `TriggerClient` and set of jobs (e.g. `src/events.ts`)
 
 ```ts
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
 import { z } from "zod";
 
 export const client = new TriggerClient({

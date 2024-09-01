@@ -1,4 +1,4 @@
-import { TaskTriggerSource } from "@trigger.dev/database";
+import { TaskTriggerSource } from "@systemfsoftware/trigger.dev_database";
 import { sqlDatabaseSchema, PrismaClient, prisma } from "~/db.server";
 import { TestSearchParams } from "~/routes/_app.orgs.$organizationSlug.projects.v3.$projectParam.test/route";
 import { sortEnvironments } from "~/utils/environmentSort";

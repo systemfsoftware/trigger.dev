@@ -10,7 +10,7 @@ import {
   type ConnectionAuth,
   type IO,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import {
   GetCustomerByIdParams,
   GetCustomerByIdResponse,

@@ -7,9 +7,9 @@ import {
   PlatformToProviderMessages,
   ProviderToPlatformMessages,
   SharedQueueToClientMessages,
-} from "@trigger.dev/core/v3";
-import { ZodMessageSender } from "@trigger.dev/core/v3/zodMessageHandler";
-import { ZodSocketConnection } from "@trigger.dev/core/v3/zodSocket";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { ZodMessageSender } from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
+import { ZodSocketConnection } from "@systemfsoftware/trigger.dev_core/v3/zodSocket";
 import { getRandomPortNumber, HttpReply, getTextBody } from "./http";
 import { SimpleLogger } from "./logger";
 import { isExecaChildProcess } from "./checkpoints";

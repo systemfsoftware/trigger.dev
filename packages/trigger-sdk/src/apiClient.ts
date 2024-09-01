@@ -38,8 +38,8 @@ import {
   UpdateWebhookBody,
   assertExhaustive,
   urlWithSearchParams,
-} from "@trigger.dev/core";
-import { LogLevel, Logger } from "@trigger.dev/core-backend";
+} from "@systemfsoftware/trigger.dev_core";
+import { LogLevel, Logger } from "@systemfsoftware/trigger.dev_core-backend";
 import { env } from "node:process";
 
 import { z } from "zod";

@@ -14,9 +14,9 @@ import {
   RunSourceContext,
   RunSourceContextSchema,
   supportsFeature,
-} from "@trigger.dev/core";
-import { BloomFilter } from "@trigger.dev/core-backend";
-import { ConcurrencyLimitGroup, Job, JobRun, JobVersion } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core";
+import { BloomFilter } from "@systemfsoftware/trigger.dev_core-backend";
+import { ConcurrencyLimitGroup, Job, JobRun, JobVersion } from "@systemfsoftware/trigger.dev_database";
 import { generateErrorMessage } from "zod-error";
 import { eventRecordToApiJson } from "~/api.server";
 import {

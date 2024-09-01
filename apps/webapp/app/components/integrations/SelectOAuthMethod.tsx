@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ApiAuthenticationMethodOAuth2, Integration } from "~/services/externalApis/types";
 import { RadioGroup, RadioGroupItem } from "../primitives/RadioButton";
-import type { ConnectionType } from "@trigger.dev/database";
+import type { ConnectionType } from "@systemfsoftware/trigger.dev_database";
 import { Header2 } from "../primitives/Headers";
 import { ConnectToOAuthForm } from "./ConnectToOAuthForm";
 import { Paragraph } from "../primitives/Paragraph";

@@ -1,5 +1,5 @@
-import { TriggerClient, eventTrigger } from "@trigger.dev/sdk";
-import { Stripe } from "@trigger.dev/stripe";
+import { TriggerClient, eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
+import { Stripe } from "@systemfsoftware/trigger.dev_stripe";
 import { toHaveSucceeded, createJobTester } from "../src";
 import { describe, expect, test, vi } from "vitest";
 import { z } from "zod";

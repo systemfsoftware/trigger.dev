@@ -97,8 +97,8 @@ jobs:
           pnpm run build --filter @references/nextjs-test^...
           cd apps/webapp && pnpm run build:server
           cd ../..
-          pnpm --filter @trigger.dev/database generate
-          pnpm --filter @trigger.dev/otlp-importer generate
+          pnpm --filter @systemfsoftware/trigger.dev_database generate
+          pnpm --filter @systemfsoftware/trigger.dev_otlp-importer generate
 
           # Move trigger-cli bin to correct place
           pnpm install --frozen-lockfile

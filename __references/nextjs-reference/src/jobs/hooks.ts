@@ -1,5 +1,5 @@
 import { client } from "@/trigger";
-import { eventTrigger } from "@trigger.dev/sdk";
+import { eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 
 client.defineJob({
   id: "hooks-test-job",

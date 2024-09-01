@@ -2,7 +2,7 @@ import {
   type ConnectionType,
   type Integration,
   type IntegrationConnection,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import type { PrismaClient, PrismaClientOrTransaction } from "~/db.server";
 import { prisma } from "~/db.server";
 import { autoIncrementCounter } from "../autoIncrementCounter.server";

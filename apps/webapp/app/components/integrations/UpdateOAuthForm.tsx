@@ -1,7 +1,7 @@
 import { conform, useForm } from "@conform-to/react";
 import { parse } from "@conform-to/zod";
 import { useFetcher, useLocation, useNavigation } from "@remix-run/react";
-import type { ConnectionType } from "@trigger.dev/database";
+import type { ConnectionType } from "@systemfsoftware/trigger.dev_database";
 import { useState } from "react";
 import simplur from "simplur";
 import { useFeatures } from "~/hooks/useFeatures";

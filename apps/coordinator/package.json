@@ -16,8 +16,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@trigger.dev/core": "workspace:*",
-    "@trigger.dev/core-apps": "workspace:*",
+    "@systemfsoftware/trigger.dev_core": "workspace:*",
+    "@systemfsoftware/trigger.dev_core-apps": "workspace:*",
     "execa": "^8.0.1",
     "nanoid": "^5.0.6",
     "prom-client": "^15.1.0",

@@ -5,8 +5,8 @@ import {
   clientWebsocketMessages,
   detectDependencyVersion,
   serverWebsocketMessages,
-} from "@trigger.dev/core/v3";
-import { ZodMessageHandler, ZodMessageSender } from "@trigger.dev/core/v3/zodMessageHandler";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { ZodMessageHandler, ZodMessageSender } from "@systemfsoftware/trigger.dev_core/v3/zodMessageHandler";
 import { watch } from "chokidar";
 import { Command } from "commander";
 import { BuildContext, Metafile, context } from "esbuild";
@@ -485,7 +485,7 @@ function useDev({
           bundleDependenciesPlugin(
             "workerFacade",
             {},
-            (config.dependenciesToBundle ?? []).concat([/^@trigger.dev/]),
+            (config.dependenciesToBundle ?? []).concat([/^@systemfsoftware\/trigger.dev_/]),
             config.tsconfigPath
           ),
           workerSetupImportConfigPlugin(configPath),

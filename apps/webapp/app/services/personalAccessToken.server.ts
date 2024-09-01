@@ -1,4 +1,4 @@
-import { PersonalAccessToken } from "@trigger.dev/database";
+import { PersonalAccessToken } from "@systemfsoftware/trigger.dev_database";
 import { customAlphabet, nanoid } from "nanoid";
 import nodeCrypto from "node:crypto";
 import { z } from "zod";

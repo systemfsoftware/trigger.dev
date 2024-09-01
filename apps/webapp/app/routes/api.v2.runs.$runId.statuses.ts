@@ -1,6 +1,6 @@
 import type { LoaderFunctionArgs } from "@remix-run/server-runtime";
 import { json } from "@remix-run/server-runtime";
-import { JobRunStatusRecordSchema } from "@trigger.dev/core";
+import { JobRunStatusRecordSchema } from "@systemfsoftware/trigger.dev_core";
 import { z } from "zod";
 import { prisma } from "~/db.server";
 import { authenticateApiRequest } from "~/services/apiAuth.server";

@@ -16,7 +16,7 @@ import {
   isTriggerError,
   retry,
   OverridableRunTaskOptions,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import {
   CreateProjectRequestBody,
   CreateProjectResponseData,
@@ -30,7 +30,7 @@ import {
   SupabaseManagementAPI,
 } from "supabase-management-js";
 import { z } from "zod";
-import { Prettify, safeParseBody } from "@trigger.dev/integration-kit";
+import { Prettify, safeParseBody } from "@systemfsoftware/trigger.dev_integration-kit";
 import { randomUUID } from "node:crypto";
 import { GenericSchema } from "../database/types";
 

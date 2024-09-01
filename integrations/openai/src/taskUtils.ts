@@ -1,8 +1,8 @@
 import OpenAI, { APIError } from "openai";
 import { OpenAIRequestOptions } from "./types";
-import { redactString } from "@trigger.dev/sdk";
-import { calculateResetAtUtil } from "@trigger.dev/integration-kit";
-import { FetchRetryOptions } from "@trigger.dev/integration-kit";
+import { redactString } from "@systemfsoftware/trigger.dev_sdk";
+import { calculateResetAtUtil } from "@systemfsoftware/trigger.dev_integration-kit";
+import { FetchRetryOptions } from "@systemfsoftware/trigger.dev_integration-kit";
 
 export function createImageTaskOutputProperties(
   response: OpenAI.ImagesResponse | undefined,

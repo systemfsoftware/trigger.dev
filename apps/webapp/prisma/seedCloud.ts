@@ -1,4 +1,4 @@
-import { PrismaClient } from "@trigger.dev/database";
+import { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 
 const GITHUB_CONNECTION_KEY = "github-seed-key";
 const SLACK_CONNECTION_KEY = "slack-seed-key";

@@ -1,4 +1,4 @@
-import { JobRun } from "@trigger.dev/database";
+import { JobRun } from "@systemfsoftware/trigger.dev_database";
 import { PrismaClient, prisma } from "~/db.server";
 import { workerQueue } from "../worker.server";
 

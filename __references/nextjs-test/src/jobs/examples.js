@@ -1,5 +1,5 @@
 
-import { eventTrigger } from "@trigger.dev/sdk";
+import { eventTrigger } from "@systemfsoftware/trigger.dev_sdk";
 import { client } from "@/trigger";
 
 // your first job

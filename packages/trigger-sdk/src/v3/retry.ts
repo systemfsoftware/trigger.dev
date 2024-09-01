@@ -20,8 +20,8 @@ import {
   eventFilterMatches,
   flattenAttributes,
   runtime,
-} from "@trigger.dev/core/v3";
-import { defaultFetchRetryOptions } from "@trigger.dev/core/v3";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { defaultFetchRetryOptions } from "@systemfsoftware/trigger.dev_core/v3";
 import type { HttpHandler } from "msw";
 import { AsyncLocalStorage } from "node:async_hooks";
 import { tracer } from "./tracer";

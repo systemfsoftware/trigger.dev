@@ -7,22 +7,22 @@
       "ES2019"
     ],
     "paths": {
-      "@trigger.dev/tsup/*": [
+      "@systemfsoftware/trigger.dev_tsup/*": [
         "../../config-packages/tsup/src/*"
       ],
-      "@trigger.dev/tsup": [
+      "@systemfsoftware/trigger.dev_tsup": [
         "../../config-packages/tsup/src/index"
       ],
-      "@trigger.dev/sdk/*": [
+      "@systemfsoftware/trigger.dev_sdk/*": [
         "../../packages/trigger-sdk/src/*"
       ],
-      "@trigger.dev/sdk": [
+      "@systemfsoftware/trigger.dev_sdk": [
         "../../packages/trigger-sdk/src/index"
       ],
-      "@trigger.dev/integration-kit/*": [
+      "@systemfsoftware/trigger.dev_integration-kit/*": [
         "../../packages/integration-kit/src/*"
       ],
-      "@trigger.dev/integration-kit": [
+      "@systemfsoftware/trigger.dev_integration-kit": [
         "../../packages/integration-kit/src/index"
       ]
     },

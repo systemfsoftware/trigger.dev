@@ -1,4 +1,4 @@
-import { TriggerClient } from "@trigger.dev/sdk";
+import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 import { triggerClient } from "./trigger";
 
 const clients: TriggerClient[] = [];

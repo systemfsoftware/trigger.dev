@@ -1,5 +1,5 @@
-import type { JobRun, Task, TaskAttempt, TaskTriggerSource } from "@trigger.dev/database";
-import { CachedTask, ServerTask } from "@trigger.dev/core";
+import type { JobRun, Task, TaskAttempt, TaskTriggerSource } from "@systemfsoftware/trigger.dev_database";
+import { CachedTask, ServerTask } from "@systemfsoftware/trigger.dev_core";
 import { PrismaClientOrTransaction, sqlDatabaseSchema } from "~/db.server";
 
 export type TaskWithAttempts = Task & {

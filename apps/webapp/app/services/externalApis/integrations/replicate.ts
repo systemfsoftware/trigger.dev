@@ -6,7 +6,7 @@ function usageSample(hasApiKey: boolean): HelpSample {
   return {
     title: "Using the client",
     code: `
-import { Replicate } from "@trigger.dev/replicate";
+import { Replicate } from "@systemfsoftware/trigger.dev_replicate";
 
 const replicate = new Replicate({
   id: "__SLUG__",${hasApiKey ? `\n  ${apiKeyPropertyName}: process.env.REPLICATE_API_KEY!,` : ""}
@@ -38,7 +38,7 @@ client.defineJob({
 export const replicate: Integration = {
   identifier: "replicate",
   name: "Replicate",
-  packageName: "@trigger.dev/replicate@latest",
+  packageName: "@systemfsoftware/trigger.dev_replicate@latest",
   authenticationMethods: {
     apikey: {
       type: "apikey",

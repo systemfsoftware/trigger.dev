@@ -1,4 +1,4 @@
-import type { Prisma, RuntimeEnvironment } from "@trigger.dev/database";
+import type { Prisma, RuntimeEnvironment } from "@systemfsoftware/trigger.dev_database";
 import { prisma } from "~/db.server";
 import { getUsername } from "~/utils/username";
 

@@ -4,7 +4,7 @@ function usageSample(hasApiKey: boolean): HelpSample {
   return {
     title: "Using the client",
     code: `
-import { Linear } from "@trigger.dev/linear";
+import { Linear } from "@systemfsoftware/trigger.dev_linear";
 
 const linear = new Linear({
   id: "__SLUG__",${hasApiKey ? "\n  apiKey: process.env.LINEAR_API_KEY!," : ""}
@@ -37,7 +37,7 @@ client.defineJob({
 export const linear: Integration = {
   identifier: "linear",
   name: "Linear",
-  packageName: "@trigger.dev/linear@latest",
+  packageName: "@systemfsoftware/trigger.dev_linear@latest",
   authenticationMethods: {
     oauth2: {
       name: "OAuth",

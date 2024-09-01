@@ -7,7 +7,7 @@ import type {
   IntegrationConnection,
   IntegrationDefinition,
   SecretReference,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import jsonpointer from "jsonpointer";
 import { customAlphabet } from "nanoid";
 import * as crypto from "node:crypto";

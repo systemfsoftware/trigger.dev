@@ -1,8 +1,8 @@
 import "dotenv/config";
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
-import { createMiddleware } from "@trigger.dev/hono";
-import { TriggerClient, invokeTrigger } from "@trigger.dev/sdk";
+import { createMiddleware } from "@systemfsoftware/trigger.dev_hono";
+import { TriggerClient, invokeTrigger } from "@systemfsoftware/trigger.dev_sdk";
 
 const client = new TriggerClient({
   id: "hono-client",

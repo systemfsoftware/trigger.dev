@@ -7,7 +7,7 @@ import type {
   TriggerSource,
   Webhook,
   WorkerDeployment,
-} from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_database";
 import { z } from "zod";
 import { TaskRunListSearchFilters } from "~/components/runs/v3/RunFilters";
 import { Job } from "~/models/job.server";

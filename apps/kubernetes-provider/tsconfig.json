@@ -8,10 +8,10 @@
     "strict": true,
     "skipLibCheck": true,
     "paths": {
-      "@trigger.dev/core/v3": ["../../packages/core/src/v3"],
-      "@trigger.dev/core/v3/*": ["../../packages/core/src/v3/*"],
-      "@trigger.dev/core-apps": ["../../packages/core-apps/src"],
-      "@trigger.dev/core-apps/*": ["../../packages/core-apps/src/*"]
+      "@systemfsoftware/trigger.dev_core/v3": ["../../packages/core/src/v3"],
+      "@systemfsoftware/trigger.dev_core/v3/*": ["../../packages/core/src/v3/*"],
+      "@systemfsoftware/trigger.dev_core-apps": ["../../packages/core-apps/src"],
+      "@systemfsoftware/trigger.dev_core-apps/*": ["../../packages/core-apps/src/*"]
     }
   }
 }

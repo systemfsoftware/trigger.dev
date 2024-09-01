@@ -1,4 +1,4 @@
-import { RedactSchema, StyleSchema } from "@trigger.dev/core";
+import { RedactSchema, StyleSchema } from "@systemfsoftware/trigger.dev_core";
 import { $replica, PrismaClient, prisma } from "~/db.server";
 import { mergeProperties } from "~/utils/mergeProperties.server";
 import { Redactor } from "~/utils/redactor";

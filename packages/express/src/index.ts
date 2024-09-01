@@ -1,5 +1,5 @@
 import express, { Express } from "express";
-import { TriggerClient } from "@trigger.dev/sdk";
+import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
 
 /**
  * This is a convenience function to create an express server for the TriggerClient. If you want to use Trigger.dev with an existing express server, use `createMiddleware` instead.
@@ -32,8 +32,8 @@ export function createExpressServer(
  * @example
  * ```ts
  * import express from "express";
- * import { TriggerClient } from "@trigger.dev/sdk";
- * import { createMiddleware } from "@trigger.dev/express";
+ * import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
+ * import { createMiddleware } from "@systemfsoftware/trigger.dev_express";
  *
  * const client = new TriggerClient({
  *  id: "my-client",

@@ -4,8 +4,8 @@ import {
   StatusHistorySchema,
   StatusUpdateState,
   StatusUpdateData,
-} from "@trigger.dev/core";
-import { PrismaClient } from "@trigger.dev/database";
+} from "@systemfsoftware/trigger.dev_core";
+import { PrismaClient } from "@systemfsoftware/trigger.dev_database";
 import { prisma, $transaction } from "~/db.server";
 
 export class SetStatusService {

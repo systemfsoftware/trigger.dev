@@ -1,4 +1,4 @@
-import type { TriggerConfig } from "@trigger.dev/sdk/v3";
+import type { TriggerConfig } from "@systemfsoftware/trigger.dev_sdk/v3";
 
 export const config: TriggerConfig = {
   project: "${projectRef}",

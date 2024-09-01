@@ -1,4 +1,4 @@
-import { Logger } from "@trigger.dev/core-backend";
+import { Logger } from "@systemfsoftware/trigger.dev_core-backend";
 import type { PoolClient } from "pg";
 import { z } from "zod";
 import { logger } from "~/services/logger.server";

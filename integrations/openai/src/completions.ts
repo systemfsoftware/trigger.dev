@@ -1,4 +1,4 @@
-import { IntegrationTaskKey, Prettify, redactString } from "@trigger.dev/sdk";
+import { IntegrationTaskKey, Prettify, redactString } from "@systemfsoftware/trigger.dev_sdk";
 import OpenAI from "openai";
 import { OpenAIRunTask } from "./index";
 import {
@@ -9,7 +9,7 @@ import {
   handleOpenAIError,
 } from "./taskUtils";
 import { OpenAIIntegrationOptions, OpenAIRequestOptions } from "./types";
-import { FetchRetryOptions, FetchTimeoutOptions } from "@trigger.dev/integration-kit";
+import { FetchRetryOptions, FetchTimeoutOptions } from "@systemfsoftware/trigger.dev_integration-kit";
 
 export class Completions {
   constructor(

@@ -1,9 +1,9 @@
-import type { RawEvent, SendEventOptions } from "@trigger.dev/core";
+import type { RawEvent, SendEventOptions } from "@systemfsoftware/trigger.dev_core";
 import { $transaction, PrismaClientOrTransaction, PrismaErrorSchema, prisma } from "~/db.server";
 import type { AuthenticatedEnvironment } from "~/services/apiAuth.server";
 import { workerQueue } from "~/services/worker.server";
 import { logger } from "../logger.server";
-import { EventRecord, ExternalAccount } from "@trigger.dev/database";
+import { EventRecord, ExternalAccount } from "@systemfsoftware/trigger.dev_database";
 import { Duration, RateLimiter } from "../rateLimiter.server";
 import { Ratelimit } from "@upstash/ratelimit";
 import { env } from "~/env.server";

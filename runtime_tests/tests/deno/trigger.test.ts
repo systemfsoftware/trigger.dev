@@ -1,8 +1,8 @@
-import { createMiddleware } from "npm:@trigger.dev/hono@0.0.0-cross-runtime-20231204162532";
+import { createMiddleware } from "npm:@systemfsoftware/trigger.dev_hono@0.0.0-cross-runtime-20231204162532";
 import {
   TriggerClient,
   invokeTrigger,
-} from "npm:@trigger.dev/sdk@0.0.0-cross-runtime-20231204162532";
+} from "npm:@systemfsoftware/trigger.dev_sdk@0.0.0-cross-runtime-20231204162532";
 import { Hono } from "https://deno.land/x/hono@v3.10.3/mod.ts";
 import { assertEquals } from "./deps.ts";
 

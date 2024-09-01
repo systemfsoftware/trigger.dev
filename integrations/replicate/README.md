@@ -1,1 +1,1 @@
-# @trigger.dev/replicate
+# @systemfsoftware/trigger.dev_replicate

@@ -56,7 +56,7 @@ import {
   XCircleIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
-import { CompanyIcon, hasIcon } from "@trigger.dev/companyicons";
+import { CompanyIcon, hasIcon } from "@systemfsoftware/trigger.dev_companyicons";
 import { ActivityIcon, HourglassIcon } from "lucide-react";
 import { DynamicTriggerIcon } from "~/assets/icons/DynamicTriggerIcon";
 import { EndpointIcon } from "~/assets/icons/EndpointIcon";

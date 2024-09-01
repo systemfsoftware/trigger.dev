@@ -1,4 +1,4 @@
-import { taskContext } from "@trigger.dev/core/v3";
+import { taskContext } from "@systemfsoftware/trigger.dev_core/v3";
 
 export const idempotencyKeys = {
   create: createIdempotencyKey,
@@ -32,7 +32,7 @@ export function isIdempotencyKey(
  * @example
  *
  * ```typescript
- * import { idempotencyKeys, task } from "@trigger.dev/sdk/v3";
+ * import { idempotencyKeys, task } from "@systemfsoftware/trigger.dev_sdk/v3";
  *
  * export const myTask = task({
  *  id: "my-task",

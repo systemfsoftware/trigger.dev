@@ -1,4 +1,4 @@
-import { ConnectionAuth } from "@trigger.dev/core";
+import { ConnectionAuth } from "@systemfsoftware/trigger.dev_core";
 import { IOWithIntegrations, TriggerIntegration } from "./integrations";
 import { IO } from "./io";
 

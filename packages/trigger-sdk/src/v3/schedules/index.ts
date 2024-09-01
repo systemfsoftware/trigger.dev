@@ -10,8 +10,8 @@ import {
   apiClientManager,
   mergeRequestOptions,
   taskCatalog,
-} from "@trigger.dev/core/v3";
-import { zodfetch } from "@trigger.dev/core/v3/zodfetch";
+} from "@systemfsoftware/trigger.dev_core/v3";
+import { zodfetch } from "@systemfsoftware/trigger.dev_core/v3/zodfetch";
 import { Task, TaskOptions, apiClientMissingError, createTask } from "../shared";
 import * as SchedulesAPI from "./api";
 import { tracer } from "../tracer";

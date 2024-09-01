@@ -1,4 +1,4 @@
-import { estimate } from "@trigger.dev/platform/v2";
+import { estimate } from "@systemfsoftware/trigger.dev_platform/v2";
 import { sqlDatabaseSchema } from "~/db.server";
 import { featuresForRequest } from "~/features.server";
 import { BillingService } from "~/services/billing.v2.server";

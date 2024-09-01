@@ -1,4 +1,4 @@
-# @trigger.dev/eslint-plugin
+# @systemfsoftware/trigger.dev_eslint-plugin
 
 ESLint plugin with trigger.dev best practices
 
@@ -10,10 +10,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `@trigger.dev/eslint-plugin`:
+Next, install `@systemfsoftware/trigger.dev_eslint-plugin`:
 
 ```sh
-npm install @trigger.dev/eslint-plugin --save-dev
+npm install @systemfsoftware/trigger.dev_eslint-plugin --save-dev
 ```
 
 ## Usage
@@ -48,5 +48,3 @@ Then configure the rules you want to use under the rules section.
 | [no-duplicated-task-keys](docs/rules/no-duplicated-task-keys.md) | Prevent duplicated task keys on trigger.dev jobs |
 
 <!-- end auto-generated rules list -->
-
-

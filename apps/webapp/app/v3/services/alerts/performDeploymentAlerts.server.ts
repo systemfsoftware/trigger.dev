@@ -1,4 +1,4 @@
-import { ProjectAlertChannel, ProjectAlertType, WorkerDeployment } from "@trigger.dev/database";
+import { ProjectAlertChannel, ProjectAlertType, WorkerDeployment } from "@systemfsoftware/trigger.dev_database";
 import { $transaction, PrismaClientOrTransaction } from "~/db.server";
 import { workerQueue } from "~/services/worker.server";
 import { generateFriendlyId } from "~/v3/friendlyIdentifiers";

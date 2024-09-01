@@ -1,7 +1,7 @@
 {
-  "name": "@trigger.dev/core-backend",
+  "name": "@systemfsoftware/trigger.dev_core-backend",
   "version": "3.0.0-beta.55",
-  "description": "Core code used across `@trigger.dev/sdk` and Trigger.dev server",
+  "description": "Core code used across `@systemfsoftware/trigger.dev_sdk` and Trigger.dev server",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,8 +32,8 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@trigger.dev/tsconfig": "workspace:*",
-    "@trigger.dev/tsup": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsconfig": "workspace:*",
+    "@systemfsoftware/trigger.dev_tsup": "workspace:*",
     "@types/jest": "^29.5.3",
     "@types/node": "18",
     "jest": "^29.6.2",

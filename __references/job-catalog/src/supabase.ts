@@ -1,7 +1,7 @@
-import { TriggerClient } from "@trigger.dev/sdk";
-import { createExpressServer } from "@trigger.dev/express";
-import { Supabase, SupabaseManagement } from "@trigger.dev/supabase";
-import { OpenAI } from "@trigger.dev/openai";
+import { TriggerClient } from "@systemfsoftware/trigger.dev_sdk";
+import { createExpressServer } from "@systemfsoftware/trigger.dev_express";
+import { Supabase, SupabaseManagement } from "@systemfsoftware/trigger.dev_supabase";
+import { OpenAI } from "@systemfsoftware/trigger.dev_openai";
 import { Database } from "./supabase-types";
 
 const supabaseManagement = new SupabaseManagement({

@@ -1,4 +1,4 @@
-import { Prettify } from "@trigger.dev/integration-kit";
+import { Prettify } from "@systemfsoftware/trigger.dev_integration-kit";
 import {
   Json,
   retry,
@@ -9,7 +9,7 @@ import {
   type RunTaskErrorCallback,
   type RunTaskOptions,
   type TriggerIntegration,
-} from "@trigger.dev/sdk";
+} from "@systemfsoftware/trigger.dev_sdk";
 import AirtableSDK from "airtable";
 import { Base } from "./base";
 import { Webhooks, createWebhookSource } from "./webhooks";

@@ -1,5 +1,5 @@
 import { SQSClient, SendMessageCommand } from "@aws-sdk/client-sqs";
-import { ApiEventLog, SendEventBodySchema } from "@trigger.dev/core";
+import { ApiEventLog, SendEventBodySchema } from "@systemfsoftware/trigger.dev_core";
 import { generateErrorMessage } from "zod-error";
 import { Env } from "..";
 import { getApiKeyFromRequest } from "../apikey";

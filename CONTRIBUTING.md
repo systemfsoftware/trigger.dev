@@ -88,7 +88,7 @@ branch are tagged into a release periodically.
 
 ## Manual testing using v3-catalog
 
-We use the `<root>/references/v3-catalog` subdirectory as a staging ground for testing changes to the SDK (`@trigger.dev/sdk` at `<root>/packages/trigger-sdk`), the Core package (`@trigger.dev/core` at `<root>packages/core`), the CLI (`trigger.dev` at `<root>/packages/cli-v3`) and the platform (The remix app at `<root>/apps/webapp`). The instructions below will get you started on using the `v3-catalog` for local development of Trigger.dev (v3).
+We use the `<root>/references/v3-catalog` subdirectory as a staging ground for testing changes to the SDK (`@systemfsoftware/trigger.dev_sdk` at `<root>/packages/trigger-sdk`), the Core package (`@systemfsoftware/trigger.dev_core` at `<root>packages/core`), the CLI (`trigger.dev` at `<root>/packages/cli-v3`) and the platform (The remix app at `<root>/apps/webapp`). The instructions below will get you started on using the `v3-catalog` for local development of Trigger.dev (v3).
 
 ### First-time setup
 
@@ -141,13 +141,13 @@ The following steps should be followed any time you start working on a new featu
 pnpm run dev --filter trigger.dev
 ```
 
-2. Open a new terminal window, and anytime changes are made to the `@trigger.dev/core` package, you'll need to manually rebuild the CLI:
+2. Open a new terminal window, and anytime changes are made to the `@systemfsoftware/trigger.dev_core` package, you'll need to manually rebuild the CLI:
 
 ```sh
 pnpm run build --filter trigger.dev
 ```
 
-Note: You do not need to do the same for `@trigger.dev/sdk`, just core.
+Note: You do not need to do the same for `@systemfsoftware/trigger.dev_sdk`, just core.
 
 3. Open another terminal window, and change into the `<root>/references/v3-catalog` directory.
 
@@ -189,7 +189,7 @@ cp ./references/nextjs-test/.env.example ./references/nextjs-test/.env.local
 ```sh
 # Build packages
 pnpm run build --filter @references/nextjs-test^...
-pnpm --filter @trigger.dev/database generate
+pnpm --filter @systemfsoftware/trigger.dev_database generate
 
 # Move trigger-cli bin to correct place
 pnpm install --frozen-lockfile
@@ -295,7 +295,7 @@ To add a changeset, run the following command in the root of the repo
 pnpm run changeset:add
 ```
 
-Here's an example of creating a `patch` changeset for the `@trigger.dev/github` and `@trigger.dev/slack` packages (click to view):
+Here's an example of creating a `patch` changeset for the `@systemfsoftware/trigger.dev_github` and `@systemfsoftware/trigger.dev_slack` packages (click to view):
 
 [![asciicast](https://asciinema.org/a/599228.svg)](https://asciinema.org/a/599228)
 

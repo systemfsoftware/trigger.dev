@@ -42,13 +42,13 @@ export function bundleTriggerDevCore(buildIdentifier: string, tsconfigPath?: str
     name: "trigger-bundle-core",
     setup(build) {
       build.onResolve({ filter: /.*/ }, (args) => {
-        if (!args.path.startsWith("@trigger.dev/core/v3")) {
+        if (!args.path.startsWith("@systemfsoftware/trigger.dev_core/v3")) {
           return undefined;
         }
 
-        const triggerSdkPath = require.resolve("@trigger.dev/sdk/v3", { paths: [process.cwd()] });
+        const triggerSdkPath = require.resolve("@systemfsoftware/trigger.dev_sdk/v3", { paths: [process.cwd()] });
 
-        logger.debug(`[${buildIdentifier}][trigger-bundle-core] Resolved @trigger.dev/sdk/v3`, {
+        logger.debug(`[${buildIdentifier}][trigger-bundle-core] Resolved @systemfsoftware/trigger.dev_sdk/v3`, {
           ...args,
           triggerSdkPath,
         });

@@ -1,5 +1,5 @@
 /**
- * @fileoverview Prevent importing from `@trigger.dev/core` directly
+ * @fileoverview Prevent importing from `@systemfsoftware/trigger.dev_core` directly
  */
 "use strict";
 
@@ -13,7 +13,7 @@ const tsconfigPaths = require("tsconfig-paths");
 // Helpers
 //------------------------------------------------------------------------------
 
-const blockedImportSources = ["@trigger.dev/core", "@trigger.dev/core/v3"];
+const blockedImportSources = ["@systemfsoftware/trigger.dev_core", "@systemfsoftware/trigger.dev_core/v3"];
 const allowedBarrelFiles = getAllowedBarrelFiles();
 
 function getAllowedBarrelFiles() {
@@ -31,7 +31,7 @@ function getAllowedBarrelFiles() {
       key = key.replace(/^\.\/?/, "");
       if (key === "package.json") continue;
 
-      allowedFiles.push(["@trigger.dev/core", key].filter(Boolean).join("/"));
+      allowedFiles.push(["@systemfsoftware/trigger.dev_core", key].filter(Boolean).join("/"));
     }
   }
 
@@ -43,7 +43,7 @@ function getAllowedBarrelFiles() {
 }
 
 function pathToCorePath(filePath) {
-  const baseName = "@trigger.dev/core";
+  const baseName = "@systemfsoftware/trigger.dev_core";
   const relativePath = filePath
     .split("packages/core/src/")[1]
     .replace(/\\/g, "/")
@@ -201,7 +201,7 @@ module.exports = {
   meta: {
     type: "problem",
     docs: {
-      description: "Prevent importing from `@trigger.dev/core` or `@trigger.dev/core/v3` directly",
+      description: "Prevent importing from `@systemfsoftware/trigger.dev_core` or `@systemfsoftware/trigger.dev_core/v3` directly",
       recommended: true,
       url: null,
     },
@@ -210,7 +210,7 @@ module.exports = {
     messages: {
       noTriggerCoreImportFixable: "Use specific import from '{{resolvedPath}}'",
       noTriggerCoreImportNeedsExport:
-        "Should export from {{resolvedPath}} but not covered by @trigger.dev/core/package.json#exports",
+        "Should export from {{resolvedPath}} but not covered by @systemfsoftware/trigger.dev_core/package.json#exports",
       noTriggerCoreImport:
         "Cannot import from {{importSource}} but no specific import is available",
     },
