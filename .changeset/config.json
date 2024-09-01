@@ -4,8 +4,7 @@
   "commit": false,
   "fixed": [
     [
-      "@systemfsoftware/trigger.dev_*",
-      "trigger.dev"
+      "@systemfsoftware/trigger.dev_*"
     ]
   ],
   "linked": [],
