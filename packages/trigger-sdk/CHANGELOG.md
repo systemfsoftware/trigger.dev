@@ -1,5 +1,11 @@
 # @systemfsoftware/trigger.dev_sdk
 
+## 2.3.20
+
+### Patch Changes
+
+- f0da87e1b: fix(trigger-sdk): re-export trigger.dev core types from job
+
 ## 3.0.0-beta.55
 
 ### Patch Changes
