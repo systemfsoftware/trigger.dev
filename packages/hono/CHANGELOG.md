@@ -1,5 +1,12 @@
 # @systemfsoftware/trigger.dev_hono
 
+## 4.1.0
+
+### Minor Changes
+
+- Updated dependencies [fd79fe09b]
+  - @systemfsoftware/trigger.dev_sdk@2.4.x
+
 ## 4.0.0
 
 ### Major Changes

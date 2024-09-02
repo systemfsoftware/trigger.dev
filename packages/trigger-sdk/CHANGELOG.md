@@ -1,5 +1,11 @@
 # @systemfsoftware/trigger.dev_sdk
 
+## 2.4.0
+
+### Minor Changes
+
+- fd79fe09b: fix
+
 ## 2.3.20
 
 ### Patch Changes
