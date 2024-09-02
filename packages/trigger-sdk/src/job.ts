@@ -21,6 +21,16 @@ import type {
 } from "./types";
 import { slugifyId } from "./utils";
 
+export type {
+  FailedRunNotification,
+  IntegrationConfig,
+  InvokeOptions,
+  JobMetadata,
+  Prettify,
+  RunNotification,
+  SuccessfulRunNotification,
+} from "@systemfsoftware/trigger.dev_core";
+
 export type JobOptions<
   TTrigger extends Trigger<EventSpecification<any>>,
   TIntegrations extends Record<string, TriggerIntegration> = {},
