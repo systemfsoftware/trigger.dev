@@ -4,6 +4,7 @@ import {
   CompleteTaskBodyV2Input,
   ConnectionAuth,
   CronOptions,
+  ErrorWithStack,
   ErrorWithStackSchema,
   EventFilter,
   FetchPollOperation,
@@ -56,6 +57,7 @@ import {
 import { z } from "zod";
 import { KeyValueStore } from "./store/keyValueStore";
 import { Buffer } from "node:buffer";
+import { isCause, isUnknownException } from "effect/Cause";
 
 export type IOTask = ServerTask;
 
@@ -1342,6 +1344,10 @@ export class IO {
           });
 
           throw error;
+        }
+
+        if (isUnknownException(error)) {
+          error = error.error
         }
 
         const parsedError = ErrorWithStackSchema.safeParse(error);
