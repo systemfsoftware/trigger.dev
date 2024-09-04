@@ -1,5 +1,11 @@
 # @systemfsoftware/trigger.dev_sdk
 
+## 2.4.1
+
+### Patch Changes
+
+- f22edb57a9b3aac5c93cc75e0ecf6bbd60b7f887: fix: handle effect-ts unknown exception properly
+
 ## 2.4.0
 
 ### Minor Changes
