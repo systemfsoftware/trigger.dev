@@ -52,3 +52,10 @@ CHANGESETS.md
 CONTRIBUTING.md
 README.md
 LICENSE
+
+
+# sst
+.sst
+
+# SST environment files
+**/sst-env.d.ts
